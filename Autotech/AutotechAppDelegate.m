@@ -95,15 +95,15 @@ NSString *documentsDirectoryPath()
 {
 	if (buttonIndex == 1)
 	{
-        NSString *address = @"itms-services://?action=download-manifest&url=https://wwws.samtec.com/iOS/AutoTech.plist";
+        NSString *address = @"itms-services://?action=download-manifest&url=https://iosinstalls.samtec.com/iOS/AutoTech.plist";
 #ifdef IS_LOCAL
         address = @"itms-services://?action=download-manifest&url=http://prodext1/iOS/autoTechLocal.plist";
 #elif IS_DEV
-        address = @"itms-services://?action=download-manifest&url=https://wwws.samtec.com/iOS/autoTechDev.plist";
+        address = @"itms-services://?action=download-manifest&url=https://iosinstallsdev.samtec.com/iOS/autoTechDev.plist";
 #elif IS_TEST
-        address = @"itms-services://?action=download-manifest&url=https://wwws.samtec.com/iOS/autoTechTest.plist";
+        address = @"itms-services://?action=download-manifest&url=https://iosinstallstest.samtec.com/iOS/autoTechTest.plist";
 #elif IS_STAG
-        address = @"itms-services://?action=download-manifest&url=https://wwws.samtec.com/iOS/autoTechStag.plist";
+        address = @"itms-services://?action=download-manifest&url=https://iosinstallsstage.samtec.com/iOS/autoTechStag.plist";
 #endif
         
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:address]];
@@ -115,15 +115,15 @@ NSString *documentsDirectoryPath()
 
 - (void)checkForAppUpdate
 {
-    NSString *address = @"https://wwws.samtec.com/iOS/autotech.plist";
+    NSString *address = @"https://iosinstalls.samtec.com/autotech.plist";
 #ifdef IS_LOCAL
     address = @"http://prodext1/iOS/autotechLocal.plist";
 #elif IS_DEV
-    address = @"https://wwws.samtec.com/iOS/autotechDev.plist";
+    address = @"https://iosinstallsdev.samtec.com/iOS/autotechDev.plist";
 #elif IS_TEST
-    address = @"https://wwws.samtec.com/iOS/autotechTest.plist";
+    address = @"https://iosinstallstest.samtec.com/iOS/autotechTest.plist";
 #elif IS_STAG
-    address = @"https://wwws.samtec.com/iOS/autotechStag.plist";
+    address = @"https://iosinstallsstage.samtec.com/iOS/autotechStag.plist";
 #endif
 
     NSDictionary *plistdict = [NSDictionary dictionaryWithContentsOfURL:[NSURL URLWithString:address]];
