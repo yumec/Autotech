@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>techFullName</key>
+		<string>Chris Quinkert</string>
+		<key>techID</key>
+		<string>152</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Josh Sparks</string>
+		<key>techID</key>
+		<string>402</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>HDR1</string>
+		<key>techID</key>
+		<string>154</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Russell Frank</string>
+		<key>techID</key>
+		<string>145</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Jed Wilder</string>
+		<key>techID</key>
+		<string>180</string>
+	</dict>
+</array>
+</plist>

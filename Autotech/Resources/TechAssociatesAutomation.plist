@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>techFullName</key>
+		<string>Bob Sacksteder</string>
+		<key>techID</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Steve Batliner</string>
+		<key>techID</key>
+		<string>9</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Steve Vest</string>
+		<key>techID</key>
+		<string>49</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Tom Williams</string>
+		<key>techID</key>
+		<string>66</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Shane Harris</string>
+		<key>techID</key>
+		<string>71</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Chris Hegstad</string>
+		<key>techID</key>
+		<string>85</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>DARRELL BLANK</string>
+		<key>techID</key>
+		<string>111</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Ryan Bolander</string>
+		<key>techID</key>
+		<string>122</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Jordan Crosier</string>
+		<key>techID</key>
+		<string>330</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Jim Sanderson</string>
+		<key>techID</key>
+		<string>351</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Mateo Capita</string>
+		<key>techID</key>
+		<string>410</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Tim Stinson</string>
+		<key>techID</key>
+		<string>515</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>dc002</string>
+		<key>techID</key>
+		<string>31</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Dale Duff</string>
+		<key>techID</key>
+		<string>301</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Brian Pontrich</string>
+		<key>techID</key>
+		<string>121</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Derick Hobbs</string>
+		<key>techID</key>
+		<string>247</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Kyle Johnston</string>
+		<key>techID</key>
+		<string>336</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Chad Jackson</string>
+		<key>techID</key>
+		<string>555</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Richard Sparks</string>
+		<key>techID</key>
+		<string>564</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Trevor Persinger</string>
+		<key>techID</key>
+		<string>566</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Charlie Pitman</string>
+		<key>techID</key>
+		<string>570</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Matteo Capita</string>
+		<key>techID</key>
+		<string>410</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Pat Weber</string>
+		<key>techID</key>
+		<string>315</string>
+	</dict>
+	<dict>
+		<key>techFullName</key>
+		<string>Mark Leidolf</string>
+		<key>techID</key>
+		<string>7</string>
+	</dict>
+</array>
+</plist>

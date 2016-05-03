@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "81cafbf0-ae68-4a44-801f-892a409a74d8++505",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "81cafbf0-ae68-4a44-801f-892a409a74d8++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "81cafbf0-ae68-4a44-801f-892a409a74d8++505" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "80ED14ED-7E81-45FE-8A04-5B0273037DB2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "81cafbf0-ae68-4a44-801f-892a409a74d8++505" : "IOS8"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Autotech",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Autotech\/Autotech.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/hz-yumec.samtec.ad\/svn\/IOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81cafbf0-ae68-4a44-801f-892a409a74d8++505"
+    }
+  ]
+}

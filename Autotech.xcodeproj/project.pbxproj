@@ -1,0 +1,2115 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C18AC5117B6226B00A1D175 /* PICSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C18AC4F17B6226B00A1D175 /* PICSViewController.m */; };
+		5C18AC5217B6226B00A1D175 /* PICSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C18AC4F17B6226B00A1D175 /* PICSViewController.m */; };
+		5C18AC5317B6226B00A1D175 /* PICSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C18AC4F17B6226B00A1D175 /* PICSViewController.m */; };
+		5C18AC5417B6226B00A1D175 /* PICSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C18AC4F17B6226B00A1D175 /* PICSViewController.m */; };
+		5C18AC5517B6226B00A1D175 /* PICSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C18AC5017B6226B00A1D175 /* PICSViewController_iPhone.xib */; };
+		5C18AC5617B6226B00A1D175 /* PICSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C18AC5017B6226B00A1D175 /* PICSViewController_iPhone.xib */; };
+		5C18AC5717B6226B00A1D175 /* PICSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C18AC5017B6226B00A1D175 /* PICSViewController_iPhone.xib */; };
+		5C18AC5817B6226B00A1D175 /* PICSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C18AC5017B6226B00A1D175 /* PICSViewController_iPhone.xib */; };
+		5C2B69E6175EE14100998D19 /* TicketDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2B69E4175EE14100998D19 /* TicketDetailViewController_iPhone.xib */; };
+		5C2B69E7175EE14100998D19 /* TicketDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2B69E4175EE14100998D19 /* TicketDetailViewController_iPhone.xib */; };
+		5C2D62FF17BCAC1000547405 /* PICSViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D62FE17BCAC1000547405 /* PICSViewController_iPad.xib */; };
+		5C2D630017BCAC1000547405 /* PICSViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D62FE17BCAC1000547405 /* PICSViewController_iPad.xib */; };
+		5C2D630117BCAC1000547405 /* PICSViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D62FE17BCAC1000547405 /* PICSViewController_iPad.xib */; };
+		5C2D630217BCAC1000547405 /* PICSViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D62FE17BCAC1000547405 /* PICSViewController_iPad.xib */; };
+		5C870F0F175DC123001952FA /* Part.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C870F0D175DC123001952FA /* Part.m */; };
+		5C870F10175DC123001952FA /* Part.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C870F0D175DC123001952FA /* Part.m */; };
+		5C8957E618D93BFC00BA8B73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3BC1386A7A900F3D595 /* main.m */; };
+		5C8957E718D93BFC00BA8B73 /* AutotechAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3BF1386A7A900F3D595 /* AutotechAppDelegate.m */; };
+		5C8957E818D93BFC00BA8B73 /* AutotechAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3C31386A7A900F3D595 /* AutotechAppDelegate_iPhone.m */; };
+		5C8957E918D93BFC00BA8B73 /* AutotechAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3CA1386A7A900F3D595 /* AutotechAppDelegate_iPad.m */; };
+		5C8957EA18D93BFC00BA8B73 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3D71386A80700F3D595 /* Constants.m */; };
+		5C8957EB18D93BFC00BA8B73 /* Ticket.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3D91386A80700F3D595 /* Ticket.m */; };
+		5C8957EC18D93BFC00BA8B73 /* customNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3DD1386A83100F3D595 /* customNavigationController.m */; };
+		5C8957ED18D93BFC00BA8B73 /* LMBSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3DF1386A83100F3D595 /* LMBSlidingViewController.m */; };
+		5C8957EE18D93BFC00BA8B73 /* TicketDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3E11386A83100F3D595 /* TicketDetailViewController.m */; };
+		5C8957EF18D93BFC00BA8B73 /* TicketsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3E31386A83100F3D595 /* TicketsViewController.m */; };
+		5C8957F018D93BFC00BA8B73 /* UITabBarController + (Rotation).m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3E51386A83100F3D595 /* UITabBarController + (Rotation).m */; };
+		5C8957F118D93BFC00BA8B73 /* Techs.m in Sources */ = {isa = PBXBuildFile; fileRef = 796C68181393EA2F00307CBF /* Techs.m */; };
+		5C8957F218D93BFC00BA8B73 /* AddTicketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CB78AB139E5F4C00AAA11D /* AddTicketViewController.m */; };
+		5C8957F318D93BFC00BA8B73 /* Machine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7936271C139EB1A70094952E /* Machine.m */; };
+		5C8957F418D93BFC00BA8B73 /* TicketCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 79362723139EC4930094952E /* TicketCategory.m */; };
+		5C8957F518D93BFC00BA8B73 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 79362744139FA8060094952E /* Location.m */; };
+		5C8957F618D93BFC00BA8B73 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 799DDB3713B10159006D0D8B /* User.m */; };
+		5C8957F718D93BFC00BA8B73 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799DDB3A13B1020C006D0D8B /* HomeViewController.m */; };
+		5C8957F818D93BFC00BA8B73 /* LogonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799DDB3D13B10616006D0D8B /* LogonViewController.m */; };
+		5C8957F918D93BFC00BA8B73 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F0EDE013B3DC4200ED6D03 /* SettingsViewController.m */; };
+		5C8957FA18D93BFC00BA8B73 /* TicketActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FE27AB13C24C8C000B0315 /* TicketActivity.m */; };
+		5C8957FB18D93BFC00BA8B73 /* DefaultTechNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7971215D13CF15E40013C488 /* DefaultTechNotesViewController.m */; };
+		5C8957FC18D93BFC00BA8B73 /* ViewWithSearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AD931D13E05BCF00852261 /* ViewWithSearchBarViewController.m */; };
+		5C8957FD18D93BFC00BA8B73 /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E45BA813E1C082004B3FB7 /* OverlayViewController.m */; };
+		5C8957FE18D93BFC00BA8B73 /* PrioritiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E9759D13F4719F00E32FFD /* PrioritiesViewController.m */; };
+		5C8957FF18D93BFC00BA8B73 /* MachinePriority.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E975A013F5680700E32FFD /* MachinePriority.m */; };
+		5C89580018D93BFC00BA8B73 /* SortedTicketsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD9D8A1479E3B700233EA0 /* SortedTicketsViewController.m */; };
+		5C89580118D93BFC00BA8B73 /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA2093714F73720008C63AC /* Users.m */; };
+		5C89580218D93BFC00BA8B73 /* SearchUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA2093B14F739F6008C63AC /* SearchUsersViewController.m */; };
+		5C89580318D93BFC00BA8B73 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DB87914FB535C00C9E12C /* ResultViewController.m */; };
+		5C89580418D93BFC00BA8B73 /* TechAssociatesTicketsReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DB87E14FB541300C9E12C /* TechAssociatesTicketsReport.m */; };
+		5C89580518D93BFC00BA8B73 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DB88C14FB583100C9E12C /* FindViewController.m */; };
+		5C89580618D93BFC00BA8B73 /* SelectPartDescViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C78035214FDC7F600EB2C68 /* SelectPartDescViewController.m */; };
+		5C89580718D93BFC00BA8B73 /* MachinesReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB137FF15830A1F009C9A7D /* MachinesReport.m */; };
+		5C89580818D93BFC00BA8B73 /* NSString+URLEscapes.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB052B016424851007DB963 /* NSString+URLEscapes.m */; };
+		5C89580918D93BFC00BA8B73 /* Part.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C870F0D175DC123001952FA /* Part.m */; };
+		5C89580A18D93BFC00BA8B73 /* PICSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C18AC4F17B6226B00A1D175 /* PICSViewController.m */; };
+		5C89580C18D93BFC00BA8B73 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB1380A1583172F009C9A7D /* QuartzCore.framework */; };
+		5C89580D18D93BFC00BA8B73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792AB3AF1386A7A900F3D595 /* UIKit.framework */; };
+		5C89580E18D93BFC00BA8B73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792AB3B11386A7A900F3D595 /* Foundation.framework */; };
+		5C89580F18D93BFC00BA8B73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792AB3B31386A7A900F3D595 /* CoreGraphics.framework */; };
+		5C89581118D93BFC00BA8B73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3B81386A7A900F3D595 /* InfoPlist.strings */; };
+		5C89581218D93BFC00BA8B73 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3C51386A7A900F3D595 /* MainWindow_iPhone.xib */; };
+		5C89581318D93BFC00BA8B73 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3CC1386A7A900F3D595 /* MainWindow_iPad.xib */; };
+		5C89581418D93BFC00BA8B73 /* TicketDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3ED1386A8C400F3D595 /* TicketDetailViewController_iPad.xib */; };
+		5C89581518D93BFC00BA8B73 /* AutoTech57.png in Resources */ = {isa = PBXBuildFile; fileRef = 795AC152138706D7009141C5 /* AutoTech57.png */; };
+		5C89581618D93BFC00BA8B73 /* AutoTech114.png in Resources */ = {isa = PBXBuildFile; fileRef = 795AC155138706E5009141C5 /* AutoTech114.png */; };
+		5C89581718D93BFC00BA8B73 /* AutoTech72.png in Resources */ = {isa = PBXBuildFile; fileRef = 795AC157138706F3009141C5 /* AutoTech72.png */; };
+		5C89581818D93BFC00BA8B73 /* iphone_delete_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EBF653138DE25900CE0E61 /* iphone_delete_button.png */; };
+		5C89581918D93BFC00BA8B73 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 7929B5D913993EB5001C2F09 /* iTunesArtwork */; };
+		5C89581A18D93BFC00BA8B73 /* AddTicketViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CB78A7139E538800AAA11D /* AddTicketViewController_iPhone.xib */; };
+		5C89581B18D93BFC00BA8B73 /* Arrow_Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 79362719139E9B6A0094952E /* Arrow_Down.png */; };
+		5C89581C18D93BFC00BA8B73 /* iPhone_Orange_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7936275013A12FF40094952E /* iPhone_Orange_Button.png */; };
+		5C89581D18D93BFC00BA8B73 /* AddTicketViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7936275213A1341B0094952E /* AddTicketViewController_iPad.xib */; };
+		5C89581E18D93BFC00BA8B73 /* TicketsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792805A513A8F00800E19152 /* TicketsViewController_iPad.xib */; };
+		5C89581F18D93BFC00BA8B73 /* TicketsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 793403E713AA4013002E62AE /* TicketsViewController_iPhone.xib */; };
+		5C89582018D93BFC00BA8B73 /* LogonViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79944A4713B10EE9004ABFD1 /* LogonViewController_iPhone.xib */; };
+		5C89582118D93BFC00BA8B73 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A76913B3748C00330415 /* Default-Portrait~ipad.png */; };
+		5C89582218D93BFC00BA8B73 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A76D13B3894D00330415 /* Default-Landscape~ipad.png */; };
+		5C89582318D93BFC00BA8B73 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A76F13B3896900330415 /* Default.png */; };
+		5C89582418D93BFC00BA8B73 /* LaunchIphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A77113B3992E00330415 /* LaunchIphone.png */; };
+		5C89582518D93BFC00BA8B73 /* LoginBackGround_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 79A42E6613B3A425005F8A51 /* LoginBackGround_iPhone.png */; };
+		5C89582618D93BFC00BA8B73 /* SettingsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79F0EDDC13B3DC1E00ED6D03 /* SettingsViewController_iPhone.xib */; };
+		5C89582718D93BFC00BA8B73 /* LogonViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5CFF13B40DC100C1C392 /* LogonViewController_iPad.xib */; };
+		5C89582818D93BFC00BA8B73 /* LaunchIpadPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0113B40EC800C1C392 /* LaunchIpadPortrait.png */; };
+		5C89582918D93BFC00BA8B73 /* LoginBackGround_Ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0313B40F4800C1C392 /* LoginBackGround_Ipad.png */; };
+		5C89582A18D93BFC00BA8B73 /* SettingsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0513B411A900C1C392 /* SettingsViewController_iPad.xib */; };
+		5C89582B18D93BFC00BA8B73 /* LogOffBackGround_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0713B4DDE800C1C392 /* LogOffBackGround_iPad.png */; };
+		5C89582C18D93BFC00BA8B73 /* LogOffBackGround_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0813B4DDE800C1C392 /* LogOffBackGround_iPhone.png */; };
+		5C89582D18D93BFC00BA8B73 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0F13B4F3DF00C1C392 /* Settings.png */; };
+		5C89582E18D93BFC00BA8B73 /* Settings1.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D1113B4F43100C1C392 /* Settings1.png */; };
+		5C89582F18D93BFC00BA8B73 /* Settings3.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D1313B4F4C200C1C392 /* Settings3.png */; };
+		5C89583018D93BFC00BA8B73 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D1513B4F66F00C1C392 /* Default@2x.png */; };
+		5C89583118D93BFC00BA8B73 /* DefaultTechNotesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7971215F13CF177D0013C488 /* DefaultTechNotesViewController_iPhone.xib */; };
+		5C89583218D93BFC00BA8B73 /* iPhone_black_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7959E12913D73DC1007A09C9 /* iPhone_black_button.png */; };
+		5C89583318D93BFC00BA8B73 /* Select_Default_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 796312A913D86C9700E7324D /* Select_Default_Button.png */; };
+		5C89583418D93BFC00BA8B73 /* DefaultTechNotesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 796312B113D8914000E7324D /* DefaultTechNotesViewController_iPad.xib */; };
+		5C89583518D93BFC00BA8B73 /* ViewWithSearchBarViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79AD932013E0691900852261 /* ViewWithSearchBarViewController_iPhone.xib */; };
+		5C89583618D93BFC00BA8B73 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E45BAB13E1C3E2004B3FB7 /* OverlayView.xib */; };
+		5C89583718D93BFC00BA8B73 /* ViewWithSearchBarViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7995E37213F1CF3F00F01668 /* ViewWithSearchBarViewController_iPad.xib */; };
+		5C89583818D93BFC00BA8B73 /* PrioritiesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E975A213F573CB00E32FFD /* PrioritiesViewController_iPhone.xib */; };
+		5C89583918D93BFC00BA8B73 /* numberList.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CD58CE13FAE080001ABA2F /* numberList.png */; };
+		5C89583A18D93BFC00BA8B73 /* PrioritiesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CD58D013FAE618001ABA2F /* PrioritiesViewController_iPad.xib */; };
+		5C89583B18D93BFC00BA8B73 /* clockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C14CE051483258000251EFD /* clockicon.png */; };
+		5C89583C18D93BFC00BA8B73 /* pause_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C14CE1A148331EE00251EFD /* pause_button.png */; };
+		5C89583D18D93BFC00BA8B73 /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C14CE1B148331EE00251EFD /* play_button.png */; };
+		5C89583E18D93BFC00BA8B73 /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAB9168148DBE9E00745AEB /* doubleicon.png */; };
+		5C89583F18D93BFC00BA8B73 /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAB9169148DBE9E00745AEB /* singleicon.png */; };
+		5C89584018D93BFC00BA8B73 /* SearchUsersViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA2093C14F739F7008C63AC /* SearchUsersViewController_iPhone.xib */; };
+		5C89584118D93BFC00BA8B73 /* SearchUsersViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA2093F14F73A38008C63AC /* SearchUsersViewController_iPad.xib */; };
+		5C89584218D93BFC00BA8B73 /* ResultViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB87614FB532E00C9E12C /* ResultViewController_iPad.xib */; };
+		5C89584318D93BFC00BA8B73 /* ResultViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB87B14FB538900C9E12C /* ResultViewController_iPhone.xib */; };
+		5C89584418D93BFC00BA8B73 /* FindViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB89014FB585900C9E12C /* FindViewController_iPad.xib */; };
+		5C89584518D93BFC00BA8B73 /* Reports.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8CA14FC925300C9E12C /* Reports.png */; };
+		5C89584618D93BFC00BA8B73 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8CE14FC935200C9E12C /* home.png */; };
+		5C89584718D93BFC00BA8B73 /* Find.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D014FC936300C9E12C /* Find.png */; };
+		5C89584818D93BFC00BA8B73 /* Find@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D114FC936400C9E12C /* Find@2x.png */; };
+		5C89584918D93BFC00BA8B73 /* AuxBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D414FC938100C9E12C /* AuxBackground2.png */; };
+		5C89584A18D93BFC00BA8B73 /* report.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D814FC97D700C9E12C /* report.png */; };
+		5C89584B18D93BFC00BA8B73 /* report1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8DC14FC985300C9E12C /* report1.png */; };
+		5C89584C18D93BFC00BA8B73 /* SelectPartDescViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C78035314FDC7F600EB2C68 /* SelectPartDescViewController_iPhone.xib */; };
+		5C89584D18D93BFC00BA8B73 /* SelectPartDescViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C78035714FDC9E000EB2C68 /* SelectPartDescViewController_iPad.xib */; };
+		5C89584E18D93BFC00BA8B73 /* SortedTicketsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1538D4154256AC007FBBF9 /* SortedTicketsViewController_iPhone.xib */; };
+		5C89584F18D93BFC00BA8B73 /* SortedTicketsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1538D7154256E1007FBBF9 /* SortedTicketsViewController_iPad.xib */; };
+		5C89585018D93BFC00BA8B73 /* FindViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CB1380415831004009C9A7D /* FindViewController_iPhone.xib */; };
+		5C89585118D93BFC00BA8B73 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CC20EB1160B11BF001FD655 /* Default-568h@2x.png */; };
+		5C89585218D93BFC00BA8B73 /* TicketDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2B69E4175EE14100998D19 /* TicketDetailViewController_iPhone.xib */; };
+		5C89585318D93BFC00BA8B73 /* PICSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C18AC5017B6226B00A1D175 /* PICSViewController_iPhone.xib */; };
+		5C89585418D93BFC00BA8B73 /* PICSViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D62FE17BCAC1000547405 /* PICSViewController_iPad.xib */; };
+		5CB052E21649E0D4007DB963 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3BC1386A7A900F3D595 /* main.m */; };
+		5CB052E31649E0D4007DB963 /* AutotechAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3BF1386A7A900F3D595 /* AutotechAppDelegate.m */; };
+		5CB052E41649E0D4007DB963 /* AutotechAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3C31386A7A900F3D595 /* AutotechAppDelegate_iPhone.m */; };
+		5CB052E51649E0D4007DB963 /* AutotechAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3CA1386A7A900F3D595 /* AutotechAppDelegate_iPad.m */; };
+		5CB052E61649E0D4007DB963 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3D71386A80700F3D595 /* Constants.m */; };
+		5CB052E71649E0D4007DB963 /* Ticket.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3D91386A80700F3D595 /* Ticket.m */; };
+		5CB052E81649E0D4007DB963 /* customNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3DD1386A83100F3D595 /* customNavigationController.m */; };
+		5CB052E91649E0D4007DB963 /* LMBSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3DF1386A83100F3D595 /* LMBSlidingViewController.m */; };
+		5CB052EA1649E0D4007DB963 /* TicketDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3E11386A83100F3D595 /* TicketDetailViewController.m */; };
+		5CB052EB1649E0D4007DB963 /* TicketsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3E31386A83100F3D595 /* TicketsViewController.m */; };
+		5CB052EC1649E0D4007DB963 /* UITabBarController + (Rotation).m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3E51386A83100F3D595 /* UITabBarController + (Rotation).m */; };
+		5CB052ED1649E0D4007DB963 /* Techs.m in Sources */ = {isa = PBXBuildFile; fileRef = 796C68181393EA2F00307CBF /* Techs.m */; };
+		5CB052EE1649E0D4007DB963 /* AddTicketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CB78AB139E5F4C00AAA11D /* AddTicketViewController.m */; };
+		5CB052EF1649E0D4007DB963 /* Machine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7936271C139EB1A70094952E /* Machine.m */; };
+		5CB052F01649E0D4007DB963 /* TicketCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 79362723139EC4930094952E /* TicketCategory.m */; };
+		5CB052F11649E0D4007DB963 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 79362744139FA8060094952E /* Location.m */; };
+		5CB052F21649E0D4007DB963 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 799DDB3713B10159006D0D8B /* User.m */; };
+		5CB052F31649E0D4007DB963 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799DDB3A13B1020C006D0D8B /* HomeViewController.m */; };
+		5CB052F41649E0D4007DB963 /* LogonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799DDB3D13B10616006D0D8B /* LogonViewController.m */; };
+		5CB052F51649E0D4007DB963 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F0EDE013B3DC4200ED6D03 /* SettingsViewController.m */; };
+		5CB052F61649E0D4007DB963 /* TicketActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FE27AB13C24C8C000B0315 /* TicketActivity.m */; };
+		5CB052F71649E0D4007DB963 /* DefaultTechNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7971215D13CF15E40013C488 /* DefaultTechNotesViewController.m */; };
+		5CB052F81649E0D4007DB963 /* ViewWithSearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AD931D13E05BCF00852261 /* ViewWithSearchBarViewController.m */; };
+		5CB052F91649E0D4007DB963 /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E45BA813E1C082004B3FB7 /* OverlayViewController.m */; };
+		5CB052FA1649E0D4007DB963 /* PrioritiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E9759D13F4719F00E32FFD /* PrioritiesViewController.m */; };
+		5CB052FB1649E0D4007DB963 /* MachinePriority.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E975A013F5680700E32FFD /* MachinePriority.m */; };
+		5CB052FC1649E0D4007DB963 /* SortedTicketsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD9D8A1479E3B700233EA0 /* SortedTicketsViewController.m */; };
+		5CB052FD1649E0D4007DB963 /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA2093714F73720008C63AC /* Users.m */; };
+		5CB052FE1649E0D4007DB963 /* SearchUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA2093B14F739F6008C63AC /* SearchUsersViewController.m */; };
+		5CB052FF1649E0D4007DB963 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DB87914FB535C00C9E12C /* ResultViewController.m */; };
+		5CB053001649E0D4007DB963 /* TechAssociatesTicketsReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DB87E14FB541300C9E12C /* TechAssociatesTicketsReport.m */; };
+		5CB053011649E0D4007DB963 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DB88C14FB583100C9E12C /* FindViewController.m */; };
+		5CB053021649E0D4007DB963 /* SelectPartDescViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C78035214FDC7F600EB2C68 /* SelectPartDescViewController.m */; };
+		5CB053031649E0D4007DB963 /* MachinesReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB137FF15830A1F009C9A7D /* MachinesReport.m */; };
+		5CB053041649E0D4007DB963 /* NSString+URLEscapes.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB052B016424851007DB963 /* NSString+URLEscapes.m */; };
+		5CB053061649E0D4007DB963 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB1380A1583172F009C9A7D /* QuartzCore.framework */; };
+		5CB053071649E0D4007DB963 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792AB3AF1386A7A900F3D595 /* UIKit.framework */; };
+		5CB053081649E0D4007DB963 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792AB3B11386A7A900F3D595 /* Foundation.framework */; };
+		5CB053091649E0D4007DB963 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792AB3B31386A7A900F3D595 /* CoreGraphics.framework */; };
+		5CB0530B1649E0D4007DB963 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3B81386A7A900F3D595 /* InfoPlist.strings */; };
+		5CB0530C1649E0D4007DB963 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3C51386A7A900F3D595 /* MainWindow_iPhone.xib */; };
+		5CB0530D1649E0D4007DB963 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3CC1386A7A900F3D595 /* MainWindow_iPad.xib */; };
+		5CB0530E1649E0D4007DB963 /* TicketDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3ED1386A8C400F3D595 /* TicketDetailViewController_iPad.xib */; };
+		5CB053101649E0D4007DB963 /* AutoTech57.png in Resources */ = {isa = PBXBuildFile; fileRef = 795AC152138706D7009141C5 /* AutoTech57.png */; };
+		5CB053111649E0D4007DB963 /* AutoTech114.png in Resources */ = {isa = PBXBuildFile; fileRef = 795AC155138706E5009141C5 /* AutoTech114.png */; };
+		5CB053121649E0D4007DB963 /* AutoTech72.png in Resources */ = {isa = PBXBuildFile; fileRef = 795AC157138706F3009141C5 /* AutoTech72.png */; };
+		5CB053131649E0D4007DB963 /* iphone_delete_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EBF653138DE25900CE0E61 /* iphone_delete_button.png */; };
+		5CB053141649E0D4007DB963 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 7929B5D913993EB5001C2F09 /* iTunesArtwork */; };
+		5CB053151649E0D4007DB963 /* AddTicketViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CB78A7139E538800AAA11D /* AddTicketViewController_iPhone.xib */; };
+		5CB053161649E0D4007DB963 /* Arrow_Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 79362719139E9B6A0094952E /* Arrow_Down.png */; };
+		5CB053171649E0D4007DB963 /* iPhone_Orange_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7936275013A12FF40094952E /* iPhone_Orange_Button.png */; };
+		5CB053181649E0D4007DB963 /* AddTicketViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7936275213A1341B0094952E /* AddTicketViewController_iPad.xib */; };
+		5CB053191649E0D4007DB963 /* TicketsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792805A513A8F00800E19152 /* TicketsViewController_iPad.xib */; };
+		5CB0531A1649E0D4007DB963 /* TicketsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 793403E713AA4013002E62AE /* TicketsViewController_iPhone.xib */; };
+		5CB0531B1649E0D4007DB963 /* LogonViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79944A4713B10EE9004ABFD1 /* LogonViewController_iPhone.xib */; };
+		5CB0531C1649E0D4007DB963 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A76913B3748C00330415 /* Default-Portrait~ipad.png */; };
+		5CB0531D1649E0D4007DB963 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A76D13B3894D00330415 /* Default-Landscape~ipad.png */; };
+		5CB0531E1649E0D4007DB963 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A76F13B3896900330415 /* Default.png */; };
+		5CB0531F1649E0D4007DB963 /* LaunchIphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A77113B3992E00330415 /* LaunchIphone.png */; };
+		5CB053201649E0D4007DB963 /* LoginBackGround_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 79A42E6613B3A425005F8A51 /* LoginBackGround_iPhone.png */; };
+		5CB053211649E0D4007DB963 /* SettingsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79F0EDDC13B3DC1E00ED6D03 /* SettingsViewController_iPhone.xib */; };
+		5CB053221649E0D4007DB963 /* LogonViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5CFF13B40DC100C1C392 /* LogonViewController_iPad.xib */; };
+		5CB053231649E0D4007DB963 /* LaunchIpadPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0113B40EC800C1C392 /* LaunchIpadPortrait.png */; };
+		5CB053241649E0D4007DB963 /* LoginBackGround_Ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0313B40F4800C1C392 /* LoginBackGround_Ipad.png */; };
+		5CB053251649E0D4007DB963 /* SettingsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0513B411A900C1C392 /* SettingsViewController_iPad.xib */; };
+		5CB053261649E0D4007DB963 /* LogOffBackGround_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0713B4DDE800C1C392 /* LogOffBackGround_iPad.png */; };
+		5CB053271649E0D4007DB963 /* LogOffBackGround_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0813B4DDE800C1C392 /* LogOffBackGround_iPhone.png */; };
+		5CB053281649E0D4007DB963 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0F13B4F3DF00C1C392 /* Settings.png */; };
+		5CB053291649E0D4007DB963 /* Settings1.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D1113B4F43100C1C392 /* Settings1.png */; };
+		5CB0532A1649E0D4007DB963 /* Settings3.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D1313B4F4C200C1C392 /* Settings3.png */; };
+		5CB0532B1649E0D4007DB963 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D1513B4F66F00C1C392 /* Default@2x.png */; };
+		5CB0532C1649E0D4007DB963 /* DefaultTechNotesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7971215F13CF177D0013C488 /* DefaultTechNotesViewController_iPhone.xib */; };
+		5CB0532D1649E0D4007DB963 /* iPhone_black_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7959E12913D73DC1007A09C9 /* iPhone_black_button.png */; };
+		5CB0532E1649E0D4007DB963 /* Select_Default_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 796312A913D86C9700E7324D /* Select_Default_Button.png */; };
+		5CB0532F1649E0D4007DB963 /* DefaultTechNotesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 796312B113D8914000E7324D /* DefaultTechNotesViewController_iPad.xib */; };
+		5CB053301649E0D4007DB963 /* ViewWithSearchBarViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79AD932013E0691900852261 /* ViewWithSearchBarViewController_iPhone.xib */; };
+		5CB053311649E0D4007DB963 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E45BAB13E1C3E2004B3FB7 /* OverlayView.xib */; };
+		5CB053321649E0D4007DB963 /* ViewWithSearchBarViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7995E37213F1CF3F00F01668 /* ViewWithSearchBarViewController_iPad.xib */; };
+		5CB053331649E0D4007DB963 /* PrioritiesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E975A213F573CB00E32FFD /* PrioritiesViewController_iPhone.xib */; };
+		5CB053341649E0D4007DB963 /* numberList.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CD58CE13FAE080001ABA2F /* numberList.png */; };
+		5CB053351649E0D4007DB963 /* PrioritiesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CD58D013FAE618001ABA2F /* PrioritiesViewController_iPad.xib */; };
+		5CB053361649E0D4007DB963 /* clockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C14CE051483258000251EFD /* clockicon.png */; };
+		5CB053371649E0D4007DB963 /* pause_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C14CE1A148331EE00251EFD /* pause_button.png */; };
+		5CB053381649E0D4007DB963 /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C14CE1B148331EE00251EFD /* play_button.png */; };
+		5CB053391649E0D4007DB963 /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAB9168148DBE9E00745AEB /* doubleicon.png */; };
+		5CB0533A1649E0D4007DB963 /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAB9169148DBE9E00745AEB /* singleicon.png */; };
+		5CB0533B1649E0D4007DB963 /* SearchUsersViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA2093C14F739F7008C63AC /* SearchUsersViewController_iPhone.xib */; };
+		5CB0533C1649E0D4007DB963 /* SearchUsersViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA2093F14F73A38008C63AC /* SearchUsersViewController_iPad.xib */; };
+		5CB0533D1649E0D4007DB963 /* ResultViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB87614FB532E00C9E12C /* ResultViewController_iPad.xib */; };
+		5CB0533E1649E0D4007DB963 /* ResultViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB87B14FB538900C9E12C /* ResultViewController_iPhone.xib */; };
+		5CB0533F1649E0D4007DB963 /* FindViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB89014FB585900C9E12C /* FindViewController_iPad.xib */; };
+		5CB053401649E0D4007DB963 /* Reports.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8CA14FC925300C9E12C /* Reports.png */; };
+		5CB053411649E0D4007DB963 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8CE14FC935200C9E12C /* home.png */; };
+		5CB053421649E0D4007DB963 /* Find.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D014FC936300C9E12C /* Find.png */; };
+		5CB053431649E0D4007DB963 /* Find@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D114FC936400C9E12C /* Find@2x.png */; };
+		5CB053441649E0D4007DB963 /* AuxBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D414FC938100C9E12C /* AuxBackground2.png */; };
+		5CB053451649E0D4007DB963 /* report.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D814FC97D700C9E12C /* report.png */; };
+		5CB053461649E0D4007DB963 /* report1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8DC14FC985300C9E12C /* report1.png */; };
+		5CB053471649E0D4007DB963 /* SelectPartDescViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C78035314FDC7F600EB2C68 /* SelectPartDescViewController_iPhone.xib */; };
+		5CB053481649E0D4007DB963 /* SelectPartDescViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C78035714FDC9E000EB2C68 /* SelectPartDescViewController_iPad.xib */; };
+		5CB053491649E0D4007DB963 /* SortedTicketsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1538D4154256AC007FBBF9 /* SortedTicketsViewController_iPhone.xib */; };
+		5CB0534A1649E0D4007DB963 /* SortedTicketsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1538D7154256E1007FBBF9 /* SortedTicketsViewController_iPad.xib */; };
+		5CB0534B1649E0D4007DB963 /* FindViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CB1380415831004009C9A7D /* FindViewController_iPhone.xib */; };
+		5CB0534C1649E0D4007DB963 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CC20EB1160B11BF001FD655 /* Default-568h@2x.png */; };
+		5CC21DFF1649FC0900E40E9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3BC1386A7A900F3D595 /* main.m */; };
+		5CC21E001649FC0900E40E9C /* AutotechAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3BF1386A7A900F3D595 /* AutotechAppDelegate.m */; };
+		5CC21E011649FC0900E40E9C /* AutotechAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3C31386A7A900F3D595 /* AutotechAppDelegate_iPhone.m */; };
+		5CC21E021649FC0900E40E9C /* AutotechAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3CA1386A7A900F3D595 /* AutotechAppDelegate_iPad.m */; };
+		5CC21E031649FC0900E40E9C /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3D71386A80700F3D595 /* Constants.m */; };
+		5CC21E041649FC0900E40E9C /* Ticket.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3D91386A80700F3D595 /* Ticket.m */; };
+		5CC21E051649FC0900E40E9C /* customNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3DD1386A83100F3D595 /* customNavigationController.m */; };
+		5CC21E061649FC0900E40E9C /* LMBSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3DF1386A83100F3D595 /* LMBSlidingViewController.m */; };
+		5CC21E071649FC0900E40E9C /* TicketDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3E11386A83100F3D595 /* TicketDetailViewController.m */; };
+		5CC21E081649FC0900E40E9C /* TicketsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3E31386A83100F3D595 /* TicketsViewController.m */; };
+		5CC21E091649FC0900E40E9C /* UITabBarController + (Rotation).m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3E51386A83100F3D595 /* UITabBarController + (Rotation).m */; };
+		5CC21E0A1649FC0900E40E9C /* Techs.m in Sources */ = {isa = PBXBuildFile; fileRef = 796C68181393EA2F00307CBF /* Techs.m */; };
+		5CC21E0B1649FC0900E40E9C /* AddTicketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CB78AB139E5F4C00AAA11D /* AddTicketViewController.m */; };
+		5CC21E0C1649FC0900E40E9C /* Machine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7936271C139EB1A70094952E /* Machine.m */; };
+		5CC21E0D1649FC0900E40E9C /* TicketCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 79362723139EC4930094952E /* TicketCategory.m */; };
+		5CC21E0E1649FC0900E40E9C /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 79362744139FA8060094952E /* Location.m */; };
+		5CC21E0F1649FC0900E40E9C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 799DDB3713B10159006D0D8B /* User.m */; };
+		5CC21E101649FC0900E40E9C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799DDB3A13B1020C006D0D8B /* HomeViewController.m */; };
+		5CC21E111649FC0900E40E9C /* LogonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799DDB3D13B10616006D0D8B /* LogonViewController.m */; };
+		5CC21E121649FC0900E40E9C /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F0EDE013B3DC4200ED6D03 /* SettingsViewController.m */; };
+		5CC21E131649FC0900E40E9C /* TicketActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FE27AB13C24C8C000B0315 /* TicketActivity.m */; };
+		5CC21E141649FC0900E40E9C /* DefaultTechNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7971215D13CF15E40013C488 /* DefaultTechNotesViewController.m */; };
+		5CC21E151649FC0900E40E9C /* ViewWithSearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AD931D13E05BCF00852261 /* ViewWithSearchBarViewController.m */; };
+		5CC21E161649FC0900E40E9C /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E45BA813E1C082004B3FB7 /* OverlayViewController.m */; };
+		5CC21E171649FC0900E40E9C /* PrioritiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E9759D13F4719F00E32FFD /* PrioritiesViewController.m */; };
+		5CC21E181649FC0900E40E9C /* MachinePriority.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E975A013F5680700E32FFD /* MachinePriority.m */; };
+		5CC21E191649FC0900E40E9C /* SortedTicketsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD9D8A1479E3B700233EA0 /* SortedTicketsViewController.m */; };
+		5CC21E1A1649FC0900E40E9C /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA2093714F73720008C63AC /* Users.m */; };
+		5CC21E1B1649FC0900E40E9C /* SearchUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA2093B14F739F6008C63AC /* SearchUsersViewController.m */; };
+		5CC21E1C1649FC0900E40E9C /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DB87914FB535C00C9E12C /* ResultViewController.m */; };
+		5CC21E1D1649FC0900E40E9C /* TechAssociatesTicketsReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DB87E14FB541300C9E12C /* TechAssociatesTicketsReport.m */; };
+		5CC21E1E1649FC0900E40E9C /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DB88C14FB583100C9E12C /* FindViewController.m */; };
+		5CC21E1F1649FC0900E40E9C /* SelectPartDescViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C78035214FDC7F600EB2C68 /* SelectPartDescViewController.m */; };
+		5CC21E201649FC0900E40E9C /* MachinesReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB137FF15830A1F009C9A7D /* MachinesReport.m */; };
+		5CC21E211649FC0900E40E9C /* NSString+URLEscapes.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB052B016424851007DB963 /* NSString+URLEscapes.m */; };
+		5CC21E231649FC0900E40E9C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB1380A1583172F009C9A7D /* QuartzCore.framework */; };
+		5CC21E241649FC0900E40E9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792AB3AF1386A7A900F3D595 /* UIKit.framework */; };
+		5CC21E251649FC0900E40E9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792AB3B11386A7A900F3D595 /* Foundation.framework */; };
+		5CC21E261649FC0900E40E9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792AB3B31386A7A900F3D595 /* CoreGraphics.framework */; };
+		5CC21E281649FC0900E40E9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3B81386A7A900F3D595 /* InfoPlist.strings */; };
+		5CC21E291649FC0900E40E9C /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3C51386A7A900F3D595 /* MainWindow_iPhone.xib */; };
+		5CC21E2A1649FC0900E40E9C /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3CC1386A7A900F3D595 /* MainWindow_iPad.xib */; };
+		5CC21E2B1649FC0900E40E9C /* TicketDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3ED1386A8C400F3D595 /* TicketDetailViewController_iPad.xib */; };
+		5CC21E2D1649FC0900E40E9C /* AutoTech57.png in Resources */ = {isa = PBXBuildFile; fileRef = 795AC152138706D7009141C5 /* AutoTech57.png */; };
+		5CC21E2E1649FC0900E40E9C /* AutoTech114.png in Resources */ = {isa = PBXBuildFile; fileRef = 795AC155138706E5009141C5 /* AutoTech114.png */; };
+		5CC21E2F1649FC0900E40E9C /* AutoTech72.png in Resources */ = {isa = PBXBuildFile; fileRef = 795AC157138706F3009141C5 /* AutoTech72.png */; };
+		5CC21E301649FC0900E40E9C /* iphone_delete_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EBF653138DE25900CE0E61 /* iphone_delete_button.png */; };
+		5CC21E311649FC0900E40E9C /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 7929B5D913993EB5001C2F09 /* iTunesArtwork */; };
+		5CC21E321649FC0900E40E9C /* AddTicketViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CB78A7139E538800AAA11D /* AddTicketViewController_iPhone.xib */; };
+		5CC21E331649FC0900E40E9C /* Arrow_Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 79362719139E9B6A0094952E /* Arrow_Down.png */; };
+		5CC21E341649FC0900E40E9C /* iPhone_Orange_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7936275013A12FF40094952E /* iPhone_Orange_Button.png */; };
+		5CC21E351649FC0900E40E9C /* AddTicketViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7936275213A1341B0094952E /* AddTicketViewController_iPad.xib */; };
+		5CC21E361649FC0900E40E9C /* TicketsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792805A513A8F00800E19152 /* TicketsViewController_iPad.xib */; };
+		5CC21E371649FC0900E40E9C /* TicketsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 793403E713AA4013002E62AE /* TicketsViewController_iPhone.xib */; };
+		5CC21E381649FC0900E40E9C /* LogonViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79944A4713B10EE9004ABFD1 /* LogonViewController_iPhone.xib */; };
+		5CC21E391649FC0900E40E9C /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A76913B3748C00330415 /* Default-Portrait~ipad.png */; };
+		5CC21E3A1649FC0900E40E9C /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A76D13B3894D00330415 /* Default-Landscape~ipad.png */; };
+		5CC21E3B1649FC0900E40E9C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A76F13B3896900330415 /* Default.png */; };
+		5CC21E3C1649FC0900E40E9C /* LaunchIphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A77113B3992E00330415 /* LaunchIphone.png */; };
+		5CC21E3D1649FC0900E40E9C /* LoginBackGround_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 79A42E6613B3A425005F8A51 /* LoginBackGround_iPhone.png */; };
+		5CC21E3E1649FC0900E40E9C /* SettingsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79F0EDDC13B3DC1E00ED6D03 /* SettingsViewController_iPhone.xib */; };
+		5CC21E3F1649FC0900E40E9C /* LogonViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5CFF13B40DC100C1C392 /* LogonViewController_iPad.xib */; };
+		5CC21E401649FC0900E40E9C /* LaunchIpadPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0113B40EC800C1C392 /* LaunchIpadPortrait.png */; };
+		5CC21E411649FC0900E40E9C /* LoginBackGround_Ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0313B40F4800C1C392 /* LoginBackGround_Ipad.png */; };
+		5CC21E421649FC0900E40E9C /* SettingsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0513B411A900C1C392 /* SettingsViewController_iPad.xib */; };
+		5CC21E431649FC0900E40E9C /* LogOffBackGround_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0713B4DDE800C1C392 /* LogOffBackGround_iPad.png */; };
+		5CC21E441649FC0900E40E9C /* LogOffBackGround_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0813B4DDE800C1C392 /* LogOffBackGround_iPhone.png */; };
+		5CC21E451649FC0900E40E9C /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0F13B4F3DF00C1C392 /* Settings.png */; };
+		5CC21E461649FC0900E40E9C /* Settings1.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D1113B4F43100C1C392 /* Settings1.png */; };
+		5CC21E471649FC0900E40E9C /* Settings3.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D1313B4F4C200C1C392 /* Settings3.png */; };
+		5CC21E481649FC0900E40E9C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D1513B4F66F00C1C392 /* Default@2x.png */; };
+		5CC21E491649FC0900E40E9C /* DefaultTechNotesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7971215F13CF177D0013C488 /* DefaultTechNotesViewController_iPhone.xib */; };
+		5CC21E4A1649FC0900E40E9C /* iPhone_black_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7959E12913D73DC1007A09C9 /* iPhone_black_button.png */; };
+		5CC21E4B1649FC0900E40E9C /* Select_Default_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 796312A913D86C9700E7324D /* Select_Default_Button.png */; };
+		5CC21E4C1649FC0900E40E9C /* DefaultTechNotesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 796312B113D8914000E7324D /* DefaultTechNotesViewController_iPad.xib */; };
+		5CC21E4D1649FC0900E40E9C /* ViewWithSearchBarViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79AD932013E0691900852261 /* ViewWithSearchBarViewController_iPhone.xib */; };
+		5CC21E4E1649FC0900E40E9C /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E45BAB13E1C3E2004B3FB7 /* OverlayView.xib */; };
+		5CC21E4F1649FC0900E40E9C /* ViewWithSearchBarViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7995E37213F1CF3F00F01668 /* ViewWithSearchBarViewController_iPad.xib */; };
+		5CC21E501649FC0900E40E9C /* PrioritiesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E975A213F573CB00E32FFD /* PrioritiesViewController_iPhone.xib */; };
+		5CC21E511649FC0900E40E9C /* numberList.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CD58CE13FAE080001ABA2F /* numberList.png */; };
+		5CC21E521649FC0900E40E9C /* PrioritiesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CD58D013FAE618001ABA2F /* PrioritiesViewController_iPad.xib */; };
+		5CC21E531649FC0900E40E9C /* clockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C14CE051483258000251EFD /* clockicon.png */; };
+		5CC21E541649FC0900E40E9C /* pause_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C14CE1A148331EE00251EFD /* pause_button.png */; };
+		5CC21E551649FC0900E40E9C /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C14CE1B148331EE00251EFD /* play_button.png */; };
+		5CC21E561649FC0900E40E9C /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAB9168148DBE9E00745AEB /* doubleicon.png */; };
+		5CC21E571649FC0900E40E9C /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAB9169148DBE9E00745AEB /* singleicon.png */; };
+		5CC21E581649FC0900E40E9C /* SearchUsersViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA2093C14F739F7008C63AC /* SearchUsersViewController_iPhone.xib */; };
+		5CC21E591649FC0900E40E9C /* SearchUsersViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA2093F14F73A38008C63AC /* SearchUsersViewController_iPad.xib */; };
+		5CC21E5A1649FC0900E40E9C /* ResultViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB87614FB532E00C9E12C /* ResultViewController_iPad.xib */; };
+		5CC21E5B1649FC0900E40E9C /* ResultViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB87B14FB538900C9E12C /* ResultViewController_iPhone.xib */; };
+		5CC21E5C1649FC0900E40E9C /* FindViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB89014FB585900C9E12C /* FindViewController_iPad.xib */; };
+		5CC21E5D1649FC0900E40E9C /* Reports.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8CA14FC925300C9E12C /* Reports.png */; };
+		5CC21E5E1649FC0900E40E9C /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8CE14FC935200C9E12C /* home.png */; };
+		5CC21E5F1649FC0900E40E9C /* Find.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D014FC936300C9E12C /* Find.png */; };
+		5CC21E601649FC0900E40E9C /* Find@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D114FC936400C9E12C /* Find@2x.png */; };
+		5CC21E611649FC0900E40E9C /* AuxBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D414FC938100C9E12C /* AuxBackground2.png */; };
+		5CC21E621649FC0900E40E9C /* report.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D814FC97D700C9E12C /* report.png */; };
+		5CC21E631649FC0900E40E9C /* report1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8DC14FC985300C9E12C /* report1.png */; };
+		5CC21E641649FC0900E40E9C /* SelectPartDescViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C78035314FDC7F600EB2C68 /* SelectPartDescViewController_iPhone.xib */; };
+		5CC21E651649FC0900E40E9C /* SelectPartDescViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C78035714FDC9E000EB2C68 /* SelectPartDescViewController_iPad.xib */; };
+		5CC21E661649FC0900E40E9C /* SortedTicketsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1538D4154256AC007FBBF9 /* SortedTicketsViewController_iPhone.xib */; };
+		5CC21E671649FC0900E40E9C /* SortedTicketsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1538D7154256E1007FBBF9 /* SortedTicketsViewController_iPad.xib */; };
+		5CC21E681649FC0900E40E9C /* FindViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CB1380415831004009C9A7D /* FindViewController_iPhone.xib */; };
+		5CC21E691649FC0900E40E9C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CC20EB1160B11BF001FD655 /* Default-568h@2x.png */; };
+		5CFD016617A7594600A35DCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3BC1386A7A900F3D595 /* main.m */; };
+		5CFD016717A7594600A35DCE /* AutotechAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3BF1386A7A900F3D595 /* AutotechAppDelegate.m */; };
+		5CFD016817A7594600A35DCE /* AutotechAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3C31386A7A900F3D595 /* AutotechAppDelegate_iPhone.m */; };
+		5CFD016917A7594600A35DCE /* AutotechAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3CA1386A7A900F3D595 /* AutotechAppDelegate_iPad.m */; };
+		5CFD016A17A7594600A35DCE /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3D71386A80700F3D595 /* Constants.m */; };
+		5CFD016B17A7594600A35DCE /* Ticket.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3D91386A80700F3D595 /* Ticket.m */; };
+		5CFD016C17A7594600A35DCE /* customNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3DD1386A83100F3D595 /* customNavigationController.m */; };
+		5CFD016D17A7594600A35DCE /* LMBSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3DF1386A83100F3D595 /* LMBSlidingViewController.m */; };
+		5CFD016E17A7594600A35DCE /* TicketDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3E11386A83100F3D595 /* TicketDetailViewController.m */; };
+		5CFD016F17A7594600A35DCE /* TicketsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3E31386A83100F3D595 /* TicketsViewController.m */; };
+		5CFD017017A7594600A35DCE /* UITabBarController + (Rotation).m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3E51386A83100F3D595 /* UITabBarController + (Rotation).m */; };
+		5CFD017117A7594600A35DCE /* Techs.m in Sources */ = {isa = PBXBuildFile; fileRef = 796C68181393EA2F00307CBF /* Techs.m */; };
+		5CFD017217A7594600A35DCE /* AddTicketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CB78AB139E5F4C00AAA11D /* AddTicketViewController.m */; };
+		5CFD017317A7594600A35DCE /* Machine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7936271C139EB1A70094952E /* Machine.m */; };
+		5CFD017417A7594600A35DCE /* TicketCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 79362723139EC4930094952E /* TicketCategory.m */; };
+		5CFD017517A7594600A35DCE /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 79362744139FA8060094952E /* Location.m */; };
+		5CFD017617A7594600A35DCE /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 799DDB3713B10159006D0D8B /* User.m */; };
+		5CFD017717A7594600A35DCE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799DDB3A13B1020C006D0D8B /* HomeViewController.m */; };
+		5CFD017817A7594600A35DCE /* LogonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799DDB3D13B10616006D0D8B /* LogonViewController.m */; };
+		5CFD017917A7594600A35DCE /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F0EDE013B3DC4200ED6D03 /* SettingsViewController.m */; };
+		5CFD017A17A7594600A35DCE /* TicketActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FE27AB13C24C8C000B0315 /* TicketActivity.m */; };
+		5CFD017B17A7594600A35DCE /* DefaultTechNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7971215D13CF15E40013C488 /* DefaultTechNotesViewController.m */; };
+		5CFD017C17A7594600A35DCE /* ViewWithSearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AD931D13E05BCF00852261 /* ViewWithSearchBarViewController.m */; };
+		5CFD017D17A7594600A35DCE /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E45BA813E1C082004B3FB7 /* OverlayViewController.m */; };
+		5CFD017E17A7594600A35DCE /* PrioritiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E9759D13F4719F00E32FFD /* PrioritiesViewController.m */; };
+		5CFD017F17A7594600A35DCE /* MachinePriority.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E975A013F5680700E32FFD /* MachinePriority.m */; };
+		5CFD018017A7594600A35DCE /* SortedTicketsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD9D8A1479E3B700233EA0 /* SortedTicketsViewController.m */; };
+		5CFD018117A7594600A35DCE /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA2093714F73720008C63AC /* Users.m */; };
+		5CFD018217A7594600A35DCE /* SearchUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA2093B14F739F6008C63AC /* SearchUsersViewController.m */; };
+		5CFD018317A7594600A35DCE /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DB87914FB535C00C9E12C /* ResultViewController.m */; };
+		5CFD018417A7594600A35DCE /* TechAssociatesTicketsReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DB87E14FB541300C9E12C /* TechAssociatesTicketsReport.m */; };
+		5CFD018517A7594600A35DCE /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DB88C14FB583100C9E12C /* FindViewController.m */; };
+		5CFD018617A7594600A35DCE /* SelectPartDescViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C78035214FDC7F600EB2C68 /* SelectPartDescViewController.m */; };
+		5CFD018717A7594600A35DCE /* MachinesReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB137FF15830A1F009C9A7D /* MachinesReport.m */; };
+		5CFD018817A7594600A35DCE /* NSString+URLEscapes.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB052B016424851007DB963 /* NSString+URLEscapes.m */; };
+		5CFD018917A7594600A35DCE /* Part.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C870F0D175DC123001952FA /* Part.m */; };
+		5CFD018B17A7594600A35DCE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB1380A1583172F009C9A7D /* QuartzCore.framework */; };
+		5CFD018C17A7594600A35DCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792AB3AF1386A7A900F3D595 /* UIKit.framework */; };
+		5CFD018D17A7594600A35DCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792AB3B11386A7A900F3D595 /* Foundation.framework */; };
+		5CFD018E17A7594600A35DCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792AB3B31386A7A900F3D595 /* CoreGraphics.framework */; };
+		5CFD019017A7594600A35DCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3B81386A7A900F3D595 /* InfoPlist.strings */; };
+		5CFD019117A7594600A35DCE /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3C51386A7A900F3D595 /* MainWindow_iPhone.xib */; };
+		5CFD019217A7594600A35DCE /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3CC1386A7A900F3D595 /* MainWindow_iPad.xib */; };
+		5CFD019317A7594600A35DCE /* TicketDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3ED1386A8C400F3D595 /* TicketDetailViewController_iPad.xib */; };
+		5CFD019417A7594600A35DCE /* AutoTech57.png in Resources */ = {isa = PBXBuildFile; fileRef = 795AC152138706D7009141C5 /* AutoTech57.png */; };
+		5CFD019517A7594600A35DCE /* AutoTech114.png in Resources */ = {isa = PBXBuildFile; fileRef = 795AC155138706E5009141C5 /* AutoTech114.png */; };
+		5CFD019617A7594600A35DCE /* AutoTech72.png in Resources */ = {isa = PBXBuildFile; fileRef = 795AC157138706F3009141C5 /* AutoTech72.png */; };
+		5CFD019717A7594600A35DCE /* iphone_delete_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EBF653138DE25900CE0E61 /* iphone_delete_button.png */; };
+		5CFD019817A7594600A35DCE /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 7929B5D913993EB5001C2F09 /* iTunesArtwork */; };
+		5CFD019917A7594600A35DCE /* AddTicketViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CB78A7139E538800AAA11D /* AddTicketViewController_iPhone.xib */; };
+		5CFD019A17A7594600A35DCE /* Arrow_Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 79362719139E9B6A0094952E /* Arrow_Down.png */; };
+		5CFD019B17A7594600A35DCE /* iPhone_Orange_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7936275013A12FF40094952E /* iPhone_Orange_Button.png */; };
+		5CFD019C17A7594600A35DCE /* AddTicketViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7936275213A1341B0094952E /* AddTicketViewController_iPad.xib */; };
+		5CFD019D17A7594600A35DCE /* TicketsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792805A513A8F00800E19152 /* TicketsViewController_iPad.xib */; };
+		5CFD019E17A7594600A35DCE /* TicketsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 793403E713AA4013002E62AE /* TicketsViewController_iPhone.xib */; };
+		5CFD019F17A7594600A35DCE /* LogonViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79944A4713B10EE9004ABFD1 /* LogonViewController_iPhone.xib */; };
+		5CFD01A017A7594600A35DCE /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A76913B3748C00330415 /* Default-Portrait~ipad.png */; };
+		5CFD01A117A7594600A35DCE /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A76D13B3894D00330415 /* Default-Landscape~ipad.png */; };
+		5CFD01A217A7594600A35DCE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A76F13B3896900330415 /* Default.png */; };
+		5CFD01A317A7594600A35DCE /* LaunchIphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A77113B3992E00330415 /* LaunchIphone.png */; };
+		5CFD01A417A7594600A35DCE /* LoginBackGround_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 79A42E6613B3A425005F8A51 /* LoginBackGround_iPhone.png */; };
+		5CFD01A517A7594600A35DCE /* SettingsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79F0EDDC13B3DC1E00ED6D03 /* SettingsViewController_iPhone.xib */; };
+		5CFD01A617A7594600A35DCE /* LogonViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5CFF13B40DC100C1C392 /* LogonViewController_iPad.xib */; };
+		5CFD01A717A7594600A35DCE /* LaunchIpadPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0113B40EC800C1C392 /* LaunchIpadPortrait.png */; };
+		5CFD01A817A7594600A35DCE /* LoginBackGround_Ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0313B40F4800C1C392 /* LoginBackGround_Ipad.png */; };
+		5CFD01A917A7594600A35DCE /* SettingsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0513B411A900C1C392 /* SettingsViewController_iPad.xib */; };
+		5CFD01AA17A7594600A35DCE /* LogOffBackGround_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0713B4DDE800C1C392 /* LogOffBackGround_iPad.png */; };
+		5CFD01AB17A7594600A35DCE /* LogOffBackGround_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0813B4DDE800C1C392 /* LogOffBackGround_iPhone.png */; };
+		5CFD01AC17A7594600A35DCE /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0F13B4F3DF00C1C392 /* Settings.png */; };
+		5CFD01AD17A7594600A35DCE /* Settings1.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D1113B4F43100C1C392 /* Settings1.png */; };
+		5CFD01AE17A7594600A35DCE /* Settings3.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D1313B4F4C200C1C392 /* Settings3.png */; };
+		5CFD01AF17A7594600A35DCE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D1513B4F66F00C1C392 /* Default@2x.png */; };
+		5CFD01B017A7594600A35DCE /* DefaultTechNotesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7971215F13CF177D0013C488 /* DefaultTechNotesViewController_iPhone.xib */; };
+		5CFD01B117A7594600A35DCE /* iPhone_black_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7959E12913D73DC1007A09C9 /* iPhone_black_button.png */; };
+		5CFD01B217A7594600A35DCE /* Select_Default_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 796312A913D86C9700E7324D /* Select_Default_Button.png */; };
+		5CFD01B317A7594600A35DCE /* DefaultTechNotesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 796312B113D8914000E7324D /* DefaultTechNotesViewController_iPad.xib */; };
+		5CFD01B417A7594600A35DCE /* ViewWithSearchBarViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79AD932013E0691900852261 /* ViewWithSearchBarViewController_iPhone.xib */; };
+		5CFD01B517A7594600A35DCE /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E45BAB13E1C3E2004B3FB7 /* OverlayView.xib */; };
+		5CFD01B617A7594600A35DCE /* ViewWithSearchBarViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7995E37213F1CF3F00F01668 /* ViewWithSearchBarViewController_iPad.xib */; };
+		5CFD01B717A7594600A35DCE /* PrioritiesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E975A213F573CB00E32FFD /* PrioritiesViewController_iPhone.xib */; };
+		5CFD01B817A7594600A35DCE /* numberList.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CD58CE13FAE080001ABA2F /* numberList.png */; };
+		5CFD01B917A7594600A35DCE /* PrioritiesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CD58D013FAE618001ABA2F /* PrioritiesViewController_iPad.xib */; };
+		5CFD01BA17A7594600A35DCE /* clockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C14CE051483258000251EFD /* clockicon.png */; };
+		5CFD01BB17A7594600A35DCE /* pause_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C14CE1A148331EE00251EFD /* pause_button.png */; };
+		5CFD01BC17A7594600A35DCE /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C14CE1B148331EE00251EFD /* play_button.png */; };
+		5CFD01BD17A7594600A35DCE /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAB9168148DBE9E00745AEB /* doubleicon.png */; };
+		5CFD01BE17A7594600A35DCE /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAB9169148DBE9E00745AEB /* singleicon.png */; };
+		5CFD01BF17A7594600A35DCE /* SearchUsersViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA2093C14F739F7008C63AC /* SearchUsersViewController_iPhone.xib */; };
+		5CFD01C017A7594600A35DCE /* SearchUsersViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA2093F14F73A38008C63AC /* SearchUsersViewController_iPad.xib */; };
+		5CFD01C117A7594600A35DCE /* ResultViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB87614FB532E00C9E12C /* ResultViewController_iPad.xib */; };
+		5CFD01C217A7594600A35DCE /* ResultViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB87B14FB538900C9E12C /* ResultViewController_iPhone.xib */; };
+		5CFD01C317A7594600A35DCE /* FindViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB89014FB585900C9E12C /* FindViewController_iPad.xib */; };
+		5CFD01C417A7594600A35DCE /* Reports.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8CA14FC925300C9E12C /* Reports.png */; };
+		5CFD01C517A7594600A35DCE /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8CE14FC935200C9E12C /* home.png */; };
+		5CFD01C617A7594600A35DCE /* Find.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D014FC936300C9E12C /* Find.png */; };
+		5CFD01C717A7594600A35DCE /* Find@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D114FC936400C9E12C /* Find@2x.png */; };
+		5CFD01C817A7594600A35DCE /* AuxBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D414FC938100C9E12C /* AuxBackground2.png */; };
+		5CFD01C917A7594600A35DCE /* report.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D814FC97D700C9E12C /* report.png */; };
+		5CFD01CA17A7594600A35DCE /* report1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8DC14FC985300C9E12C /* report1.png */; };
+		5CFD01CB17A7594600A35DCE /* SelectPartDescViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C78035314FDC7F600EB2C68 /* SelectPartDescViewController_iPhone.xib */; };
+		5CFD01CC17A7594600A35DCE /* SelectPartDescViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C78035714FDC9E000EB2C68 /* SelectPartDescViewController_iPad.xib */; };
+		5CFD01CD17A7594600A35DCE /* SortedTicketsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1538D4154256AC007FBBF9 /* SortedTicketsViewController_iPhone.xib */; };
+		5CFD01CE17A7594600A35DCE /* SortedTicketsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1538D7154256E1007FBBF9 /* SortedTicketsViewController_iPad.xib */; };
+		5CFD01CF17A7594600A35DCE /* FindViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CB1380415831004009C9A7D /* FindViewController_iPhone.xib */; };
+		5CFD01D017A7594600A35DCE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CC20EB1160B11BF001FD655 /* Default-568h@2x.png */; };
+		5CFD01D217A7594600A35DCE /* TicketDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2B69E4175EE14100998D19 /* TicketDetailViewController_iPhone.xib */; };
+		5CFD02F817A7B5F500A35DCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3BC1386A7A900F3D595 /* main.m */; };
+		5CFD02F917A7B5F500A35DCE /* AutotechAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3BF1386A7A900F3D595 /* AutotechAppDelegate.m */; };
+		5CFD02FA17A7B5F500A35DCE /* AutotechAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3C31386A7A900F3D595 /* AutotechAppDelegate_iPhone.m */; };
+		5CFD02FB17A7B5F500A35DCE /* AutotechAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3CA1386A7A900F3D595 /* AutotechAppDelegate_iPad.m */; };
+		5CFD02FC17A7B5F500A35DCE /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3D71386A80700F3D595 /* Constants.m */; };
+		5CFD02FD17A7B5F500A35DCE /* Ticket.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3D91386A80700F3D595 /* Ticket.m */; };
+		5CFD02FE17A7B5F500A35DCE /* customNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3DD1386A83100F3D595 /* customNavigationController.m */; };
+		5CFD02FF17A7B5F500A35DCE /* LMBSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3DF1386A83100F3D595 /* LMBSlidingViewController.m */; };
+		5CFD030017A7B5F500A35DCE /* TicketDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3E11386A83100F3D595 /* TicketDetailViewController.m */; };
+		5CFD030117A7B5F500A35DCE /* TicketsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3E31386A83100F3D595 /* TicketsViewController.m */; };
+		5CFD030217A7B5F500A35DCE /* UITabBarController + (Rotation).m in Sources */ = {isa = PBXBuildFile; fileRef = 792AB3E51386A83100F3D595 /* UITabBarController + (Rotation).m */; };
+		5CFD030317A7B5F500A35DCE /* Techs.m in Sources */ = {isa = PBXBuildFile; fileRef = 796C68181393EA2F00307CBF /* Techs.m */; };
+		5CFD030417A7B5F500A35DCE /* AddTicketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CB78AB139E5F4C00AAA11D /* AddTicketViewController.m */; };
+		5CFD030517A7B5F500A35DCE /* Machine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7936271C139EB1A70094952E /* Machine.m */; };
+		5CFD030617A7B5F500A35DCE /* TicketCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 79362723139EC4930094952E /* TicketCategory.m */; };
+		5CFD030717A7B5F500A35DCE /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 79362744139FA8060094952E /* Location.m */; };
+		5CFD030817A7B5F500A35DCE /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 799DDB3713B10159006D0D8B /* User.m */; };
+		5CFD030917A7B5F500A35DCE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799DDB3A13B1020C006D0D8B /* HomeViewController.m */; };
+		5CFD030A17A7B5F500A35DCE /* LogonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799DDB3D13B10616006D0D8B /* LogonViewController.m */; };
+		5CFD030B17A7B5F500A35DCE /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F0EDE013B3DC4200ED6D03 /* SettingsViewController.m */; };
+		5CFD030C17A7B5F500A35DCE /* TicketActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FE27AB13C24C8C000B0315 /* TicketActivity.m */; };
+		5CFD030D17A7B5F500A35DCE /* DefaultTechNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7971215D13CF15E40013C488 /* DefaultTechNotesViewController.m */; };
+		5CFD030E17A7B5F500A35DCE /* ViewWithSearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AD931D13E05BCF00852261 /* ViewWithSearchBarViewController.m */; };
+		5CFD030F17A7B5F500A35DCE /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E45BA813E1C082004B3FB7 /* OverlayViewController.m */; };
+		5CFD031017A7B5F500A35DCE /* PrioritiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E9759D13F4719F00E32FFD /* PrioritiesViewController.m */; };
+		5CFD031117A7B5F500A35DCE /* MachinePriority.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E975A013F5680700E32FFD /* MachinePriority.m */; };
+		5CFD031217A7B5F500A35DCE /* SortedTicketsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD9D8A1479E3B700233EA0 /* SortedTicketsViewController.m */; };
+		5CFD031317A7B5F500A35DCE /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA2093714F73720008C63AC /* Users.m */; };
+		5CFD031417A7B5F500A35DCE /* SearchUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA2093B14F739F6008C63AC /* SearchUsersViewController.m */; };
+		5CFD031517A7B5F500A35DCE /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DB87914FB535C00C9E12C /* ResultViewController.m */; };
+		5CFD031617A7B5F500A35DCE /* TechAssociatesTicketsReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DB87E14FB541300C9E12C /* TechAssociatesTicketsReport.m */; };
+		5CFD031717A7B5F500A35DCE /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DB88C14FB583100C9E12C /* FindViewController.m */; };
+		5CFD031817A7B5F500A35DCE /* SelectPartDescViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C78035214FDC7F600EB2C68 /* SelectPartDescViewController.m */; };
+		5CFD031917A7B5F500A35DCE /* MachinesReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB137FF15830A1F009C9A7D /* MachinesReport.m */; };
+		5CFD031A17A7B5F500A35DCE /* NSString+URLEscapes.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB052B016424851007DB963 /* NSString+URLEscapes.m */; };
+		5CFD031B17A7B5F500A35DCE /* Part.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C870F0D175DC123001952FA /* Part.m */; };
+		5CFD031D17A7B5F500A35DCE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB1380A1583172F009C9A7D /* QuartzCore.framework */; };
+		5CFD031E17A7B5F500A35DCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792AB3AF1386A7A900F3D595 /* UIKit.framework */; };
+		5CFD031F17A7B5F500A35DCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792AB3B11386A7A900F3D595 /* Foundation.framework */; };
+		5CFD032017A7B5F500A35DCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792AB3B31386A7A900F3D595 /* CoreGraphics.framework */; };
+		5CFD032217A7B5F500A35DCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3B81386A7A900F3D595 /* InfoPlist.strings */; };
+		5CFD032317A7B5F500A35DCE /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3C51386A7A900F3D595 /* MainWindow_iPhone.xib */; };
+		5CFD032417A7B5F500A35DCE /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3CC1386A7A900F3D595 /* MainWindow_iPad.xib */; };
+		5CFD032517A7B5F500A35DCE /* TicketDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792AB3ED1386A8C400F3D595 /* TicketDetailViewController_iPad.xib */; };
+		5CFD032617A7B5F500A35DCE /* AutoTech57.png in Resources */ = {isa = PBXBuildFile; fileRef = 795AC152138706D7009141C5 /* AutoTech57.png */; };
+		5CFD032717A7B5F500A35DCE /* AutoTech114.png in Resources */ = {isa = PBXBuildFile; fileRef = 795AC155138706E5009141C5 /* AutoTech114.png */; };
+		5CFD032817A7B5F500A35DCE /* AutoTech72.png in Resources */ = {isa = PBXBuildFile; fileRef = 795AC157138706F3009141C5 /* AutoTech72.png */; };
+		5CFD032917A7B5F500A35DCE /* iphone_delete_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EBF653138DE25900CE0E61 /* iphone_delete_button.png */; };
+		5CFD032A17A7B5F500A35DCE /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 7929B5D913993EB5001C2F09 /* iTunesArtwork */; };
+		5CFD032B17A7B5F500A35DCE /* AddTicketViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CB78A7139E538800AAA11D /* AddTicketViewController_iPhone.xib */; };
+		5CFD032C17A7B5F500A35DCE /* Arrow_Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 79362719139E9B6A0094952E /* Arrow_Down.png */; };
+		5CFD032D17A7B5F500A35DCE /* iPhone_Orange_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7936275013A12FF40094952E /* iPhone_Orange_Button.png */; };
+		5CFD032E17A7B5F500A35DCE /* AddTicketViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7936275213A1341B0094952E /* AddTicketViewController_iPad.xib */; };
+		5CFD032F17A7B5F500A35DCE /* TicketsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792805A513A8F00800E19152 /* TicketsViewController_iPad.xib */; };
+		5CFD033017A7B5F500A35DCE /* TicketsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 793403E713AA4013002E62AE /* TicketsViewController_iPhone.xib */; };
+		5CFD033117A7B5F500A35DCE /* LogonViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79944A4713B10EE9004ABFD1 /* LogonViewController_iPhone.xib */; };
+		5CFD033217A7B5F500A35DCE /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A76913B3748C00330415 /* Default-Portrait~ipad.png */; };
+		5CFD033317A7B5F500A35DCE /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A76D13B3894D00330415 /* Default-Landscape~ipad.png */; };
+		5CFD033417A7B5F500A35DCE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A76F13B3896900330415 /* Default.png */; };
+		5CFD033517A7B5F500A35DCE /* LaunchIphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7987A77113B3992E00330415 /* LaunchIphone.png */; };
+		5CFD033617A7B5F500A35DCE /* LoginBackGround_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 79A42E6613B3A425005F8A51 /* LoginBackGround_iPhone.png */; };
+		5CFD033717A7B5F500A35DCE /* SettingsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79F0EDDC13B3DC1E00ED6D03 /* SettingsViewController_iPhone.xib */; };
+		5CFD033817A7B5F500A35DCE /* LogonViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5CFF13B40DC100C1C392 /* LogonViewController_iPad.xib */; };
+		5CFD033917A7B5F500A35DCE /* LaunchIpadPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0113B40EC800C1C392 /* LaunchIpadPortrait.png */; };
+		5CFD033A17A7B5F500A35DCE /* LoginBackGround_Ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0313B40F4800C1C392 /* LoginBackGround_Ipad.png */; };
+		5CFD033B17A7B5F500A35DCE /* SettingsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0513B411A900C1C392 /* SettingsViewController_iPad.xib */; };
+		5CFD033C17A7B5F500A35DCE /* LogOffBackGround_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0713B4DDE800C1C392 /* LogOffBackGround_iPad.png */; };
+		5CFD033D17A7B5F500A35DCE /* LogOffBackGround_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0813B4DDE800C1C392 /* LogOffBackGround_iPhone.png */; };
+		5CFD033E17A7B5F500A35DCE /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D0F13B4F3DF00C1C392 /* Settings.png */; };
+		5CFD033F17A7B5F500A35DCE /* Settings1.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D1113B4F43100C1C392 /* Settings1.png */; };
+		5CFD034017A7B5F500A35DCE /* Settings3.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D1313B4F4C200C1C392 /* Settings3.png */; };
+		5CFD034117A7B5F500A35DCE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF5D1513B4F66F00C1C392 /* Default@2x.png */; };
+		5CFD034217A7B5F500A35DCE /* DefaultTechNotesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7971215F13CF177D0013C488 /* DefaultTechNotesViewController_iPhone.xib */; };
+		5CFD034317A7B5F500A35DCE /* iPhone_black_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7959E12913D73DC1007A09C9 /* iPhone_black_button.png */; };
+		5CFD034417A7B5F500A35DCE /* Select_Default_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 796312A913D86C9700E7324D /* Select_Default_Button.png */; };
+		5CFD034517A7B5F500A35DCE /* DefaultTechNotesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 796312B113D8914000E7324D /* DefaultTechNotesViewController_iPad.xib */; };
+		5CFD034617A7B5F500A35DCE /* ViewWithSearchBarViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79AD932013E0691900852261 /* ViewWithSearchBarViewController_iPhone.xib */; };
+		5CFD034717A7B5F500A35DCE /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E45BAB13E1C3E2004B3FB7 /* OverlayView.xib */; };
+		5CFD034817A7B5F500A35DCE /* ViewWithSearchBarViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7995E37213F1CF3F00F01668 /* ViewWithSearchBarViewController_iPad.xib */; };
+		5CFD034917A7B5F500A35DCE /* PrioritiesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E975A213F573CB00E32FFD /* PrioritiesViewController_iPhone.xib */; };
+		5CFD034A17A7B5F500A35DCE /* numberList.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CD58CE13FAE080001ABA2F /* numberList.png */; };
+		5CFD034B17A7B5F500A35DCE /* PrioritiesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CD58D013FAE618001ABA2F /* PrioritiesViewController_iPad.xib */; };
+		5CFD034C17A7B5F500A35DCE /* clockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C14CE051483258000251EFD /* clockicon.png */; };
+		5CFD034D17A7B5F500A35DCE /* pause_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C14CE1A148331EE00251EFD /* pause_button.png */; };
+		5CFD034E17A7B5F500A35DCE /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C14CE1B148331EE00251EFD /* play_button.png */; };
+		5CFD034F17A7B5F500A35DCE /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAB9168148DBE9E00745AEB /* doubleicon.png */; };
+		5CFD035017A7B5F500A35DCE /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAB9169148DBE9E00745AEB /* singleicon.png */; };
+		5CFD035117A7B5F500A35DCE /* SearchUsersViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA2093C14F739F7008C63AC /* SearchUsersViewController_iPhone.xib */; };
+		5CFD035217A7B5F500A35DCE /* SearchUsersViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA2093F14F73A38008C63AC /* SearchUsersViewController_iPad.xib */; };
+		5CFD035317A7B5F500A35DCE /* ResultViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB87614FB532E00C9E12C /* ResultViewController_iPad.xib */; };
+		5CFD035417A7B5F500A35DCE /* ResultViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB87B14FB538900C9E12C /* ResultViewController_iPhone.xib */; };
+		5CFD035517A7B5F500A35DCE /* FindViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB89014FB585900C9E12C /* FindViewController_iPad.xib */; };
+		5CFD035617A7B5F500A35DCE /* Reports.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8CA14FC925300C9E12C /* Reports.png */; };
+		5CFD035717A7B5F500A35DCE /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8CE14FC935200C9E12C /* home.png */; };
+		5CFD035817A7B5F500A35DCE /* Find.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D014FC936300C9E12C /* Find.png */; };
+		5CFD035917A7B5F500A35DCE /* Find@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D114FC936400C9E12C /* Find@2x.png */; };
+		5CFD035A17A7B5F500A35DCE /* AuxBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D414FC938100C9E12C /* AuxBackground2.png */; };
+		5CFD035B17A7B5F500A35DCE /* report.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8D814FC97D700C9E12C /* report.png */; };
+		5CFD035C17A7B5F500A35DCE /* report1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7DB8DC14FC985300C9E12C /* report1.png */; };
+		5CFD035D17A7B5F500A35DCE /* SelectPartDescViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C78035314FDC7F600EB2C68 /* SelectPartDescViewController_iPhone.xib */; };
+		5CFD035E17A7B5F500A35DCE /* SelectPartDescViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C78035714FDC9E000EB2C68 /* SelectPartDescViewController_iPad.xib */; };
+		5CFD035F17A7B5F500A35DCE /* SortedTicketsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1538D4154256AC007FBBF9 /* SortedTicketsViewController_iPhone.xib */; };
+		5CFD036017A7B5F500A35DCE /* SortedTicketsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1538D7154256E1007FBBF9 /* SortedTicketsViewController_iPad.xib */; };
+		5CFD036117A7B5F500A35DCE /* FindViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CB1380415831004009C9A7D /* FindViewController_iPhone.xib */; };
+		5CFD036217A7B5F500A35DCE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CC20EB1160B11BF001FD655 /* Default-568h@2x.png */; };
+		5CFD036317A7B5F500A35DCE /* TicketDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2B69E4175EE14100998D19 /* TicketDetailViewController_iPhone.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C14CE051483258000251EFD /* clockicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockicon.png; sourceTree = "<group>"; };
+		5C14CE1A148331EE00251EFD /* pause_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause_button.png; path = Resources/pause_button.png; sourceTree = "<group>"; };
+		5C14CE1B148331EE00251EFD /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play_button.png; path = Resources/play_button.png; sourceTree = "<group>"; };
+		5C1538D4154256AC007FBBF9 /* SortedTicketsViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SortedTicketsViewController_iPhone.xib; sourceTree = "<group>"; };
+		5C1538D7154256E1007FBBF9 /* SortedTicketsViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SortedTicketsViewController_iPad.xib; sourceTree = "<group>"; };
+		5C18AC4E17B6226B00A1D175 /* PICSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PICSViewController.h; sourceTree = "<group>"; };
+		5C18AC4F17B6226B00A1D175 /* PICSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PICSViewController.m; sourceTree = "<group>"; };
+		5C18AC5017B6226B00A1D175 /* PICSViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PICSViewController_iPhone.xib; sourceTree = "<group>"; };
+		5C2B69E4175EE14100998D19 /* TicketDetailViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TicketDetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		5C2D62FE17BCAC1000547405 /* PICSViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PICSViewController_iPad.xib; sourceTree = "<group>"; };
+		5C78035114FDC7F500EB2C68 /* SelectPartDescViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPartDescViewController.h; sourceTree = "<group>"; };
+		5C78035214FDC7F600EB2C68 /* SelectPartDescViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPartDescViewController.m; sourceTree = "<group>"; };
+		5C78035314FDC7F600EB2C68 /* SelectPartDescViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectPartDescViewController_iPhone.xib; sourceTree = "<group>"; };
+		5C78035714FDC9E000EB2C68 /* SelectPartDescViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectPartDescViewController_iPad.xib; sourceTree = "<group>"; };
+		5C7DB87614FB532E00C9E12C /* ResultViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultViewController_iPad.xib; sourceTree = "<group>"; };
+		5C7DB87814FB535C00C9E12C /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		5C7DB87914FB535C00C9E12C /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		5C7DB87B14FB538900C9E12C /* ResultViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultViewController_iPhone.xib; sourceTree = "<group>"; };
+		5C7DB87D14FB541300C9E12C /* TechAssociatesTicketsReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TechAssociatesTicketsReport.h; sourceTree = "<group>"; };
+		5C7DB87E14FB541300C9E12C /* TechAssociatesTicketsReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TechAssociatesTicketsReport.m; sourceTree = "<group>"; };
+		5C7DB88B14FB583100C9E12C /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		5C7DB88C14FB583100C9E12C /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		5C7DB89014FB585900C9E12C /* FindViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindViewController_iPad.xib; sourceTree = "<group>"; };
+		5C7DB8CA14FC925300C9E12C /* Reports.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Reports.png; sourceTree = "<group>"; };
+		5C7DB8CE14FC935200C9E12C /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		5C7DB8D014FC936300C9E12C /* Find.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Find.png; sourceTree = "<group>"; };
+		5C7DB8D114FC936400C9E12C /* Find@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Find@2x.png"; sourceTree = "<group>"; };
+		5C7DB8D414FC938100C9E12C /* AuxBackground2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AuxBackground2.png; sourceTree = "<group>"; };
+		5C7DB8D814FC97D700C9E12C /* report.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = report.png; sourceTree = "<group>"; };
+		5C7DB8DC14FC985300C9E12C /* report1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = report1.png; sourceTree = "<group>"; };
+		5C870F0C175DC123001952FA /* Part.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Part.h; sourceTree = "<group>"; };
+		5C870F0D175DC123001952FA /* Part.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Part.m; sourceTree = "<group>"; };
+		5C89585818D93BFC00BA8B73 /* autotechLocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autotechLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C89585A18D93F7E00BA8B73 /* AutotechLocal-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AutotechLocal-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5CA2093614F73720008C63AC /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
+		5CA2093714F73720008C63AC /* Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Users.m; sourceTree = "<group>"; };
+		5CA2093A14F739F6008C63AC /* SearchUsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchUsersViewController.h; sourceTree = "<group>"; };
+		5CA2093B14F739F6008C63AC /* SearchUsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchUsersViewController.m; sourceTree = "<group>"; };
+		5CA2093C14F739F7008C63AC /* SearchUsersViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchUsersViewController_iPhone.xib; sourceTree = "<group>"; };
+		5CA2093F14F73A38008C63AC /* SearchUsersViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchUsersViewController_iPad.xib; sourceTree = "<group>"; };
+		5CAB9168148DBE9E00745AEB /* doubleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doubleicon.png; sourceTree = "<group>"; };
+		5CAB9169148DBE9E00745AEB /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
+		5CB052AF16424851007DB963 /* NSString+URLEscapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEscapes.h"; sourceTree = "<group>"; };
+		5CB052B016424851007DB963 /* NSString+URLEscapes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEscapes.m"; sourceTree = "<group>"; };
+		5CB053501649E0D4007DB963 /* autotechTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autotechTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB053531649E0D5007DB963 /* AutotechTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutotechTest-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5CB137FE15830A1F009C9A7D /* MachinesReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachinesReport.h; sourceTree = "<group>"; };
+		5CB137FF15830A1F009C9A7D /* MachinesReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MachinesReport.m; sourceTree = "<group>"; };
+		5CB1380415831004009C9A7D /* FindViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindViewController_iPhone.xib; sourceTree = "<group>"; };
+		5CB1380A1583172F009C9A7D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5CC20EB1160B11BF001FD655 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5CC21E6D1649FC0900E40E9C /* autotechDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autotechDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFD01D617A7594600A35DCE /* autotechStag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autotechStag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFD02E917A7989A00A35DCE /* AutotechStag-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AutotechStag-Info.plist"; path = "../AutotechStag-Info.plist"; sourceTree = "<group>"; };
+		5CFD02F117A7AF1A00A35DCE /* AutotechDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AutotechDev-Info.plist"; path = "../AutotechDev-Info.plist"; sourceTree = "<group>"; };
+		5CFD036717A7B5F500A35DCE /* autotech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autotech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFD9D891479E3B700233EA0 /* SortedTicketsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortedTicketsViewController.h; sourceTree = "<group>"; };
+		5CFD9D8A1479E3B700233EA0 /* SortedTicketsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortedTicketsViewController.m; sourceTree = "<group>"; };
+		792805A513A8F00800E19152 /* TicketsViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TicketsViewController_iPad.xib; sourceTree = "<group>"; };
+		7929B5D913993EB5001C2F09 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		792AB3AF1386A7A900F3D595 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		792AB3B11386A7A900F3D595 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		792AB3B31386A7A900F3D595 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		792AB3B71386A7A900F3D595 /* Autotech-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Autotech-Info.plist"; sourceTree = "<group>"; };
+		792AB3B91386A7A900F3D595 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		792AB3BB1386A7A900F3D595 /* Autotech-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Autotech-Prefix.pch"; sourceTree = "<group>"; };
+		792AB3BC1386A7A900F3D595 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		792AB3BE1386A7A900F3D595 /* AutotechAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutotechAppDelegate.h; sourceTree = "<group>"; };
+		792AB3BF1386A7A900F3D595 /* AutotechAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutotechAppDelegate.m; sourceTree = "<group>"; };
+		792AB3C21386A7A900F3D595 /* AutotechAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AutotechAppDelegate_iPhone.h; path = iPhone/AutotechAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		792AB3C31386A7A900F3D595 /* AutotechAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AutotechAppDelegate_iPhone.m; path = iPhone/AutotechAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		792AB3C61386A7A900F3D595 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		792AB3C91386A7A900F3D595 /* AutotechAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AutotechAppDelegate_iPad.h; path = iPad/AutotechAppDelegate_iPad.h; sourceTree = "<group>"; };
+		792AB3CA1386A7A900F3D595 /* AutotechAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AutotechAppDelegate_iPad.m; path = iPad/AutotechAppDelegate_iPad.m; sourceTree = "<group>"; };
+		792AB3CD1386A7A900F3D595 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		792AB3D61386A80700F3D595 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		792AB3D71386A80700F3D595 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		792AB3D81386A80700F3D595 /* Ticket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ticket.h; sourceTree = "<group>"; };
+		792AB3D91386A80700F3D595 /* Ticket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ticket.m; sourceTree = "<group>"; };
+		792AB3DC1386A83100F3D595 /* customNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customNavigationController.h; sourceTree = "<group>"; };
+		792AB3DD1386A83100F3D595 /* customNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customNavigationController.m; sourceTree = "<group>"; };
+		792AB3DE1386A83100F3D595 /* LMBSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMBSlidingViewController.h; sourceTree = "<group>"; };
+		792AB3DF1386A83100F3D595 /* LMBSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMBSlidingViewController.m; sourceTree = "<group>"; };
+		792AB3E01386A83100F3D595 /* TicketDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketDetailViewController.h; sourceTree = "<group>"; };
+		792AB3E11386A83100F3D595 /* TicketDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketDetailViewController.m; sourceTree = "<group>"; };
+		792AB3E21386A83100F3D595 /* TicketsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketsViewController.h; sourceTree = "<group>"; };
+		792AB3E31386A83100F3D595 /* TicketsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketsViewController.m; sourceTree = "<group>"; };
+		792AB3E41386A83100F3D595 /* UITabBarController + (Rotation).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController + (Rotation).h"; sourceTree = "<group>"; };
+		792AB3E51386A83100F3D595 /* UITabBarController + (Rotation).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController + (Rotation).m"; sourceTree = "<group>"; };
+		792AB3ED1386A8C400F3D595 /* TicketDetailViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TicketDetailViewController_iPad.xib; sourceTree = "<group>"; };
+		793403E713AA4013002E62AE /* TicketsViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TicketsViewController_iPhone.xib; sourceTree = "<group>"; };
+		79362719139E9B6A0094952E /* Arrow_Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Arrow_Down.png; path = Resources/Arrow_Down.png; sourceTree = "<group>"; };
+		7936271B139EB1A70094952E /* Machine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Machine.h; sourceTree = "<group>"; };
+		7936271C139EB1A70094952E /* Machine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Machine.m; sourceTree = "<group>"; };
+		79362722139EC4930094952E /* TicketCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketCategory.h; sourceTree = "<group>"; };
+		79362723139EC4930094952E /* TicketCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketCategory.m; sourceTree = "<group>"; };
+		79362743139FA8060094952E /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		79362744139FA8060094952E /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		7936275013A12FF40094952E /* iPhone_Orange_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhone_Orange_Button.png; path = Resources/iPhone_Orange_Button.png; sourceTree = "<group>"; };
+		7936275213A1341B0094952E /* AddTicketViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddTicketViewController_iPad.xib; sourceTree = "<group>"; };
+		7959E12913D73DC1007A09C9 /* iPhone_black_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhone_black_button.png; path = Resources/iPhone_black_button.png; sourceTree = "<group>"; };
+		795AC152138706D7009141C5 /* AutoTech57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AutoTech57.png; path = ../AutoTech57.png; sourceTree = "<group>"; };
+		795AC155138706E5009141C5 /* AutoTech114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AutoTech114.png; path = ../AutoTech114.png; sourceTree = "<group>"; };
+		795AC157138706F3009141C5 /* AutoTech72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AutoTech72.png; path = ../AutoTech72.png; sourceTree = "<group>"; };
+		796312A913D86C9700E7324D /* Select_Default_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Select_Default_Button.png; sourceTree = "<group>"; };
+		796312B113D8914000E7324D /* DefaultTechNotesViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultTechNotesViewController_iPad.xib; sourceTree = "<group>"; };
+		796C68171393EA2F00307CBF /* Techs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Techs.h; sourceTree = "<group>"; };
+		796C68181393EA2F00307CBF /* Techs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Techs.m; sourceTree = "<group>"; };
+		7971215C13CF15E40013C488 /* DefaultTechNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultTechNotesViewController.h; sourceTree = "<group>"; };
+		7971215D13CF15E40013C488 /* DefaultTechNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultTechNotesViewController.m; sourceTree = "<group>"; };
+		7971215F13CF177D0013C488 /* DefaultTechNotesViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultTechNotesViewController_iPhone.xib; sourceTree = "<group>"; };
+		7987A76913B3748C00330415 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		7987A76D13B3894D00330415 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		7987A76F13B3896900330415 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7987A77113B3992E00330415 /* LaunchIphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchIphone.png; path = Resources/LaunchIphone.png; sourceTree = "<group>"; };
+		79944A4713B10EE9004ABFD1 /* LogonViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogonViewController_iPhone.xib; sourceTree = "<group>"; };
+		7995E37213F1CF3F00F01668 /* ViewWithSearchBarViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewWithSearchBarViewController_iPad.xib; sourceTree = "<group>"; };
+		799DDB3613B10159006D0D8B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		799DDB3713B10159006D0D8B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		799DDB3913B1020C006D0D8B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		799DDB3A13B1020C006D0D8B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		799DDB3C13B10616006D0D8B /* LogonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogonViewController.h; sourceTree = "<group>"; };
+		799DDB3D13B10616006D0D8B /* LogonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogonViewController.m; sourceTree = "<group>"; };
+		79A42E6613B3A425005F8A51 /* LoginBackGround_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LoginBackGround_iPhone.png; path = Resources/LoginBackGround_iPhone.png; sourceTree = "<group>"; };
+		79AD931C13E05BCF00852261 /* ViewWithSearchBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewWithSearchBarViewController.h; sourceTree = "<group>"; };
+		79AD931D13E05BCF00852261 /* ViewWithSearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewWithSearchBarViewController.m; sourceTree = "<group>"; };
+		79AD932013E0691900852261 /* ViewWithSearchBarViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewWithSearchBarViewController_iPhone.xib; sourceTree = "<group>"; };
+		79CB78A7139E538800AAA11D /* AddTicketViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddTicketViewController_iPhone.xib; sourceTree = "<group>"; };
+		79CB78AA139E5F4C00AAA11D /* AddTicketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTicketViewController.h; sourceTree = "<group>"; };
+		79CB78AB139E5F4C00AAA11D /* AddTicketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTicketViewController.m; sourceTree = "<group>"; };
+		79CD58CE13FAE080001ABA2F /* numberList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numberList.png; sourceTree = "<group>"; };
+		79CD58D013FAE618001ABA2F /* PrioritiesViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrioritiesViewController_iPad.xib; sourceTree = "<group>"; };
+		79E45BA713E1C081004B3FB7 /* OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
+		79E45BA813E1C082004B3FB7 /* OverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
+		79E45BAB13E1C3E2004B3FB7 /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		79E9759C13F4719E00E32FFD /* PrioritiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrioritiesViewController.h; sourceTree = "<group>"; };
+		79E9759D13F4719F00E32FFD /* PrioritiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrioritiesViewController.m; sourceTree = "<group>"; };
+		79E9759F13F5680700E32FFD /* MachinePriority.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachinePriority.h; sourceTree = "<group>"; };
+		79E975A013F5680700E32FFD /* MachinePriority.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MachinePriority.m; sourceTree = "<group>"; };
+		79E975A213F573CB00E32FFD /* PrioritiesViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrioritiesViewController_iPhone.xib; sourceTree = "<group>"; };
+		79EBF653138DE25900CE0E61 /* iphone_delete_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone_delete_button.png; sourceTree = "<group>"; };
+		79EF5CFF13B40DC100C1C392 /* LogonViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogonViewController_iPad.xib; sourceTree = "<group>"; };
+		79EF5D0113B40EC800C1C392 /* LaunchIpadPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchIpadPortrait.png; path = Resources/LaunchIpadPortrait.png; sourceTree = "<group>"; };
+		79EF5D0313B40F4800C1C392 /* LoginBackGround_Ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LoginBackGround_Ipad.png; path = Resources/LoginBackGround_Ipad.png; sourceTree = "<group>"; };
+		79EF5D0513B411A900C1C392 /* SettingsViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController_iPad.xib; sourceTree = "<group>"; };
+		79EF5D0713B4DDE800C1C392 /* LogOffBackGround_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LogOffBackGround_iPad.png; path = Resources/LogOffBackGround_iPad.png; sourceTree = "<group>"; };
+		79EF5D0813B4DDE800C1C392 /* LogOffBackGround_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LogOffBackGround_iPhone.png; path = Resources/LogOffBackGround_iPhone.png; sourceTree = "<group>"; };
+		79EF5D0F13B4F3DF00C1C392 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Settings.png; path = Resources/Settings.png; sourceTree = "<group>"; };
+		79EF5D1113B4F43100C1C392 /* Settings1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Settings1.png; path = Resources/Settings1.png; sourceTree = "<group>"; };
+		79EF5D1313B4F4C200C1C392 /* Settings3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Settings3.png; path = Resources/Settings3.png; sourceTree = "<group>"; };
+		79EF5D1513B4F66F00C1C392 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		79F0EDDC13B3DC1E00ED6D03 /* SettingsViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController_iPhone.xib; sourceTree = "<group>"; };
+		79F0EDDF13B3DC4200ED6D03 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		79F0EDE013B3DC4200ED6D03 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		79FE27AA13C24C8C000B0315 /* TicketActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketActivity.h; sourceTree = "<group>"; };
+		79FE27AB13C24C8C000B0315 /* TicketActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketActivity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C89580B18D93BFC00BA8B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C89580C18D93BFC00BA8B73 /* QuartzCore.framework in Frameworks */,
+				5C89580D18D93BFC00BA8B73 /* UIKit.framework in Frameworks */,
+				5C89580E18D93BFC00BA8B73 /* Foundation.framework in Frameworks */,
+				5C89580F18D93BFC00BA8B73 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB053051649E0D4007DB963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB053061649E0D4007DB963 /* QuartzCore.framework in Frameworks */,
+				5CB053071649E0D4007DB963 /* UIKit.framework in Frameworks */,
+				5CB053081649E0D4007DB963 /* Foundation.framework in Frameworks */,
+				5CB053091649E0D4007DB963 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC21E221649FC0900E40E9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC21E231649FC0900E40E9C /* QuartzCore.framework in Frameworks */,
+				5CC21E241649FC0900E40E9C /* UIKit.framework in Frameworks */,
+				5CC21E251649FC0900E40E9C /* Foundation.framework in Frameworks */,
+				5CC21E261649FC0900E40E9C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFD018A17A7594600A35DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFD018B17A7594600A35DCE /* QuartzCore.framework in Frameworks */,
+				5CFD018C17A7594600A35DCE /* UIKit.framework in Frameworks */,
+				5CFD018D17A7594600A35DCE /* Foundation.framework in Frameworks */,
+				5CFD018E17A7594600A35DCE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFD031C17A7B5F500A35DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFD031D17A7B5F500A35DCE /* QuartzCore.framework in Frameworks */,
+				5CFD031E17A7B5F500A35DCE /* UIKit.framework in Frameworks */,
+				5CFD031F17A7B5F500A35DCE /* Foundation.framework in Frameworks */,
+				5CFD032017A7B5F500A35DCE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C7DB88014FB575C00C9E12C /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				5C7DB87814FB535C00C9E12C /* ResultViewController.h */,
+				5C7DB87914FB535C00C9E12C /* ResultViewController.m */,
+				5C7DB88B14FB583100C9E12C /* FindViewController.h */,
+				5C7DB88C14FB583100C9E12C /* FindViewController.m */,
+			);
+			name = Find;
+			sourceTree = "<group>";
+		};
+		5C7DB88114FB576F00C9E12C /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				5C7DB87B14FB538900C9E12C /* ResultViewController_iPhone.xib */,
+				5CB1380415831004009C9A7D /* FindViewController_iPhone.xib */,
+			);
+			name = Find;
+			sourceTree = "<group>";
+		};
+		5C7DB88214FB578200C9E12C /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				5C7DB89014FB585900C9E12C /* FindViewController_iPad.xib */,
+				5C7DB87614FB532E00C9E12C /* ResultViewController_iPad.xib */,
+			);
+			name = Find;
+			sourceTree = "<group>";
+		};
+		792AB3A01386A7A900F3D595 = {
+			isa = PBXGroup;
+			children = (
+				5CC20EB1160B11BF001FD655 /* Default-568h@2x.png */,
+				79EF5D1513B4F66F00C1C392 /* Default@2x.png */,
+				7987A76F13B3896900330415 /* Default.png */,
+				7987A76D13B3894D00330415 /* Default-Landscape~ipad.png */,
+				7987A76913B3748C00330415 /* Default-Portrait~ipad.png */,
+				7929B5D913993EB5001C2F09 /* iTunesArtwork */,
+				792AB3B51386A7A900F3D595 /* Autotech */,
+				792AB3AE1386A7A900F3D595 /* Frameworks */,
+				792AB3AC1386A7A900F3D595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		792AB3AC1386A7A900F3D595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CB053501649E0D4007DB963 /* autotechTest.app */,
+				5CC21E6D1649FC0900E40E9C /* autotechDev.app */,
+				5CFD01D617A7594600A35DCE /* autotechStag.app */,
+				5CFD036717A7B5F500A35DCE /* autotech.app */,
+				5C89585818D93BFC00BA8B73 /* autotechLocal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		792AB3AE1386A7A900F3D595 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CB1380A1583172F009C9A7D /* QuartzCore.framework */,
+				792AB3AF1386A7A900F3D595 /* UIKit.framework */,
+				792AB3B11386A7A900F3D595 /* Foundation.framework */,
+				792AB3B31386A7A900F3D595 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		792AB3B51386A7A900F3D595 /* Autotech */ = {
+			isa = PBXGroup;
+			children = (
+				792AB3BE1386A7A900F3D595 /* AutotechAppDelegate.h */,
+				792AB3BF1386A7A900F3D595 /* AutotechAppDelegate.m */,
+				79C4077C138D2D9D003CC6AF /* Resources */,
+				792AB3D51386A7D700F3D595 /* Model */,
+				792AB3D41386A7C600F3D595 /* ViewControllers */,
+				792AB3C11386A7A900F3D595 /* iPhone */,
+				792AB3C81386A7A900F3D595 /* iPad */,
+				792AB3B61386A7A900F3D595 /* Supporting Files */,
+			);
+			path = Autotech;
+			sourceTree = "<group>";
+		};
+		792AB3B61386A7A900F3D595 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				792AB3B71386A7A900F3D595 /* Autotech-Info.plist */,
+				5CFD02E917A7989A00A35DCE /* AutotechStag-Info.plist */,
+				5CB053531649E0D5007DB963 /* AutotechTest-Info.plist */,
+				5CFD02F117A7AF1A00A35DCE /* AutotechDev-Info.plist */,
+				5C89585A18D93F7E00BA8B73 /* AutotechLocal-Info.plist */,
+				792AB3B81386A7A900F3D595 /* InfoPlist.strings */,
+				792AB3BB1386A7A900F3D595 /* Autotech-Prefix.pch */,
+				792AB3BC1386A7A900F3D595 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		792AB3C11386A7A900F3D595 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				5C7DB88114FB576F00C9E12C /* Find */,
+				5C1538D4154256AC007FBBF9 /* SortedTicketsViewController_iPhone.xib */,
+				793403E713AA4013002E62AE /* TicketsViewController_iPhone.xib */,
+				5C2B69E4175EE14100998D19 /* TicketDetailViewController_iPhone.xib */,
+				5C18AC5017B6226B00A1D175 /* PICSViewController_iPhone.xib */,
+				79CB78A7139E538800AAA11D /* AddTicketViewController_iPhone.xib */,
+				792AB3C51386A7A900F3D595 /* MainWindow_iPhone.xib */,
+				792AB3C21386A7A900F3D595 /* AutotechAppDelegate_iPhone.h */,
+				792AB3C31386A7A900F3D595 /* AutotechAppDelegate_iPhone.m */,
+				79944A4713B10EE9004ABFD1 /* LogonViewController_iPhone.xib */,
+				79F0EDDC13B3DC1E00ED6D03 /* SettingsViewController_iPhone.xib */,
+				7971215F13CF177D0013C488 /* DefaultTechNotesViewController_iPhone.xib */,
+				5C78035314FDC7F600EB2C68 /* SelectPartDescViewController_iPhone.xib */,
+				79AD932013E0691900852261 /* ViewWithSearchBarViewController_iPhone.xib */,
+				5CA2093C14F739F7008C63AC /* SearchUsersViewController_iPhone.xib */,
+				79E45BAB13E1C3E2004B3FB7 /* OverlayView.xib */,
+				79E975A213F573CB00E32FFD /* PrioritiesViewController_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		792AB3C81386A7A900F3D595 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				5C7DB88214FB578200C9E12C /* Find */,
+				5C1538D7154256E1007FBBF9 /* SortedTicketsViewController_iPad.xib */,
+				792805A513A8F00800E19152 /* TicketsViewController_iPad.xib */,
+				792AB3ED1386A8C400F3D595 /* TicketDetailViewController_iPad.xib */,
+				5C2D62FE17BCAC1000547405 /* PICSViewController_iPad.xib */,
+				7936275213A1341B0094952E /* AddTicketViewController_iPad.xib */,
+				792AB3C91386A7A900F3D595 /* AutotechAppDelegate_iPad.h */,
+				792AB3CA1386A7A900F3D595 /* AutotechAppDelegate_iPad.m */,
+				792AB3CC1386A7A900F3D595 /* MainWindow_iPad.xib */,
+				79EF5CFF13B40DC100C1C392 /* LogonViewController_iPad.xib */,
+				79EF5D0513B411A900C1C392 /* SettingsViewController_iPad.xib */,
+				796312B113D8914000E7324D /* DefaultTechNotesViewController_iPad.xib */,
+				5C78035714FDC9E000EB2C68 /* SelectPartDescViewController_iPad.xib */,
+				7995E37213F1CF3F00F01668 /* ViewWithSearchBarViewController_iPad.xib */,
+				5CA2093F14F73A38008C63AC /* SearchUsersViewController_iPad.xib */,
+				79CD58D013FAE618001ABA2F /* PrioritiesViewController_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		792AB3D41386A7C600F3D595 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5C7DB88014FB575C00C9E12C /* Find */,
+				79CB78AD139E5F5400AAA11D /* Subclasses */,
+				5CFD9D891479E3B700233EA0 /* SortedTicketsViewController.h */,
+				5CFD9D8A1479E3B700233EA0 /* SortedTicketsViewController.m */,
+				792AB3E21386A83100F3D595 /* TicketsViewController.h */,
+				792AB3E31386A83100F3D595 /* TicketsViewController.m */,
+				792AB3E01386A83100F3D595 /* TicketDetailViewController.h */,
+				792AB3E11386A83100F3D595 /* TicketDetailViewController.m */,
+				5C18AC4E17B6226B00A1D175 /* PICSViewController.h */,
+				5C18AC4F17B6226B00A1D175 /* PICSViewController.m */,
+				79CB78AA139E5F4C00AAA11D /* AddTicketViewController.h */,
+				79CB78AB139E5F4C00AAA11D /* AddTicketViewController.m */,
+				799DDB3913B1020C006D0D8B /* HomeViewController.h */,
+				799DDB3A13B1020C006D0D8B /* HomeViewController.m */,
+				799DDB3C13B10616006D0D8B /* LogonViewController.h */,
+				799DDB3D13B10616006D0D8B /* LogonViewController.m */,
+				7971215C13CF15E40013C488 /* DefaultTechNotesViewController.h */,
+				7971215D13CF15E40013C488 /* DefaultTechNotesViewController.m */,
+				5C78035114FDC7F500EB2C68 /* SelectPartDescViewController.h */,
+				5C78035214FDC7F600EB2C68 /* SelectPartDescViewController.m */,
+				79AD931C13E05BCF00852261 /* ViewWithSearchBarViewController.h */,
+				79AD931D13E05BCF00852261 /* ViewWithSearchBarViewController.m */,
+				5CA2093A14F739F6008C63AC /* SearchUsersViewController.h */,
+				5CA2093B14F739F6008C63AC /* SearchUsersViewController.m */,
+				79F0EDDF13B3DC4200ED6D03 /* SettingsViewController.h */,
+				79F0EDE013B3DC4200ED6D03 /* SettingsViewController.m */,
+				79E45BA713E1C081004B3FB7 /* OverlayViewController.h */,
+				79E45BA813E1C082004B3FB7 /* OverlayViewController.m */,
+				79E9759C13F4719E00E32FFD /* PrioritiesViewController.h */,
+				79E9759D13F4719F00E32FFD /* PrioritiesViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		792AB3D51386A7D700F3D595 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				792AB3D61386A80700F3D595 /* Constants.h */,
+				792AB3D71386A80700F3D595 /* Constants.m */,
+				792AB3D81386A80700F3D595 /* Ticket.h */,
+				792AB3D91386A80700F3D595 /* Ticket.m */,
+				796C68171393EA2F00307CBF /* Techs.h */,
+				796C68181393EA2F00307CBF /* Techs.m */,
+				7936271B139EB1A70094952E /* Machine.h */,
+				7936271C139EB1A70094952E /* Machine.m */,
+				79362722139EC4930094952E /* TicketCategory.h */,
+				79362723139EC4930094952E /* TicketCategory.m */,
+				79362743139FA8060094952E /* Location.h */,
+				79362744139FA8060094952E /* Location.m */,
+				799DDB3613B10159006D0D8B /* User.h */,
+				799DDB3713B10159006D0D8B /* User.m */,
+				5CA2093614F73720008C63AC /* Users.h */,
+				5CA2093714F73720008C63AC /* Users.m */,
+				79FE27AA13C24C8C000B0315 /* TicketActivity.h */,
+				79FE27AB13C24C8C000B0315 /* TicketActivity.m */,
+				79E9759F13F5680700E32FFD /* MachinePriority.h */,
+				79E975A013F5680700E32FFD /* MachinePriority.m */,
+				5C7DB87D14FB541300C9E12C /* TechAssociatesTicketsReport.h */,
+				5C7DB87E14FB541300C9E12C /* TechAssociatesTicketsReport.m */,
+				5CB137FE15830A1F009C9A7D /* MachinesReport.h */,
+				5CB137FF15830A1F009C9A7D /* MachinesReport.m */,
+				5C870F0C175DC123001952FA /* Part.h */,
+				5C870F0D175DC123001952FA /* Part.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		79C4077C138D2D9D003CC6AF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79EC180E13B8B08B003F5C5C /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		79CB78AD139E5F5400AAA11D /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				5CB052AF16424851007DB963 /* NSString+URLEscapes.h */,
+				5CB052B016424851007DB963 /* NSString+URLEscapes.m */,
+				792AB3DE1386A83100F3D595 /* LMBSlidingViewController.h */,
+				792AB3DF1386A83100F3D595 /* LMBSlidingViewController.m */,
+				792AB3E41386A83100F3D595 /* UITabBarController + (Rotation).h */,
+				792AB3E51386A83100F3D595 /* UITabBarController + (Rotation).m */,
+				792AB3DC1386A83100F3D595 /* customNavigationController.h */,
+				792AB3DD1386A83100F3D595 /* customNavigationController.m */,
+			);
+			name = Subclasses;
+			sourceTree = "<group>";
+		};
+		79EC180E13B8B08B003F5C5C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5C7DB8D814FC97D700C9E12C /* report.png */,
+				5C7DB8DC14FC985300C9E12C /* report1.png */,
+				5C7DB8D414FC938100C9E12C /* AuxBackground2.png */,
+				5C7DB8D014FC936300C9E12C /* Find.png */,
+				5C7DB8D114FC936400C9E12C /* Find@2x.png */,
+				5C7DB8CE14FC935200C9E12C /* home.png */,
+				5C7DB8CA14FC925300C9E12C /* Reports.png */,
+				5CAB9168148DBE9E00745AEB /* doubleicon.png */,
+				5CAB9169148DBE9E00745AEB /* singleicon.png */,
+				5C14CE1A148331EE00251EFD /* pause_button.png */,
+				5C14CE1B148331EE00251EFD /* play_button.png */,
+				5C14CE051483258000251EFD /* clockicon.png */,
+				796312A913D86C9700E7324D /* Select_Default_Button.png */,
+				79EF5D1313B4F4C200C1C392 /* Settings3.png */,
+				79CD58CE13FAE080001ABA2F /* numberList.png */,
+				79EF5D1113B4F43100C1C392 /* Settings1.png */,
+				79EF5D0F13B4F3DF00C1C392 /* Settings.png */,
+				79EF5D0713B4DDE800C1C392 /* LogOffBackGround_iPad.png */,
+				79EF5D0813B4DDE800C1C392 /* LogOffBackGround_iPhone.png */,
+				79EF5D0313B40F4800C1C392 /* LoginBackGround_Ipad.png */,
+				79EF5D0113B40EC800C1C392 /* LaunchIpadPortrait.png */,
+				79A42E6613B3A425005F8A51 /* LoginBackGround_iPhone.png */,
+				7987A77113B3992E00330415 /* LaunchIphone.png */,
+				7936275013A12FF40094952E /* iPhone_Orange_Button.png */,
+				79362719139E9B6A0094952E /* Arrow_Down.png */,
+				7959E12913D73DC1007A09C9 /* iPhone_black_button.png */,
+				79EBF653138DE25900CE0E61 /* iphone_delete_button.png */,
+				795AC157138706F3009141C5 /* AutoTech72.png */,
+				795AC155138706E5009141C5 /* AutoTech114.png */,
+				795AC152138706D7009141C5 /* AutoTech57.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C8957E418D93BFC00BA8B73 /* autotechLocal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C89585518D93BFC00BA8B73 /* Build configuration list for PBXNativeTarget "autotechLocal" */;
+			buildPhases = (
+				5C8957E518D93BFC00BA8B73 /* Sources */,
+				5C89580B18D93BFC00BA8B73 /* Frameworks */,
+				5C89581018D93BFC00BA8B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = autotechLocal;
+			productName = Autotech;
+			productReference = 5C89585818D93BFC00BA8B73 /* autotechLocal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CB052E01649E0D4007DB963 /* autotechTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB0534D1649E0D4007DB963 /* Build configuration list for PBXNativeTarget "autotechTest" */;
+			buildPhases = (
+				5CB052E11649E0D4007DB963 /* Sources */,
+				5CB053051649E0D4007DB963 /* Frameworks */,
+				5CB0530A1649E0D4007DB963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = autotechTest;
+			productName = Autotech;
+			productReference = 5CB053501649E0D4007DB963 /* autotechTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CC21DFD1649FC0900E40E9C /* autotechDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC21E6A1649FC0900E40E9C /* Build configuration list for PBXNativeTarget "autotechDev" */;
+			buildPhases = (
+				5CC21DFE1649FC0900E40E9C /* Sources */,
+				5CC21E221649FC0900E40E9C /* Frameworks */,
+				5CC21E271649FC0900E40E9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = autotechDev;
+			productName = Autotech;
+			productReference = 5CC21E6D1649FC0900E40E9C /* autotechDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CFD016417A7594600A35DCE /* autotechStag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CFD01D317A7594600A35DCE /* Build configuration list for PBXNativeTarget "autotechStag" */;
+			buildPhases = (
+				5CFD016517A7594600A35DCE /* Sources */,
+				5CFD018A17A7594600A35DCE /* Frameworks */,
+				5CFD018F17A7594600A35DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = autotechStag;
+			productName = Autotech;
+			productReference = 5CFD01D617A7594600A35DCE /* autotechStag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CFD02F617A7B5F500A35DCE /* autotech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CFD036417A7B5F500A35DCE /* Build configuration list for PBXNativeTarget "autotech" */;
+			buildPhases = (
+				5CFD02F717A7B5F500A35DCE /* Sources */,
+				5CFD031C17A7B5F500A35DCE /* Frameworks */,
+				5CFD032117A7B5F500A35DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = autotech;
+			productName = Autotech;
+			productReference = 5CFD036717A7B5F500A35DCE /* autotech.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		792AB3A21386A7A900F3D595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "                     ";
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Samtec;
+			};
+			buildConfigurationList = 792AB3A51386A7A900F3D595 /* Build configuration list for PBXProject "Autotech" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 792AB3A01386A7A900F3D595;
+			productRefGroup = 792AB3AC1386A7A900F3D595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CFD02F617A7B5F500A35DCE /* autotech */,
+				5CFD016417A7594600A35DCE /* autotechStag */,
+				5CB052E01649E0D4007DB963 /* autotechTest */,
+				5CC21DFD1649FC0900E40E9C /* autotechDev */,
+				5C8957E418D93BFC00BA8B73 /* autotechLocal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C89581018D93BFC00BA8B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C89581118D93BFC00BA8B73 /* InfoPlist.strings in Resources */,
+				5C89581218D93BFC00BA8B73 /* MainWindow_iPhone.xib in Resources */,
+				5C89581318D93BFC00BA8B73 /* MainWindow_iPad.xib in Resources */,
+				5C89581418D93BFC00BA8B73 /* TicketDetailViewController_iPad.xib in Resources */,
+				5C89581518D93BFC00BA8B73 /* AutoTech57.png in Resources */,
+				5C89581618D93BFC00BA8B73 /* AutoTech114.png in Resources */,
+				5C89581718D93BFC00BA8B73 /* AutoTech72.png in Resources */,
+				5C89581818D93BFC00BA8B73 /* iphone_delete_button.png in Resources */,
+				5C89581918D93BFC00BA8B73 /* iTunesArtwork in Resources */,
+				5C89581A18D93BFC00BA8B73 /* AddTicketViewController_iPhone.xib in Resources */,
+				5C89581B18D93BFC00BA8B73 /* Arrow_Down.png in Resources */,
+				5C89581C18D93BFC00BA8B73 /* iPhone_Orange_Button.png in Resources */,
+				5C89581D18D93BFC00BA8B73 /* AddTicketViewController_iPad.xib in Resources */,
+				5C89581E18D93BFC00BA8B73 /* TicketsViewController_iPad.xib in Resources */,
+				5C89581F18D93BFC00BA8B73 /* TicketsViewController_iPhone.xib in Resources */,
+				5C89582018D93BFC00BA8B73 /* LogonViewController_iPhone.xib in Resources */,
+				5C89582118D93BFC00BA8B73 /* Default-Portrait~ipad.png in Resources */,
+				5C89582218D93BFC00BA8B73 /* Default-Landscape~ipad.png in Resources */,
+				5C89582318D93BFC00BA8B73 /* Default.png in Resources */,
+				5C89582418D93BFC00BA8B73 /* LaunchIphone.png in Resources */,
+				5C89582518D93BFC00BA8B73 /* LoginBackGround_iPhone.png in Resources */,
+				5C89582618D93BFC00BA8B73 /* SettingsViewController_iPhone.xib in Resources */,
+				5C89582718D93BFC00BA8B73 /* LogonViewController_iPad.xib in Resources */,
+				5C89582818D93BFC00BA8B73 /* LaunchIpadPortrait.png in Resources */,
+				5C89582918D93BFC00BA8B73 /* LoginBackGround_Ipad.png in Resources */,
+				5C89582A18D93BFC00BA8B73 /* SettingsViewController_iPad.xib in Resources */,
+				5C89582B18D93BFC00BA8B73 /* LogOffBackGround_iPad.png in Resources */,
+				5C89582C18D93BFC00BA8B73 /* LogOffBackGround_iPhone.png in Resources */,
+				5C89582D18D93BFC00BA8B73 /* Settings.png in Resources */,
+				5C89582E18D93BFC00BA8B73 /* Settings1.png in Resources */,
+				5C89582F18D93BFC00BA8B73 /* Settings3.png in Resources */,
+				5C89583018D93BFC00BA8B73 /* Default@2x.png in Resources */,
+				5C89583118D93BFC00BA8B73 /* DefaultTechNotesViewController_iPhone.xib in Resources */,
+				5C89583218D93BFC00BA8B73 /* iPhone_black_button.png in Resources */,
+				5C89583318D93BFC00BA8B73 /* Select_Default_Button.png in Resources */,
+				5C89583418D93BFC00BA8B73 /* DefaultTechNotesViewController_iPad.xib in Resources */,
+				5C89583518D93BFC00BA8B73 /* ViewWithSearchBarViewController_iPhone.xib in Resources */,
+				5C89583618D93BFC00BA8B73 /* OverlayView.xib in Resources */,
+				5C89583718D93BFC00BA8B73 /* ViewWithSearchBarViewController_iPad.xib in Resources */,
+				5C89583818D93BFC00BA8B73 /* PrioritiesViewController_iPhone.xib in Resources */,
+				5C89583918D93BFC00BA8B73 /* numberList.png in Resources */,
+				5C89583A18D93BFC00BA8B73 /* PrioritiesViewController_iPad.xib in Resources */,
+				5C89583B18D93BFC00BA8B73 /* clockicon.png in Resources */,
+				5C89583C18D93BFC00BA8B73 /* pause_button.png in Resources */,
+				5C89583D18D93BFC00BA8B73 /* play_button.png in Resources */,
+				5C89583E18D93BFC00BA8B73 /* doubleicon.png in Resources */,
+				5C89583F18D93BFC00BA8B73 /* singleicon.png in Resources */,
+				5C89584018D93BFC00BA8B73 /* SearchUsersViewController_iPhone.xib in Resources */,
+				5C89584118D93BFC00BA8B73 /* SearchUsersViewController_iPad.xib in Resources */,
+				5C89584218D93BFC00BA8B73 /* ResultViewController_iPad.xib in Resources */,
+				5C89584318D93BFC00BA8B73 /* ResultViewController_iPhone.xib in Resources */,
+				5C89584418D93BFC00BA8B73 /* FindViewController_iPad.xib in Resources */,
+				5C89584518D93BFC00BA8B73 /* Reports.png in Resources */,
+				5C89584618D93BFC00BA8B73 /* home.png in Resources */,
+				5C89584718D93BFC00BA8B73 /* Find.png in Resources */,
+				5C89584818D93BFC00BA8B73 /* Find@2x.png in Resources */,
+				5C89584918D93BFC00BA8B73 /* AuxBackground2.png in Resources */,
+				5C89584A18D93BFC00BA8B73 /* report.png in Resources */,
+				5C89584B18D93BFC00BA8B73 /* report1.png in Resources */,
+				5C89584C18D93BFC00BA8B73 /* SelectPartDescViewController_iPhone.xib in Resources */,
+				5C89584D18D93BFC00BA8B73 /* SelectPartDescViewController_iPad.xib in Resources */,
+				5C89584E18D93BFC00BA8B73 /* SortedTicketsViewController_iPhone.xib in Resources */,
+				5C89584F18D93BFC00BA8B73 /* SortedTicketsViewController_iPad.xib in Resources */,
+				5C89585018D93BFC00BA8B73 /* FindViewController_iPhone.xib in Resources */,
+				5C89585118D93BFC00BA8B73 /* Default-568h@2x.png in Resources */,
+				5C89585218D93BFC00BA8B73 /* TicketDetailViewController_iPhone.xib in Resources */,
+				5C89585318D93BFC00BA8B73 /* PICSViewController_iPhone.xib in Resources */,
+				5C89585418D93BFC00BA8B73 /* PICSViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB0530A1649E0D4007DB963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB0530B1649E0D4007DB963 /* InfoPlist.strings in Resources */,
+				5CB0530C1649E0D4007DB963 /* MainWindow_iPhone.xib in Resources */,
+				5CB0530D1649E0D4007DB963 /* MainWindow_iPad.xib in Resources */,
+				5CB0530E1649E0D4007DB963 /* TicketDetailViewController_iPad.xib in Resources */,
+				5CB053101649E0D4007DB963 /* AutoTech57.png in Resources */,
+				5CB053111649E0D4007DB963 /* AutoTech114.png in Resources */,
+				5CB053121649E0D4007DB963 /* AutoTech72.png in Resources */,
+				5CB053131649E0D4007DB963 /* iphone_delete_button.png in Resources */,
+				5CB053141649E0D4007DB963 /* iTunesArtwork in Resources */,
+				5CB053151649E0D4007DB963 /* AddTicketViewController_iPhone.xib in Resources */,
+				5CB053161649E0D4007DB963 /* Arrow_Down.png in Resources */,
+				5CB053171649E0D4007DB963 /* iPhone_Orange_Button.png in Resources */,
+				5CB053181649E0D4007DB963 /* AddTicketViewController_iPad.xib in Resources */,
+				5CB053191649E0D4007DB963 /* TicketsViewController_iPad.xib in Resources */,
+				5CB0531A1649E0D4007DB963 /* TicketsViewController_iPhone.xib in Resources */,
+				5CB0531B1649E0D4007DB963 /* LogonViewController_iPhone.xib in Resources */,
+				5CB0531C1649E0D4007DB963 /* Default-Portrait~ipad.png in Resources */,
+				5CB0531D1649E0D4007DB963 /* Default-Landscape~ipad.png in Resources */,
+				5CB0531E1649E0D4007DB963 /* Default.png in Resources */,
+				5CB0531F1649E0D4007DB963 /* LaunchIphone.png in Resources */,
+				5CB053201649E0D4007DB963 /* LoginBackGround_iPhone.png in Resources */,
+				5CB053211649E0D4007DB963 /* SettingsViewController_iPhone.xib in Resources */,
+				5CB053221649E0D4007DB963 /* LogonViewController_iPad.xib in Resources */,
+				5CB053231649E0D4007DB963 /* LaunchIpadPortrait.png in Resources */,
+				5CB053241649E0D4007DB963 /* LoginBackGround_Ipad.png in Resources */,
+				5CB053251649E0D4007DB963 /* SettingsViewController_iPad.xib in Resources */,
+				5CB053261649E0D4007DB963 /* LogOffBackGround_iPad.png in Resources */,
+				5CB053271649E0D4007DB963 /* LogOffBackGround_iPhone.png in Resources */,
+				5CB053281649E0D4007DB963 /* Settings.png in Resources */,
+				5CB053291649E0D4007DB963 /* Settings1.png in Resources */,
+				5CB0532A1649E0D4007DB963 /* Settings3.png in Resources */,
+				5CB0532B1649E0D4007DB963 /* Default@2x.png in Resources */,
+				5CB0532C1649E0D4007DB963 /* DefaultTechNotesViewController_iPhone.xib in Resources */,
+				5CB0532D1649E0D4007DB963 /* iPhone_black_button.png in Resources */,
+				5CB0532E1649E0D4007DB963 /* Select_Default_Button.png in Resources */,
+				5CB0532F1649E0D4007DB963 /* DefaultTechNotesViewController_iPad.xib in Resources */,
+				5CB053301649E0D4007DB963 /* ViewWithSearchBarViewController_iPhone.xib in Resources */,
+				5CB053311649E0D4007DB963 /* OverlayView.xib in Resources */,
+				5CB053321649E0D4007DB963 /* ViewWithSearchBarViewController_iPad.xib in Resources */,
+				5CB053331649E0D4007DB963 /* PrioritiesViewController_iPhone.xib in Resources */,
+				5CB053341649E0D4007DB963 /* numberList.png in Resources */,
+				5CB053351649E0D4007DB963 /* PrioritiesViewController_iPad.xib in Resources */,
+				5CB053361649E0D4007DB963 /* clockicon.png in Resources */,
+				5CB053371649E0D4007DB963 /* pause_button.png in Resources */,
+				5CB053381649E0D4007DB963 /* play_button.png in Resources */,
+				5CB053391649E0D4007DB963 /* doubleicon.png in Resources */,
+				5CB0533A1649E0D4007DB963 /* singleicon.png in Resources */,
+				5CB0533B1649E0D4007DB963 /* SearchUsersViewController_iPhone.xib in Resources */,
+				5CB0533C1649E0D4007DB963 /* SearchUsersViewController_iPad.xib in Resources */,
+				5CB0533D1649E0D4007DB963 /* ResultViewController_iPad.xib in Resources */,
+				5CB0533E1649E0D4007DB963 /* ResultViewController_iPhone.xib in Resources */,
+				5CB0533F1649E0D4007DB963 /* FindViewController_iPad.xib in Resources */,
+				5CB053401649E0D4007DB963 /* Reports.png in Resources */,
+				5CB053411649E0D4007DB963 /* home.png in Resources */,
+				5CB053421649E0D4007DB963 /* Find.png in Resources */,
+				5CB053431649E0D4007DB963 /* Find@2x.png in Resources */,
+				5CB053441649E0D4007DB963 /* AuxBackground2.png in Resources */,
+				5CB053451649E0D4007DB963 /* report.png in Resources */,
+				5CB053461649E0D4007DB963 /* report1.png in Resources */,
+				5CB053471649E0D4007DB963 /* SelectPartDescViewController_iPhone.xib in Resources */,
+				5CB053481649E0D4007DB963 /* SelectPartDescViewController_iPad.xib in Resources */,
+				5CB053491649E0D4007DB963 /* SortedTicketsViewController_iPhone.xib in Resources */,
+				5CB0534A1649E0D4007DB963 /* SortedTicketsViewController_iPad.xib in Resources */,
+				5CB0534B1649E0D4007DB963 /* FindViewController_iPhone.xib in Resources */,
+				5CB0534C1649E0D4007DB963 /* Default-568h@2x.png in Resources */,
+				5C2B69E6175EE14100998D19 /* TicketDetailViewController_iPhone.xib in Resources */,
+				5C18AC5717B6226B00A1D175 /* PICSViewController_iPhone.xib in Resources */,
+				5C2D630117BCAC1000547405 /* PICSViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC21E271649FC0900E40E9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC21E281649FC0900E40E9C /* InfoPlist.strings in Resources */,
+				5CC21E291649FC0900E40E9C /* MainWindow_iPhone.xib in Resources */,
+				5CC21E2A1649FC0900E40E9C /* MainWindow_iPad.xib in Resources */,
+				5CC21E2B1649FC0900E40E9C /* TicketDetailViewController_iPad.xib in Resources */,
+				5CC21E2D1649FC0900E40E9C /* AutoTech57.png in Resources */,
+				5CC21E2E1649FC0900E40E9C /* AutoTech114.png in Resources */,
+				5CC21E2F1649FC0900E40E9C /* AutoTech72.png in Resources */,
+				5CC21E301649FC0900E40E9C /* iphone_delete_button.png in Resources */,
+				5CC21E311649FC0900E40E9C /* iTunesArtwork in Resources */,
+				5CC21E321649FC0900E40E9C /* AddTicketViewController_iPhone.xib in Resources */,
+				5CC21E331649FC0900E40E9C /* Arrow_Down.png in Resources */,
+				5CC21E341649FC0900E40E9C /* iPhone_Orange_Button.png in Resources */,
+				5CC21E351649FC0900E40E9C /* AddTicketViewController_iPad.xib in Resources */,
+				5CC21E361649FC0900E40E9C /* TicketsViewController_iPad.xib in Resources */,
+				5CC21E371649FC0900E40E9C /* TicketsViewController_iPhone.xib in Resources */,
+				5CC21E381649FC0900E40E9C /* LogonViewController_iPhone.xib in Resources */,
+				5CC21E391649FC0900E40E9C /* Default-Portrait~ipad.png in Resources */,
+				5CC21E3A1649FC0900E40E9C /* Default-Landscape~ipad.png in Resources */,
+				5CC21E3B1649FC0900E40E9C /* Default.png in Resources */,
+				5CC21E3C1649FC0900E40E9C /* LaunchIphone.png in Resources */,
+				5CC21E3D1649FC0900E40E9C /* LoginBackGround_iPhone.png in Resources */,
+				5CC21E3E1649FC0900E40E9C /* SettingsViewController_iPhone.xib in Resources */,
+				5CC21E3F1649FC0900E40E9C /* LogonViewController_iPad.xib in Resources */,
+				5CC21E401649FC0900E40E9C /* LaunchIpadPortrait.png in Resources */,
+				5CC21E411649FC0900E40E9C /* LoginBackGround_Ipad.png in Resources */,
+				5CC21E421649FC0900E40E9C /* SettingsViewController_iPad.xib in Resources */,
+				5CC21E431649FC0900E40E9C /* LogOffBackGround_iPad.png in Resources */,
+				5CC21E441649FC0900E40E9C /* LogOffBackGround_iPhone.png in Resources */,
+				5CC21E451649FC0900E40E9C /* Settings.png in Resources */,
+				5CC21E461649FC0900E40E9C /* Settings1.png in Resources */,
+				5CC21E471649FC0900E40E9C /* Settings3.png in Resources */,
+				5CC21E481649FC0900E40E9C /* Default@2x.png in Resources */,
+				5CC21E491649FC0900E40E9C /* DefaultTechNotesViewController_iPhone.xib in Resources */,
+				5CC21E4A1649FC0900E40E9C /* iPhone_black_button.png in Resources */,
+				5CC21E4B1649FC0900E40E9C /* Select_Default_Button.png in Resources */,
+				5CC21E4C1649FC0900E40E9C /* DefaultTechNotesViewController_iPad.xib in Resources */,
+				5CC21E4D1649FC0900E40E9C /* ViewWithSearchBarViewController_iPhone.xib in Resources */,
+				5CC21E4E1649FC0900E40E9C /* OverlayView.xib in Resources */,
+				5CC21E4F1649FC0900E40E9C /* ViewWithSearchBarViewController_iPad.xib in Resources */,
+				5CC21E501649FC0900E40E9C /* PrioritiesViewController_iPhone.xib in Resources */,
+				5CC21E511649FC0900E40E9C /* numberList.png in Resources */,
+				5CC21E521649FC0900E40E9C /* PrioritiesViewController_iPad.xib in Resources */,
+				5CC21E531649FC0900E40E9C /* clockicon.png in Resources */,
+				5CC21E541649FC0900E40E9C /* pause_button.png in Resources */,
+				5CC21E551649FC0900E40E9C /* play_button.png in Resources */,
+				5CC21E561649FC0900E40E9C /* doubleicon.png in Resources */,
+				5CC21E571649FC0900E40E9C /* singleicon.png in Resources */,
+				5CC21E581649FC0900E40E9C /* SearchUsersViewController_iPhone.xib in Resources */,
+				5CC21E591649FC0900E40E9C /* SearchUsersViewController_iPad.xib in Resources */,
+				5CC21E5A1649FC0900E40E9C /* ResultViewController_iPad.xib in Resources */,
+				5CC21E5B1649FC0900E40E9C /* ResultViewController_iPhone.xib in Resources */,
+				5CC21E5C1649FC0900E40E9C /* FindViewController_iPad.xib in Resources */,
+				5CC21E5D1649FC0900E40E9C /* Reports.png in Resources */,
+				5CC21E5E1649FC0900E40E9C /* home.png in Resources */,
+				5CC21E5F1649FC0900E40E9C /* Find.png in Resources */,
+				5CC21E601649FC0900E40E9C /* Find@2x.png in Resources */,
+				5CC21E611649FC0900E40E9C /* AuxBackground2.png in Resources */,
+				5CC21E621649FC0900E40E9C /* report.png in Resources */,
+				5CC21E631649FC0900E40E9C /* report1.png in Resources */,
+				5CC21E641649FC0900E40E9C /* SelectPartDescViewController_iPhone.xib in Resources */,
+				5CC21E651649FC0900E40E9C /* SelectPartDescViewController_iPad.xib in Resources */,
+				5CC21E661649FC0900E40E9C /* SortedTicketsViewController_iPhone.xib in Resources */,
+				5CC21E671649FC0900E40E9C /* SortedTicketsViewController_iPad.xib in Resources */,
+				5CC21E681649FC0900E40E9C /* FindViewController_iPhone.xib in Resources */,
+				5CC21E691649FC0900E40E9C /* Default-568h@2x.png in Resources */,
+				5C2B69E7175EE14100998D19 /* TicketDetailViewController_iPhone.xib in Resources */,
+				5C18AC5817B6226B00A1D175 /* PICSViewController_iPhone.xib in Resources */,
+				5C2D630217BCAC1000547405 /* PICSViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFD018F17A7594600A35DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFD019017A7594600A35DCE /* InfoPlist.strings in Resources */,
+				5CFD019117A7594600A35DCE /* MainWindow_iPhone.xib in Resources */,
+				5CFD019217A7594600A35DCE /* MainWindow_iPad.xib in Resources */,
+				5CFD019317A7594600A35DCE /* TicketDetailViewController_iPad.xib in Resources */,
+				5CFD019417A7594600A35DCE /* AutoTech57.png in Resources */,
+				5CFD019517A7594600A35DCE /* AutoTech114.png in Resources */,
+				5CFD019617A7594600A35DCE /* AutoTech72.png in Resources */,
+				5CFD019717A7594600A35DCE /* iphone_delete_button.png in Resources */,
+				5CFD019817A7594600A35DCE /* iTunesArtwork in Resources */,
+				5CFD019917A7594600A35DCE /* AddTicketViewController_iPhone.xib in Resources */,
+				5CFD019A17A7594600A35DCE /* Arrow_Down.png in Resources */,
+				5CFD019B17A7594600A35DCE /* iPhone_Orange_Button.png in Resources */,
+				5CFD019C17A7594600A35DCE /* AddTicketViewController_iPad.xib in Resources */,
+				5CFD019D17A7594600A35DCE /* TicketsViewController_iPad.xib in Resources */,
+				5CFD019E17A7594600A35DCE /* TicketsViewController_iPhone.xib in Resources */,
+				5CFD019F17A7594600A35DCE /* LogonViewController_iPhone.xib in Resources */,
+				5CFD01A017A7594600A35DCE /* Default-Portrait~ipad.png in Resources */,
+				5CFD01A117A7594600A35DCE /* Default-Landscape~ipad.png in Resources */,
+				5CFD01A217A7594600A35DCE /* Default.png in Resources */,
+				5CFD01A317A7594600A35DCE /* LaunchIphone.png in Resources */,
+				5CFD01A417A7594600A35DCE /* LoginBackGround_iPhone.png in Resources */,
+				5CFD01A517A7594600A35DCE /* SettingsViewController_iPhone.xib in Resources */,
+				5CFD01A617A7594600A35DCE /* LogonViewController_iPad.xib in Resources */,
+				5CFD01A717A7594600A35DCE /* LaunchIpadPortrait.png in Resources */,
+				5CFD01A817A7594600A35DCE /* LoginBackGround_Ipad.png in Resources */,
+				5CFD01A917A7594600A35DCE /* SettingsViewController_iPad.xib in Resources */,
+				5CFD01AA17A7594600A35DCE /* LogOffBackGround_iPad.png in Resources */,
+				5CFD01AB17A7594600A35DCE /* LogOffBackGround_iPhone.png in Resources */,
+				5CFD01AC17A7594600A35DCE /* Settings.png in Resources */,
+				5CFD01AD17A7594600A35DCE /* Settings1.png in Resources */,
+				5CFD01AE17A7594600A35DCE /* Settings3.png in Resources */,
+				5CFD01AF17A7594600A35DCE /* Default@2x.png in Resources */,
+				5CFD01B017A7594600A35DCE /* DefaultTechNotesViewController_iPhone.xib in Resources */,
+				5CFD01B117A7594600A35DCE /* iPhone_black_button.png in Resources */,
+				5CFD01B217A7594600A35DCE /* Select_Default_Button.png in Resources */,
+				5CFD01B317A7594600A35DCE /* DefaultTechNotesViewController_iPad.xib in Resources */,
+				5CFD01B417A7594600A35DCE /* ViewWithSearchBarViewController_iPhone.xib in Resources */,
+				5CFD01B517A7594600A35DCE /* OverlayView.xib in Resources */,
+				5CFD01B617A7594600A35DCE /* ViewWithSearchBarViewController_iPad.xib in Resources */,
+				5CFD01B717A7594600A35DCE /* PrioritiesViewController_iPhone.xib in Resources */,
+				5CFD01B817A7594600A35DCE /* numberList.png in Resources */,
+				5CFD01B917A7594600A35DCE /* PrioritiesViewController_iPad.xib in Resources */,
+				5CFD01BA17A7594600A35DCE /* clockicon.png in Resources */,
+				5CFD01BB17A7594600A35DCE /* pause_button.png in Resources */,
+				5CFD01BC17A7594600A35DCE /* play_button.png in Resources */,
+				5CFD01BD17A7594600A35DCE /* doubleicon.png in Resources */,
+				5CFD01BE17A7594600A35DCE /* singleicon.png in Resources */,
+				5CFD01BF17A7594600A35DCE /* SearchUsersViewController_iPhone.xib in Resources */,
+				5CFD01C017A7594600A35DCE /* SearchUsersViewController_iPad.xib in Resources */,
+				5CFD01C117A7594600A35DCE /* ResultViewController_iPad.xib in Resources */,
+				5CFD01C217A7594600A35DCE /* ResultViewController_iPhone.xib in Resources */,
+				5CFD01C317A7594600A35DCE /* FindViewController_iPad.xib in Resources */,
+				5CFD01C417A7594600A35DCE /* Reports.png in Resources */,
+				5CFD01C517A7594600A35DCE /* home.png in Resources */,
+				5CFD01C617A7594600A35DCE /* Find.png in Resources */,
+				5CFD01C717A7594600A35DCE /* Find@2x.png in Resources */,
+				5CFD01C817A7594600A35DCE /* AuxBackground2.png in Resources */,
+				5CFD01C917A7594600A35DCE /* report.png in Resources */,
+				5CFD01CA17A7594600A35DCE /* report1.png in Resources */,
+				5CFD01CB17A7594600A35DCE /* SelectPartDescViewController_iPhone.xib in Resources */,
+				5CFD01CC17A7594600A35DCE /* SelectPartDescViewController_iPad.xib in Resources */,
+				5CFD01CD17A7594600A35DCE /* SortedTicketsViewController_iPhone.xib in Resources */,
+				5CFD01CE17A7594600A35DCE /* SortedTicketsViewController_iPad.xib in Resources */,
+				5CFD01CF17A7594600A35DCE /* FindViewController_iPhone.xib in Resources */,
+				5CFD01D017A7594600A35DCE /* Default-568h@2x.png in Resources */,
+				5CFD01D217A7594600A35DCE /* TicketDetailViewController_iPhone.xib in Resources */,
+				5C18AC5617B6226B00A1D175 /* PICSViewController_iPhone.xib in Resources */,
+				5C2D630017BCAC1000547405 /* PICSViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFD032117A7B5F500A35DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFD032217A7B5F500A35DCE /* InfoPlist.strings in Resources */,
+				5CFD032317A7B5F500A35DCE /* MainWindow_iPhone.xib in Resources */,
+				5CFD032417A7B5F500A35DCE /* MainWindow_iPad.xib in Resources */,
+				5CFD032517A7B5F500A35DCE /* TicketDetailViewController_iPad.xib in Resources */,
+				5CFD032617A7B5F500A35DCE /* AutoTech57.png in Resources */,
+				5CFD032717A7B5F500A35DCE /* AutoTech114.png in Resources */,
+				5CFD032817A7B5F500A35DCE /* AutoTech72.png in Resources */,
+				5CFD032917A7B5F500A35DCE /* iphone_delete_button.png in Resources */,
+				5CFD032A17A7B5F500A35DCE /* iTunesArtwork in Resources */,
+				5CFD032B17A7B5F500A35DCE /* AddTicketViewController_iPhone.xib in Resources */,
+				5CFD032C17A7B5F500A35DCE /* Arrow_Down.png in Resources */,
+				5CFD032D17A7B5F500A35DCE /* iPhone_Orange_Button.png in Resources */,
+				5CFD032E17A7B5F500A35DCE /* AddTicketViewController_iPad.xib in Resources */,
+				5CFD032F17A7B5F500A35DCE /* TicketsViewController_iPad.xib in Resources */,
+				5CFD033017A7B5F500A35DCE /* TicketsViewController_iPhone.xib in Resources */,
+				5CFD033117A7B5F500A35DCE /* LogonViewController_iPhone.xib in Resources */,
+				5CFD033217A7B5F500A35DCE /* Default-Portrait~ipad.png in Resources */,
+				5CFD033317A7B5F500A35DCE /* Default-Landscape~ipad.png in Resources */,
+				5CFD033417A7B5F500A35DCE /* Default.png in Resources */,
+				5CFD033517A7B5F500A35DCE /* LaunchIphone.png in Resources */,
+				5CFD033617A7B5F500A35DCE /* LoginBackGround_iPhone.png in Resources */,
+				5CFD033717A7B5F500A35DCE /* SettingsViewController_iPhone.xib in Resources */,
+				5CFD033817A7B5F500A35DCE /* LogonViewController_iPad.xib in Resources */,
+				5CFD033917A7B5F500A35DCE /* LaunchIpadPortrait.png in Resources */,
+				5CFD033A17A7B5F500A35DCE /* LoginBackGround_Ipad.png in Resources */,
+				5CFD033B17A7B5F500A35DCE /* SettingsViewController_iPad.xib in Resources */,
+				5CFD033C17A7B5F500A35DCE /* LogOffBackGround_iPad.png in Resources */,
+				5CFD033D17A7B5F500A35DCE /* LogOffBackGround_iPhone.png in Resources */,
+				5CFD033E17A7B5F500A35DCE /* Settings.png in Resources */,
+				5CFD033F17A7B5F500A35DCE /* Settings1.png in Resources */,
+				5CFD034017A7B5F500A35DCE /* Settings3.png in Resources */,
+				5CFD034117A7B5F500A35DCE /* Default@2x.png in Resources */,
+				5CFD034217A7B5F500A35DCE /* DefaultTechNotesViewController_iPhone.xib in Resources */,
+				5CFD034317A7B5F500A35DCE /* iPhone_black_button.png in Resources */,
+				5CFD034417A7B5F500A35DCE /* Select_Default_Button.png in Resources */,
+				5CFD034517A7B5F500A35DCE /* DefaultTechNotesViewController_iPad.xib in Resources */,
+				5CFD034617A7B5F500A35DCE /* ViewWithSearchBarViewController_iPhone.xib in Resources */,
+				5CFD034717A7B5F500A35DCE /* OverlayView.xib in Resources */,
+				5CFD034817A7B5F500A35DCE /* ViewWithSearchBarViewController_iPad.xib in Resources */,
+				5CFD034917A7B5F500A35DCE /* PrioritiesViewController_iPhone.xib in Resources */,
+				5CFD034A17A7B5F500A35DCE /* numberList.png in Resources */,
+				5CFD034B17A7B5F500A35DCE /* PrioritiesViewController_iPad.xib in Resources */,
+				5CFD034C17A7B5F500A35DCE /* clockicon.png in Resources */,
+				5CFD034D17A7B5F500A35DCE /* pause_button.png in Resources */,
+				5CFD034E17A7B5F500A35DCE /* play_button.png in Resources */,
+				5CFD034F17A7B5F500A35DCE /* doubleicon.png in Resources */,
+				5CFD035017A7B5F500A35DCE /* singleicon.png in Resources */,
+				5CFD035117A7B5F500A35DCE /* SearchUsersViewController_iPhone.xib in Resources */,
+				5CFD035217A7B5F500A35DCE /* SearchUsersViewController_iPad.xib in Resources */,
+				5CFD035317A7B5F500A35DCE /* ResultViewController_iPad.xib in Resources */,
+				5CFD035417A7B5F500A35DCE /* ResultViewController_iPhone.xib in Resources */,
+				5CFD035517A7B5F500A35DCE /* FindViewController_iPad.xib in Resources */,
+				5CFD035617A7B5F500A35DCE /* Reports.png in Resources */,
+				5CFD035717A7B5F500A35DCE /* home.png in Resources */,
+				5CFD035817A7B5F500A35DCE /* Find.png in Resources */,
+				5CFD035917A7B5F500A35DCE /* Find@2x.png in Resources */,
+				5CFD035A17A7B5F500A35DCE /* AuxBackground2.png in Resources */,
+				5CFD035B17A7B5F500A35DCE /* report.png in Resources */,
+				5CFD035C17A7B5F500A35DCE /* report1.png in Resources */,
+				5CFD035D17A7B5F500A35DCE /* SelectPartDescViewController_iPhone.xib in Resources */,
+				5CFD035E17A7B5F500A35DCE /* SelectPartDescViewController_iPad.xib in Resources */,
+				5CFD035F17A7B5F500A35DCE /* SortedTicketsViewController_iPhone.xib in Resources */,
+				5CFD036017A7B5F500A35DCE /* SortedTicketsViewController_iPad.xib in Resources */,
+				5CFD036117A7B5F500A35DCE /* FindViewController_iPhone.xib in Resources */,
+				5CFD036217A7B5F500A35DCE /* Default-568h@2x.png in Resources */,
+				5CFD036317A7B5F500A35DCE /* TicketDetailViewController_iPhone.xib in Resources */,
+				5C18AC5517B6226B00A1D175 /* PICSViewController_iPhone.xib in Resources */,
+				5C2D62FF17BCAC1000547405 /* PICSViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C8957E518D93BFC00BA8B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8957E618D93BFC00BA8B73 /* main.m in Sources */,
+				5C8957E718D93BFC00BA8B73 /* AutotechAppDelegate.m in Sources */,
+				5C8957E818D93BFC00BA8B73 /* AutotechAppDelegate_iPhone.m in Sources */,
+				5C8957E918D93BFC00BA8B73 /* AutotechAppDelegate_iPad.m in Sources */,
+				5C8957EA18D93BFC00BA8B73 /* Constants.m in Sources */,
+				5C8957EB18D93BFC00BA8B73 /* Ticket.m in Sources */,
+				5C8957EC18D93BFC00BA8B73 /* customNavigationController.m in Sources */,
+				5C8957ED18D93BFC00BA8B73 /* LMBSlidingViewController.m in Sources */,
+				5C8957EE18D93BFC00BA8B73 /* TicketDetailViewController.m in Sources */,
+				5C8957EF18D93BFC00BA8B73 /* TicketsViewController.m in Sources */,
+				5C8957F018D93BFC00BA8B73 /* UITabBarController + (Rotation).m in Sources */,
+				5C8957F118D93BFC00BA8B73 /* Techs.m in Sources */,
+				5C8957F218D93BFC00BA8B73 /* AddTicketViewController.m in Sources */,
+				5C8957F318D93BFC00BA8B73 /* Machine.m in Sources */,
+				5C8957F418D93BFC00BA8B73 /* TicketCategory.m in Sources */,
+				5C8957F518D93BFC00BA8B73 /* Location.m in Sources */,
+				5C8957F618D93BFC00BA8B73 /* User.m in Sources */,
+				5C8957F718D93BFC00BA8B73 /* HomeViewController.m in Sources */,
+				5C8957F818D93BFC00BA8B73 /* LogonViewController.m in Sources */,
+				5C8957F918D93BFC00BA8B73 /* SettingsViewController.m in Sources */,
+				5C8957FA18D93BFC00BA8B73 /* TicketActivity.m in Sources */,
+				5C8957FB18D93BFC00BA8B73 /* DefaultTechNotesViewController.m in Sources */,
+				5C8957FC18D93BFC00BA8B73 /* ViewWithSearchBarViewController.m in Sources */,
+				5C8957FD18D93BFC00BA8B73 /* OverlayViewController.m in Sources */,
+				5C8957FE18D93BFC00BA8B73 /* PrioritiesViewController.m in Sources */,
+				5C8957FF18D93BFC00BA8B73 /* MachinePriority.m in Sources */,
+				5C89580018D93BFC00BA8B73 /* SortedTicketsViewController.m in Sources */,
+				5C89580118D93BFC00BA8B73 /* Users.m in Sources */,
+				5C89580218D93BFC00BA8B73 /* SearchUsersViewController.m in Sources */,
+				5C89580318D93BFC00BA8B73 /* ResultViewController.m in Sources */,
+				5C89580418D93BFC00BA8B73 /* TechAssociatesTicketsReport.m in Sources */,
+				5C89580518D93BFC00BA8B73 /* FindViewController.m in Sources */,
+				5C89580618D93BFC00BA8B73 /* SelectPartDescViewController.m in Sources */,
+				5C89580718D93BFC00BA8B73 /* MachinesReport.m in Sources */,
+				5C89580818D93BFC00BA8B73 /* NSString+URLEscapes.m in Sources */,
+				5C89580918D93BFC00BA8B73 /* Part.m in Sources */,
+				5C89580A18D93BFC00BA8B73 /* PICSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB052E11649E0D4007DB963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB052E21649E0D4007DB963 /* main.m in Sources */,
+				5CB052E31649E0D4007DB963 /* AutotechAppDelegate.m in Sources */,
+				5CB052E41649E0D4007DB963 /* AutotechAppDelegate_iPhone.m in Sources */,
+				5CB052E51649E0D4007DB963 /* AutotechAppDelegate_iPad.m in Sources */,
+				5CB052E61649E0D4007DB963 /* Constants.m in Sources */,
+				5CB052E71649E0D4007DB963 /* Ticket.m in Sources */,
+				5CB052E81649E0D4007DB963 /* customNavigationController.m in Sources */,
+				5CB052E91649E0D4007DB963 /* LMBSlidingViewController.m in Sources */,
+				5CB052EA1649E0D4007DB963 /* TicketDetailViewController.m in Sources */,
+				5CB052EB1649E0D4007DB963 /* TicketsViewController.m in Sources */,
+				5CB052EC1649E0D4007DB963 /* UITabBarController + (Rotation).m in Sources */,
+				5CB052ED1649E0D4007DB963 /* Techs.m in Sources */,
+				5CB052EE1649E0D4007DB963 /* AddTicketViewController.m in Sources */,
+				5CB052EF1649E0D4007DB963 /* Machine.m in Sources */,
+				5CB052F01649E0D4007DB963 /* TicketCategory.m in Sources */,
+				5CB052F11649E0D4007DB963 /* Location.m in Sources */,
+				5CB052F21649E0D4007DB963 /* User.m in Sources */,
+				5CB052F31649E0D4007DB963 /* HomeViewController.m in Sources */,
+				5CB052F41649E0D4007DB963 /* LogonViewController.m in Sources */,
+				5CB052F51649E0D4007DB963 /* SettingsViewController.m in Sources */,
+				5CB052F61649E0D4007DB963 /* TicketActivity.m in Sources */,
+				5CB052F71649E0D4007DB963 /* DefaultTechNotesViewController.m in Sources */,
+				5CB052F81649E0D4007DB963 /* ViewWithSearchBarViewController.m in Sources */,
+				5CB052F91649E0D4007DB963 /* OverlayViewController.m in Sources */,
+				5CB052FA1649E0D4007DB963 /* PrioritiesViewController.m in Sources */,
+				5CB052FB1649E0D4007DB963 /* MachinePriority.m in Sources */,
+				5CB052FC1649E0D4007DB963 /* SortedTicketsViewController.m in Sources */,
+				5CB052FD1649E0D4007DB963 /* Users.m in Sources */,
+				5CB052FE1649E0D4007DB963 /* SearchUsersViewController.m in Sources */,
+				5CB052FF1649E0D4007DB963 /* ResultViewController.m in Sources */,
+				5CB053001649E0D4007DB963 /* TechAssociatesTicketsReport.m in Sources */,
+				5CB053011649E0D4007DB963 /* FindViewController.m in Sources */,
+				5CB053021649E0D4007DB963 /* SelectPartDescViewController.m in Sources */,
+				5CB053031649E0D4007DB963 /* MachinesReport.m in Sources */,
+				5CB053041649E0D4007DB963 /* NSString+URLEscapes.m in Sources */,
+				5C870F0F175DC123001952FA /* Part.m in Sources */,
+				5C18AC5317B6226B00A1D175 /* PICSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC21DFE1649FC0900E40E9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC21DFF1649FC0900E40E9C /* main.m in Sources */,
+				5CC21E001649FC0900E40E9C /* AutotechAppDelegate.m in Sources */,
+				5CC21E011649FC0900E40E9C /* AutotechAppDelegate_iPhone.m in Sources */,
+				5CC21E021649FC0900E40E9C /* AutotechAppDelegate_iPad.m in Sources */,
+				5CC21E031649FC0900E40E9C /* Constants.m in Sources */,
+				5CC21E041649FC0900E40E9C /* Ticket.m in Sources */,
+				5CC21E051649FC0900E40E9C /* customNavigationController.m in Sources */,
+				5CC21E061649FC0900E40E9C /* LMBSlidingViewController.m in Sources */,
+				5CC21E071649FC0900E40E9C /* TicketDetailViewController.m in Sources */,
+				5CC21E081649FC0900E40E9C /* TicketsViewController.m in Sources */,
+				5CC21E091649FC0900E40E9C /* UITabBarController + (Rotation).m in Sources */,
+				5CC21E0A1649FC0900E40E9C /* Techs.m in Sources */,
+				5CC21E0B1649FC0900E40E9C /* AddTicketViewController.m in Sources */,
+				5CC21E0C1649FC0900E40E9C /* Machine.m in Sources */,
+				5CC21E0D1649FC0900E40E9C /* TicketCategory.m in Sources */,
+				5CC21E0E1649FC0900E40E9C /* Location.m in Sources */,
+				5CC21E0F1649FC0900E40E9C /* User.m in Sources */,
+				5CC21E101649FC0900E40E9C /* HomeViewController.m in Sources */,
+				5CC21E111649FC0900E40E9C /* LogonViewController.m in Sources */,
+				5CC21E121649FC0900E40E9C /* SettingsViewController.m in Sources */,
+				5CC21E131649FC0900E40E9C /* TicketActivity.m in Sources */,
+				5CC21E141649FC0900E40E9C /* DefaultTechNotesViewController.m in Sources */,
+				5CC21E151649FC0900E40E9C /* ViewWithSearchBarViewController.m in Sources */,
+				5CC21E161649FC0900E40E9C /* OverlayViewController.m in Sources */,
+				5CC21E171649FC0900E40E9C /* PrioritiesViewController.m in Sources */,
+				5CC21E181649FC0900E40E9C /* MachinePriority.m in Sources */,
+				5CC21E191649FC0900E40E9C /* SortedTicketsViewController.m in Sources */,
+				5CC21E1A1649FC0900E40E9C /* Users.m in Sources */,
+				5CC21E1B1649FC0900E40E9C /* SearchUsersViewController.m in Sources */,
+				5CC21E1C1649FC0900E40E9C /* ResultViewController.m in Sources */,
+				5CC21E1D1649FC0900E40E9C /* TechAssociatesTicketsReport.m in Sources */,
+				5CC21E1E1649FC0900E40E9C /* FindViewController.m in Sources */,
+				5CC21E1F1649FC0900E40E9C /* SelectPartDescViewController.m in Sources */,
+				5CC21E201649FC0900E40E9C /* MachinesReport.m in Sources */,
+				5CC21E211649FC0900E40E9C /* NSString+URLEscapes.m in Sources */,
+				5C870F10175DC123001952FA /* Part.m in Sources */,
+				5C18AC5417B6226B00A1D175 /* PICSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFD016517A7594600A35DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFD016617A7594600A35DCE /* main.m in Sources */,
+				5CFD016717A7594600A35DCE /* AutotechAppDelegate.m in Sources */,
+				5CFD016817A7594600A35DCE /* AutotechAppDelegate_iPhone.m in Sources */,
+				5CFD016917A7594600A35DCE /* AutotechAppDelegate_iPad.m in Sources */,
+				5CFD016A17A7594600A35DCE /* Constants.m in Sources */,
+				5CFD016B17A7594600A35DCE /* Ticket.m in Sources */,
+				5CFD016C17A7594600A35DCE /* customNavigationController.m in Sources */,
+				5CFD016D17A7594600A35DCE /* LMBSlidingViewController.m in Sources */,
+				5CFD016E17A7594600A35DCE /* TicketDetailViewController.m in Sources */,
+				5CFD016F17A7594600A35DCE /* TicketsViewController.m in Sources */,
+				5CFD017017A7594600A35DCE /* UITabBarController + (Rotation).m in Sources */,
+				5CFD017117A7594600A35DCE /* Techs.m in Sources */,
+				5CFD017217A7594600A35DCE /* AddTicketViewController.m in Sources */,
+				5CFD017317A7594600A35DCE /* Machine.m in Sources */,
+				5CFD017417A7594600A35DCE /* TicketCategory.m in Sources */,
+				5CFD017517A7594600A35DCE /* Location.m in Sources */,
+				5CFD017617A7594600A35DCE /* User.m in Sources */,
+				5CFD017717A7594600A35DCE /* HomeViewController.m in Sources */,
+				5CFD017817A7594600A35DCE /* LogonViewController.m in Sources */,
+				5CFD017917A7594600A35DCE /* SettingsViewController.m in Sources */,
+				5CFD017A17A7594600A35DCE /* TicketActivity.m in Sources */,
+				5CFD017B17A7594600A35DCE /* DefaultTechNotesViewController.m in Sources */,
+				5CFD017C17A7594600A35DCE /* ViewWithSearchBarViewController.m in Sources */,
+				5CFD017D17A7594600A35DCE /* OverlayViewController.m in Sources */,
+				5CFD017E17A7594600A35DCE /* PrioritiesViewController.m in Sources */,
+				5CFD017F17A7594600A35DCE /* MachinePriority.m in Sources */,
+				5CFD018017A7594600A35DCE /* SortedTicketsViewController.m in Sources */,
+				5CFD018117A7594600A35DCE /* Users.m in Sources */,
+				5CFD018217A7594600A35DCE /* SearchUsersViewController.m in Sources */,
+				5CFD018317A7594600A35DCE /* ResultViewController.m in Sources */,
+				5CFD018417A7594600A35DCE /* TechAssociatesTicketsReport.m in Sources */,
+				5CFD018517A7594600A35DCE /* FindViewController.m in Sources */,
+				5CFD018617A7594600A35DCE /* SelectPartDescViewController.m in Sources */,
+				5CFD018717A7594600A35DCE /* MachinesReport.m in Sources */,
+				5CFD018817A7594600A35DCE /* NSString+URLEscapes.m in Sources */,
+				5CFD018917A7594600A35DCE /* Part.m in Sources */,
+				5C18AC5217B6226B00A1D175 /* PICSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFD02F717A7B5F500A35DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFD02F817A7B5F500A35DCE /* main.m in Sources */,
+				5CFD02F917A7B5F500A35DCE /* AutotechAppDelegate.m in Sources */,
+				5CFD02FA17A7B5F500A35DCE /* AutotechAppDelegate_iPhone.m in Sources */,
+				5CFD02FB17A7B5F500A35DCE /* AutotechAppDelegate_iPad.m in Sources */,
+				5CFD02FC17A7B5F500A35DCE /* Constants.m in Sources */,
+				5CFD02FD17A7B5F500A35DCE /* Ticket.m in Sources */,
+				5CFD02FE17A7B5F500A35DCE /* customNavigationController.m in Sources */,
+				5CFD02FF17A7B5F500A35DCE /* LMBSlidingViewController.m in Sources */,
+				5CFD030017A7B5F500A35DCE /* TicketDetailViewController.m in Sources */,
+				5CFD030117A7B5F500A35DCE /* TicketsViewController.m in Sources */,
+				5CFD030217A7B5F500A35DCE /* UITabBarController + (Rotation).m in Sources */,
+				5CFD030317A7B5F500A35DCE /* Techs.m in Sources */,
+				5CFD030417A7B5F500A35DCE /* AddTicketViewController.m in Sources */,
+				5CFD030517A7B5F500A35DCE /* Machine.m in Sources */,
+				5CFD030617A7B5F500A35DCE /* TicketCategory.m in Sources */,
+				5CFD030717A7B5F500A35DCE /* Location.m in Sources */,
+				5CFD030817A7B5F500A35DCE /* User.m in Sources */,
+				5CFD030917A7B5F500A35DCE /* HomeViewController.m in Sources */,
+				5CFD030A17A7B5F500A35DCE /* LogonViewController.m in Sources */,
+				5CFD030B17A7B5F500A35DCE /* SettingsViewController.m in Sources */,
+				5CFD030C17A7B5F500A35DCE /* TicketActivity.m in Sources */,
+				5CFD030D17A7B5F500A35DCE /* DefaultTechNotesViewController.m in Sources */,
+				5CFD030E17A7B5F500A35DCE /* ViewWithSearchBarViewController.m in Sources */,
+				5CFD030F17A7B5F500A35DCE /* OverlayViewController.m in Sources */,
+				5CFD031017A7B5F500A35DCE /* PrioritiesViewController.m in Sources */,
+				5CFD031117A7B5F500A35DCE /* MachinePriority.m in Sources */,
+				5CFD031217A7B5F500A35DCE /* SortedTicketsViewController.m in Sources */,
+				5CFD031317A7B5F500A35DCE /* Users.m in Sources */,
+				5CFD031417A7B5F500A35DCE /* SearchUsersViewController.m in Sources */,
+				5CFD031517A7B5F500A35DCE /* ResultViewController.m in Sources */,
+				5CFD031617A7B5F500A35DCE /* TechAssociatesTicketsReport.m in Sources */,
+				5CFD031717A7B5F500A35DCE /* FindViewController.m in Sources */,
+				5CFD031817A7B5F500A35DCE /* SelectPartDescViewController.m in Sources */,
+				5CFD031917A7B5F500A35DCE /* MachinesReport.m in Sources */,
+				5CFD031A17A7B5F500A35DCE /* NSString+URLEscapes.m in Sources */,
+				5CFD031B17A7B5F500A35DCE /* Part.m in Sources */,
+				5C18AC5117B6226B00A1D175 /* PICSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		792AB3B81386A7A900F3D595 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				792AB3B91386A7A900F3D595 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		792AB3C51386A7A900F3D595 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				792AB3C61386A7A900F3D595 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		792AB3CC1386A7A900F3D595 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				792AB3CD1386A7A900F3D595 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C89585618D93BFC00BA8B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Autotech/Autotech-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = IS_LOCAL;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "autotechLocal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = autotechLocal;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5C89585718D93BFC00BA8B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Autotech/Autotech-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = IS_LOCAL;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "autotechLocal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = autotechLocal;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CB0534E1649E0D4007DB963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Autotech/Autotech-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = IS_TEST;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "AutotechTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CB0534F1649E0D4007DB963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Autotech/Autotech-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = IS_TEST;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "AutotechTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CC21E6B1649FC0900E40E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Autotech/Autotech-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = IS_DEV;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "$(SRCROOT)/AutotechDev-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CC21E6C1649FC0900E40E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Autotech/Autotech-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = IS_DEV;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "$(SRCROOT)/AutotechDev-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CFD01D417A7594600A35DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Autotech/Autotech-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = IS_STAG;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "AutotechStag-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = autotechStag;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CFD01D517A7594600A35DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Autotech/Autotech-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = IS_STAG;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "AutotechStag-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = autotechStag;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CFD036517A7B5F500A35DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Autotech/Autotech-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = IS_LIVE;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Autotech/autotech-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = autotech;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CFD036617A7B5F500A35DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Autotech/Autotech-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = IS_LIVE;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Autotech/autotech-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = autotech;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		792AB3CF1386A7A900F3D595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		792AB3D01386A7A900F3D595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C89585518D93BFC00BA8B73 /* Build configuration list for PBXNativeTarget "autotechLocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C89585618D93BFC00BA8B73 /* Debug */,
+				5C89585718D93BFC00BA8B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB0534D1649E0D4007DB963 /* Build configuration list for PBXNativeTarget "autotechTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB0534E1649E0D4007DB963 /* Debug */,
+				5CB0534F1649E0D4007DB963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC21E6A1649FC0900E40E9C /* Build configuration list for PBXNativeTarget "autotechDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC21E6B1649FC0900E40E9C /* Debug */,
+				5CC21E6C1649FC0900E40E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CFD01D317A7594600A35DCE /* Build configuration list for PBXNativeTarget "autotechStag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFD01D417A7594600A35DCE /* Debug */,
+				5CFD01D517A7594600A35DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CFD036417A7B5F500A35DCE /* Build configuration list for PBXNativeTarget "autotech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFD036517A7B5F500A35DCE /* Debug */,
+				5CFD036617A7B5F500A35DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		792AB3A51386A7A900F3D595 /* Build configuration list for PBXProject "Autotech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				792AB3CF1386A7A900F3D595 /* Debug */,
+				792AB3D01386A7A900F3D595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 792AB3A21386A7A900F3D595 /* Project object */;
+}

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1072" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TicketDetailViewController">
+            <connections>
+                <outlet property="categoryTextField" destination="9" id="13"/>
+                <outlet property="closeTicketButton" destination="45" id="49"/>
+                <outlet property="defaultNotesButton" destination="89" id="91"/>
+                <outlet property="inProcessLabel" destination="106" id="112"/>
+                <outlet property="issueDescriptionTextView" destination="12" id="103"/>
+                <outlet property="likePartTextField" destination="76" id="130"/>
+                <outlet property="locationTextField" destination="127" id="129"/>
+                <outlet property="machineTextField" destination="5" id="14"/>
+                <outlet property="partDescriptionTextField" destination="7" id="65"/>
+                <outlet property="playPauseButton" destination="107" id="111"/>
+                <outlet property="requestorLabel" destination="124" id="125"/>
+                <outlet property="scrollView" destination="59" id="64"/>
+                <outlet property="statusSwitch" destination="105" id="110"/>
+                <outlet property="techNotesTextView" destination="71" id="74"/>
+                <outlet property="techTextField" destination="66" id="69"/>
+                <outlet property="ticketIdLabel" destination="116" id="117"/>
+                <outlet property="view" destination="59" id="63"/>
+                <outlet property="viewPicsButton" destination="132" id="133"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="59">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Machine:" lineBreakMode="tailTruncation" minimumFontSize="10" adjustsFontSizeToFit="NO" id="3">
+                    <rect key="frame" x="20" y="129" width="49" height="15"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="12" id="5" userLabel="Machine">
+                    <rect key="frame" x="116" y="121" width="190" height="31"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="18"/>
+                    </connections>
+                </textField>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Part Desc:" lineBreakMode="tailTruncation" minimumFontSize="10" adjustsFontSizeToFit="NO" id="6">
+                    <rect key="frame" x="20" y="248" width="57" height="15"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Part Description" minimumFontSize="12" id="7" userLabel="Part Description">
+                    <rect key="frame" x="116" y="240" width="190" height="31"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="19"/>
+                    </connections>
+                </textField>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Category:" lineBreakMode="tailTruncation" minimumFontSize="10" adjustsFontSizeToFit="NO" id="8">
+                    <rect key="frame" x="20" y="168" width="53" height="15"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="12" id="9" userLabel="Category">
+                    <rect key="frame" x="116" y="160" width="190" height="31"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="20"/>
+                    </connections>
+                </textField>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Issue Description: " lineBreakMode="tailTruncation" minimumFontSize="10" adjustsFontSizeToFit="NO" id="10">
+                    <rect key="frame" x="18" y="315" width="112" height="21"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="12" userLabel="IssueDescription">
+                    <rect key="frame" x="19" y="340" width="287" height="61"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <accessibility key="accessibilityConfiguration" label="Text"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="21"/>
+                    </connections>
+                </textView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tech Associate: " lineBreakMode="tailTruncation" minimumFontSize="10" adjustsFontSizeToFit="NO" id="56">
+                    <rect key="frame" x="20" y="208" width="89" height="15"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="45" userLabel="Close Ticket">
+                    <rect key="frame" x="18" y="513" width="278" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <accessibility key="accessibilityConfiguration" label="Close Ticket">
+                        <accessibilityTraits key="traits" none="YES" button="YES"/>
+                    </accessibility>
+                    <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
+                    <state key="normal" title="Save and Exit">
+                        <color key="titleShadowColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="saveAndExitCloseTicketClick:" destination="-1" eventType="touchUpInside" id="97"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="12" id="66" userLabel="Tech Associate">
+                    <rect key="frame" x="116" y="200" width="190" height="31"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="68"/>
+                    </connections>
+                </textField>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tech Notes: " lineBreakMode="tailTruncation" minimumFontSize="10" adjustsFontSizeToFit="NO" id="70">
+                    <rect key="frame" x="16" y="409" width="68" height="21"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="71" userLabel="TechNotes">
+                    <rect key="frame" x="18" y="437" width="288" height="64"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <accessibility key="accessibilityConfiguration" label="Text"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="73"/>
+                    </connections>
+                </textView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Like Part: " lineBreakMode="tailTruncation" minimumFontSize="10" adjustsFontSizeToFit="NO" id="75">
+                    <rect key="frame" x="20" y="287" width="78" height="15"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Like Part" minimumFontSize="12" id="76" userLabel="Date Entered">
+                    <rect key="frame" x="116" y="279" width="190" height="31"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <bool key="isElement" value="NO"/>
+                    </accessibility>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="77"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="89" userLabel="Select Default Button">
+                    <rect key="frame" x="127" y="409" width="85" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="10"/>
+                    <state key="normal" backgroundImage="Select_Default_Button.png">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showDefaultNotes" destination="-1" eventType="touchUpInside" id="92"/>
+                    </connections>
+                </button>
+                <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="105" userLabel="Switch - InProcess/New">
+                    <rect key="frame" x="139" y="11" width="51" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="toggleEnabledForStatusSwitch:" destination="-1" eventType="valueChanged" id="115"/>
+                    </connections>
+                </switch>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="106" userLabel="Label - InProcess/Pause">
+                    <rect key="frame" x="121" y="43" width="164" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="107" userLabel="Button - InProcess/Pause">
+                    <rect key="frame" x="243" y="12" width="26" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal" image="pause_button.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="pauseOrPlayButtonClick:" destination="-1" eventType="touchUpInside" id="114"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="In Process:" lineBreakMode="tailTruncation" minimumFontSize="10" adjustsFontSizeToFit="NO" id="109">
+                    <rect key="frame" x="19" y="17" width="73" height="21"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" adjustsFontSizeToFit="NO" id="116" userLabel="Label - TicketId">
+                    <rect key="frame" x="18" y="40" width="106" height="15"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Requestor" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="124">
+                    <rect key="frame" x="121" y="56" width="195" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Location:" lineBreakMode="tailTruncation" minimumFontSize="10" adjustsFontSizeToFit="NO" id="126">
+                    <rect key="frame" x="20" y="90" width="49" height="15"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="12" id="127" userLabel="Category">
+                    <rect key="frame" x="116" y="82" width="190" height="31"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="128"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="132">
+                    <rect key="frame" x="18" y="555" width="278" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal" title="View PICS">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="viewPicsButtonClicked:" destination="-1" eventType="touchUpInside" id="134"/>
+                    </connections>
+                </button>
+            </subviews>
+            <connections>
+                <outlet property="delegate" destination="-1" id="61"/>
+            </connections>
+        </scrollView>
+    </objects>
+    <resources>
+        <image name="Select_Default_Button.png" width="85" height="25"/>
+        <image name="pause_button.png" width="32" height="32"/>
+    </resources>
+</document>
