@@ -115,7 +115,7 @@ NSString *documentsDirectoryPath()
 
 - (void)checkForAppUpdate
 {
-    NSString *address = @"https://iosinstalls.samtec.com/autotech.plist";
+    NSString *address = @"https://iosinstalls.samtec.com/iOS/autotech.plist";
 #ifdef IS_LOCAL
     address = @"http://prodext1/iOS/autotechLocal.plist";
 #elif IS_DEV
