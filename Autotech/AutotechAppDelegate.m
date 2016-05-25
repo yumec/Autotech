@@ -96,9 +96,7 @@ NSString *documentsDirectoryPath()
 	if (buttonIndex == 1)
 	{
         NSString *address = @"itms-services://?action=download-manifest&url=https://iosinstalls.samtec.com/iOS/AutoTech.plist";
-#ifdef IS_LOCAL
-        address = @"itms-services://?action=download-manifest&url=http://prodext1/iOS/autoTechLocal.plist";
-#elif IS_DEV
+#ifdef IS_DEV
         address = @"itms-services://?action=download-manifest&url=https://iosinstallsdev.samtec.com/iOS/autoTechDev.plist";
 #elif IS_TEST
         address = @"itms-services://?action=download-manifest&url=https://iosinstallstest.samtec.com/iOS/autoTechTest.plist";
@@ -116,9 +114,7 @@ NSString *documentsDirectoryPath()
 - (void)checkForAppUpdate
 {
     NSString *address = @"https://iosinstalls.samtec.com/iOS/autotech.plist";
-#ifdef IS_LOCAL
-    address = @"http://prodext1/iOS/autotechLocal.plist";
-#elif IS_DEV
+#ifdef IS_DEV
     address = @"https://iosinstallsdev.samtec.com/iOS/autotechDev.plist";
 #elif IS_TEST
     address = @"https://iosinstallstest.samtec.com/iOS/autotechTest.plist";

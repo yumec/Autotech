@@ -13,13 +13,11 @@
 #ifdef IS_LIVE
     NSString * const ConnectionString = @"sgnapp";
 #elif IS_STAG
-    NSString * const ConnectionString = @"stageweb1";
+    NSString * const ConnectionString = @"sgnstage";
 #elif IS_TEST
-    NSString * const ConnectionString = @"testweb1";
+    NSString * const ConnectionString = @"sgntest";
 #elif IS_DEV
-    NSString * const ConnectionString = @"devapp2";
-#elif IS_LOCAL
-    NSString * const ConnectionString = @"hz-yumec.samtec.ad";
+    NSString * const ConnectionString = @"sgndev";
 #endif
 
 NSString * const TicketDeatilViewController_Iphone = @"TicketDetailViewController_iPhone";
