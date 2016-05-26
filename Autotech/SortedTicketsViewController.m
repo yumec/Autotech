@@ -24,7 +24,7 @@
     
     User *u = [(AutotechAppDelegate *) [[UIApplication sharedApplication] delegate] 
                          currentUser];
-    NSString *address = [NSString stringWithFormat:@"http://%@/autotech/services/OpenTickets.ashx?techassocId=%@", ConnectionString, u.techID];
+    NSString *address = [NSString stringWithFormat:@"http://%@/OpenTickets.ashx?techassocId=%@", ConnectionString, u.techID];
 
     NSURL *url = [NSURL URLWithString:address];
     NSArray *results = [NSArray arrayWithContentsOfURL:url];

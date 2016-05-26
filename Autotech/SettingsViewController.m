@@ -100,10 +100,10 @@ clientVersionStr = _clientVersionStr;
     NSString *techAssociatesAddress = nil;
     
     if (type == 0) {
-        techAssociatesAddress = [NSString stringWithFormat:@"http://%@/autotech/services/Techs.ashx?", ConnectionString];
+        techAssociatesAddress = [NSString stringWithFormat:@"http://%@/Techs.ashx?", ConnectionString];
     } else
     {
-        techAssociatesAddress = [NSString stringWithFormat:@"http://%@/autotech/services/Techs.ashx?type=1", ConnectionString];
+        techAssociatesAddress = [NSString stringWithFormat:@"http://%@/Techs.ashx?type=1", ConnectionString];
     }
     
     NSURL *techAssociatesUrl = [NSURL URLWithString:techAssociatesAddress];

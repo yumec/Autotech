@@ -166,7 +166,7 @@
     
     NSString *workCenterID = [[(AutotechAppDelegate *)[[UIApplication sharedApplication] delegate] currentUser] plantID];
     
-    NSString *address = [NSString stringWithFormat:@"http://%@/autotech/services/MachinePriority.ashx?plantid=%@",ConnectionString, workCenterID];
+    NSString *address = [NSString stringWithFormat:@"http://%@/MachinePriority.ashx?plantid=%@",ConnectionString, workCenterID];
     
     NSURL *url = [NSURL URLWithString:address];
     NSArray *results = [NSArray arrayWithContentsOfURL:url];

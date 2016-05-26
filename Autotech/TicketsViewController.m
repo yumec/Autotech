@@ -132,7 +132,7 @@ statusSegmentedControl = _statusSegmentedControl;
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     if (!self.tickets) {
         
-    NSString *address = [NSString stringWithFormat:@"http://%@/autotech/services/OpenTickets.ashx", ConnectionString];
+    NSString *address = [NSString stringWithFormat:@"http://%@/OpenTickets.ashx", ConnectionString];
     NSURL *url = [NSURL URLWithString:address];
     NSArray *results = [NSArray arrayWithContentsOfURL:url];
     [self setTickets:[NSMutableArray arrayWithCapacity:[results count]]];
@@ -311,7 +311,7 @@ statusSegmentedControl = _statusSegmentedControl;
 -(NSString *) loadInProcessInfoByTicketId:(NSString *)ticketId 
 {
     NSString *ticketInfo = @"";
-    NSString *address = [NSString stringWithFormat:@"http://%@/autotech/services/InProcessInfo.ashx?hdTicketId=%@", ConnectionString, ticketId];
+    NSString *address = [NSString stringWithFormat:@"http://%@/InProcessInfo.ashx?hdTicketId=%@", ConnectionString, ticketId];
     NSURL *url = [NSURL URLWithString:address];
     NSDictionary *results = [NSDictionary dictionaryWithContentsOfURL:url];
     

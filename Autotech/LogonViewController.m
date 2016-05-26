@@ -224,7 +224,7 @@ static const CGFloat Height = 50;
 
 - (void)logon
 {		
-	NSString *address = [NSString stringWithFormat:@"http://%@/autotech/services/LogonValidateUser.ashx?userMasterId=%@&networkName=%@",ConnectionString, pinNumberTextField.text,netWorkNameTextField.text];
+	NSString *address = [NSString stringWithFormat:@"http://%@/LogonValidateUser.ashx?userMasterId=%@&networkName=%@",ConnectionString, pinNumberTextField.text,netWorkNameTextField.text];
 
 //    NSLog(@"%@", address);
     

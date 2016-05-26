@@ -314,7 +314,7 @@ defaultNotesButton = _defaultNotesButton;
     // load location
     
     if (self.locations == nil) {
-        NSString *locationAddress = [NSString stringWithFormat:@"http://%@/autotech/services/Location.ashx", ConnectionString];
+        NSString *locationAddress = [NSString stringWithFormat:@"http://%@/Location.ashx", ConnectionString];
         NSURL *locationUrl = [NSURL URLWithString:locationAddress];
         NSArray *locationResults = [NSArray arrayWithContentsOfURL:locationUrl];
         [self setLocations:[NSMutableArray arrayWithCapacity:[locationResults count]]];
@@ -333,7 +333,7 @@ defaultNotesButton = _defaultNotesButton;
     
     // load category
     if (self.categories == nil) {
-        NSString *categoryAddress = [NSString stringWithFormat:@"http://%@/autotech/services/TicketCategory.ashx", ConnectionString];
+        NSString *categoryAddress = [NSString stringWithFormat:@"http://%@/TicketCategory.ashx", ConnectionString];
         NSURL *categoryUrl = [NSURL URLWithString:categoryAddress];
         NSArray *categoryResults = [NSArray arrayWithContentsOfURL:categoryUrl];
         [self setCategories:[NSMutableArray arrayWithCapacity:[categoryResults count]]];
@@ -357,7 +357,7 @@ defaultNotesButton = _defaultNotesButton;
     }
     
 //    if (self.techExceptionList == nil) {
-//        NSString *techExceptionListAddress = [NSString stringWithFormat:@"http://%@/autotech/services/TechExceptionList.ashx", ConnectionString];
+//        NSString *techExceptionListAddress = [NSString stringWithFormat:@"http://%@/TechExceptionList.ashx", ConnectionString];
 //        NSURL *techExceptionListUrl = [NSURL URLWithString:techExceptionListAddress];
 //        NSArray *techExceptionListResults = [NSArray arrayWithContentsOfURL:techExceptionListUrl];
 //        [self setTechExceptionList:[NSMutableArray arrayWithCapacity:[techExceptionListResults count]]];
@@ -380,7 +380,7 @@ defaultNotesButton = _defaultNotesButton;
         self.machineForTicket = nil;
     }
     
-    NSString *address =[NSString stringWithFormat: @"http://%@/autotech/services/Machines.ashx?plantId=%@&isMold=0",ConnectionString,locationId];
+    NSString *address =[NSString stringWithFormat: @"http://%@/Machines.ashx?plantId=%@&isMold=0",ConnectionString,locationId];
     
     NSURL *url = [NSURL URLWithString:address];
     NSArray *results = [NSArray arrayWithContentsOfURL:url];
@@ -417,7 +417,7 @@ defaultNotesButton = _defaultNotesButton;
         self.techForTicket = nil;
     }
     
-    NSString *techAssociatesAddress = [NSString stringWithFormat:@"http://%@/autotech/services/Techs.ashx?plantId=%@", ConnectionString,locationId];
+    NSString *techAssociatesAddress = [NSString stringWithFormat:@"http://%@/Techs.ashx?plantId=%@", ConnectionString,locationId];
     NSURL *techAssociatesUrl = [NSURL URLWithString:techAssociatesAddress];
     NSArray *techAssociatesResults = [NSArray arrayWithContentsOfURL:techAssociatesUrl];
     [self setTechs:[NSMutableArray arrayWithCapacity:[techAssociatesResults count]]];
@@ -479,7 +479,7 @@ defaultNotesButton = _defaultNotesButton;
     if (buttonIndex == 0) { // Cancel
         return;
     } else if (buttonIndex == 1) { // Save Ticket
-        NSString *address = [NSString stringWithFormat: @"http://%@/autotech/services/UpdateTicket.ashx?ticketID=%@&opId=%@&categoryId=%@&machineId=%@&statusId=%d&techAssocId=%@&dateclosed=no&techNotes=%@&userMasterId=%@&issueDesc=%@&activityAction=%@&partDesc=%@&plantId=%@&likePart=%@",ConnectionString, self.ticket.iD,self.ticket.opId, self.categoryForTicket.categoryId, self.machineForTicket.machineId, (int)statusAsInt,self.techForTicket.techID ,[self.techNotesTextView.text escapedURLString], u.userMasterId,[self.issueDescriptionTextView.text escapedURLString], activityAction, self.partDescriptionTextField.text, self.locationForTicket.locationId, self.likePartTextField.text];
+        NSString *address = [NSString stringWithFormat: @"http://%@/UpdateTicket.ashx?ticketID=%@&opId=%@&categoryId=%@&machineId=%@&statusId=%d&techAssocId=%@&dateclosed=no&techNotes=%@&userMasterId=%@&issueDesc=%@&activityAction=%@&partDesc=%@&plantId=%@&likePart=%@",ConnectionString, self.ticket.iD,self.ticket.opId, self.categoryForTicket.categoryId, self.machineForTicket.machineId, (int)statusAsInt,self.techForTicket.techID ,[self.techNotesTextView.text escapedURLString], u.userMasterId,[self.issueDescriptionTextView.text escapedURLString], activityAction, self.partDescriptionTextField.text, self.locationForTicket.locationId, self.likePartTextField.text];
         address = [address stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
         NSURL *url = [NSURL URLWithString:address];
         NSError *error;
@@ -518,7 +518,7 @@ defaultNotesButton = _defaultNotesButton;
 {
     User *u = [(AutotechAppDelegate *)[[UIApplication sharedApplication] delegate] currentUser];
     
-    NSString *address = [NSString stringWithFormat: @"http://%@/autotech/services/UpdateTicket.ashx?ticketID=%@&opId=%@&categoryId=%@&machineId=%@&statusId=6&techAssocId=%@&dateclosed=close&techNotes=%@&userMasterId=%@&issueDesc=%@&partDesc=%@&plantId=%@&likePart=%@",ConnectionString, self.ticket.iD,self.ticket.opId, self.categoryForTicket.categoryId, self.machineForTicket.machineId,self.techForTicket.techID, [self.techNotesTextView.text escapedURLString], u.userMasterId,[self.issueDescriptionTextView.text escapedURLString], self.partDescriptionTextField.text, self.locationForTicket.locationId, self.likePartTextField.text];
+    NSString *address = [NSString stringWithFormat: @"http://%@/UpdateTicket.ashx?ticketID=%@&opId=%@&categoryId=%@&machineId=%@&statusId=6&techAssocId=%@&dateclosed=close&techNotes=%@&userMasterId=%@&issueDesc=%@&partDesc=%@&plantId=%@&likePart=%@",ConnectionString, self.ticket.iD,self.ticket.opId, self.categoryForTicket.categoryId, self.machineForTicket.machineId,self.techForTicket.techID, [self.techNotesTextView.text escapedURLString], u.userMasterId,[self.issueDescriptionTextView.text escapedURLString], self.partDescriptionTextField.text, self.locationForTicket.locationId, self.likePartTextField.text];
     address = [address stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSURL *url = [NSURL URLWithString:address];
     NSError *error;
@@ -540,7 +540,7 @@ defaultNotesButton = _defaultNotesButton;
     }
 
     if (isExceptionuser || [u.loginTechID isEqualToString:self.techForTicket.techID]) {
-        NSString *address = [NSString stringWithFormat: @"http://%@/autotech/services/UpdateTicket.ashx?ticketID=%@&opId=%@&categoryId=%@&machineId=%@&statusId=6&techAssocId=%@&dateclosed=close&techNotes=%@&userMasterId=%@&issueDesc=%@&partDesc=%@&plantId=%@&likePart=%@",ConnectionString, self.ticket.iD,self.ticket.opId, self.categoryForTicket.categoryId, self.machineForTicket.machineId,self.techForTicket.techID, [self.techNotesTextView.text escapedURLString], u.userMasterId,[self.issueDescriptionTextView.text escapedURLString], self.partDescriptionTextField.text, self.locationForTicket.locationId, self.likePartTextField.text];
+        NSString *address = [NSString stringWithFormat: @"http://%@/UpdateTicket.ashx?ticketID=%@&opId=%@&categoryId=%@&machineId=%@&statusId=6&techAssocId=%@&dateclosed=close&techNotes=%@&userMasterId=%@&issueDesc=%@&partDesc=%@&plantId=%@&likePart=%@",ConnectionString, self.ticket.iD,self.ticket.opId, self.categoryForTicket.categoryId, self.machineForTicket.machineId,self.techForTicket.techID, [self.techNotesTextView.text escapedURLString], u.userMasterId,[self.issueDescriptionTextView.text escapedURLString], self.partDescriptionTextField.text, self.locationForTicket.locationId, self.likePartTextField.text];
         address = [address stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
         NSURL *url = [NSURL URLWithString:address];
         NSError *error;
@@ -836,7 +836,7 @@ defaultNotesButton = _defaultNotesButton;
     User *u = [(AutotechAppDelegate *)[[UIApplication sharedApplication] delegate] currentUser];
     if(self.statusSwitch.on ) // Set as InProcess
     {
-        NSString *address = [NSString stringWithFormat: @"http://%@/autotech/services/LogProcessTicket.ashx?hdticketID=%@&statusId=%d&userMasterId=%@&action=play",ConnectionString, self.ticket.iD,KStatusInProcess,u.userMasterId];
+        NSString *address = [NSString stringWithFormat: @"http://%@/LogProcessTicket.ashx?hdticketID=%@&statusId=%d&userMasterId=%@&action=play",ConnectionString, self.ticket.iD,KStatusInProcess,u.userMasterId];
         address = [address stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
         NSURL *url = [NSURL URLWithString:address];
         NSError *error;
@@ -851,7 +851,7 @@ defaultNotesButton = _defaultNotesButton;
             self.playPauseButton.tag = 1;
         }
     } else { // Set Ticket as New
-        NSString *address = [NSString stringWithFormat: @"http://%@/autotech/services/LogProcessTicket.ashx?hdticketID=%@&statusId=%d&userMasterId=%@&action=new", ConnectionString,self.ticket.iD, KStatusNew,u.userMasterId];
+        NSString *address = [NSString stringWithFormat: @"http://%@/LogProcessTicket.ashx?hdticketID=%@&statusId=%d&userMasterId=%@&action=new", ConnectionString,self.ticket.iD, KStatusNew,u.userMasterId];
         address = [address stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
         NSURL *url = [NSURL URLWithString:address]; 
         NSError *error;
@@ -905,7 +905,7 @@ defaultNotesButton = _defaultNotesButton;
     User *u = [(AutotechAppDelegate *)[[UIApplication sharedApplication] delegate] currentUser];
 
     if ([sender tag] == 1) { // Clicked to pause
-        NSString *address = [NSString stringWithFormat: @"http://%@/autotech/services/LogProcessTicket.ashx?hdTicketId=%@&action=%@&userMasterId=%@&statusId=%d",ConnectionString, self.ticket.iD,@"pause",u.userMasterId, KStatusInProcess];
+        NSString *address = [NSString stringWithFormat: @"http://%@/LogProcessTicket.ashx?hdTicketId=%@&action=%@&userMasterId=%@&statusId=%d",ConnectionString, self.ticket.iD,@"pause",u.userMasterId, KStatusInProcess];
         NSURL *url = [NSURL URLWithString:address];
         NSError *error;
         NSString *result = [NSString stringWithContentsOfURL:url encoding: NSASCIIStringEncoding error:&error];
@@ -915,7 +915,7 @@ defaultNotesButton = _defaultNotesButton;
             [sender setTag:2];
         }
     } else { // Clicke to play
-        NSString *address = [NSString stringWithFormat: @"http://%@/autotech/services/LogProcessTicket.ashx?hdTicketId=%@&action=%@&userMasterId=%@&statusId=%d",ConnectionString, self.ticket.iD,@"play",u.userMasterId, KStatusInProcess];
+        NSString *address = [NSString stringWithFormat: @"http://%@/LogProcessTicket.ashx?hdTicketId=%@&action=%@&userMasterId=%@&statusId=%d",ConnectionString, self.ticket.iD,@"play",u.userMasterId, KStatusInProcess];
         NSURL *url = [NSURL URLWithString:address];
         NSError *error;
         NSString *result = [NSString stringWithContentsOfURL:url encoding: NSASCIIStringEncoding error:&error];
@@ -938,7 +938,7 @@ defaultNotesButton = _defaultNotesButton;
 }
 
 -(void) loadInProcessInfo {
-    NSString *address = [NSString stringWithFormat:@"http://%@/autotech/services/InProcessInfo.ashx?hdTicketId=%@",ConnectionString, self.ticket.iD];
+    NSString *address = [NSString stringWithFormat:@"http://%@/InProcessInfo.ashx?hdTicketId=%@",ConnectionString, self.ticket.iD];
     NSURL *url = [NSURL URLWithString:address];
     NSDictionary *results = [NSDictionary dictionaryWithContentsOfURL:url];
     if (results){
@@ -1051,7 +1051,7 @@ defaultNotesButton = _defaultNotesButton;
 
 -(NSString *) GetPicsStauts:(NSString *)ticketId
 {
-    NSString *address = [NSString stringWithFormat:@"http://%@/autotech/services/PicsConfirm.ashx?ticketId=%@&type=GetPics",ConnectionString, self.ticket.iD];
+    NSString *address = [NSString stringWithFormat:@"http://%@/PicsConfirm.ashx?ticketId=%@&type=GetPics",ConnectionString, self.ticket.iD];
     NSURL *url = [NSURL URLWithString:address];
     
     NSDictionary *result = [NSDictionary dictionaryWithContentsOfURL:url];

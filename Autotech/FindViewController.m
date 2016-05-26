@@ -145,7 +145,7 @@
         }  else {
             status = @"C"; // Closed Ticket;
         }
-        NSString *techAssociatesTicketsReportAddress = [NSString stringWithFormat:@"http://%@/autotech/services/TicketsReport.ashx?startDate=%@&endDate=%@&option=%@", ConnectionString, self.startDateTextField.text, self.endDateTextField.text, status];
+        NSString *techAssociatesTicketsReportAddress = [NSString stringWithFormat:@"http://%@/TicketsReport.ashx?startDate=%@&endDate=%@&option=%@", ConnectionString, self.startDateTextField.text, self.endDateTextField.text, status];
         NSURL *techAssociatesTicketsReportUrl = [NSURL URLWithString:techAssociatesTicketsReportAddress];
         NSArray *techAssociatesTicketsReportResults = [NSArray arrayWithContentsOfURL:techAssociatesTicketsReportUrl];
         [self setReport:[NSMutableArray arrayWithCapacity:[techAssociatesTicketsReportResults count]]];
@@ -157,7 +157,7 @@
         reportView = [[ResultViewController alloc] initWithContent:self.report : @"User"];
         
     } else if(self.segmentControl.selectedSegmentIndex == 1) {
-        NSString *address = [NSString stringWithFormat:@"http://%@/autotech/services/MachinesReport.ashx?startDate=%@&endDate=%@", ConnectionString, self.startDateTextField.text, self.endDateTextField.text];
+        NSString *address = [NSString stringWithFormat:@"http://%@/MachinesReport.ashx?startDate=%@&endDate=%@", ConnectionString, self.startDateTextField.text, self.endDateTextField.text];
         NSArray *result = [NSArray arrayWithContentsOfURL:[NSURL URLWithString:address]];
         self.report = [NSMutableArray arrayWithCapacity:result.count];
         for (NSDictionary *d in result) {

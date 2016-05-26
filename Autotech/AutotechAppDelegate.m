@@ -125,8 +125,10 @@ NSString *documentsDirectoryPath()
     NSDictionary *plistdict = [NSDictionary dictionaryWithContentsOfURL:[NSURL URLWithString:address]];
     NSString *serverVersionStr = [[[[plistdict valueForKey:@"items"] valueForKey:@"metadata"] objectAtIndex:0] valueForKey:@"bundle-version"];
     NSString *clientVersionStr = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
-
-    if ([clientVersionStr compare:serverVersionStr] != 0)
+    
+    if ((clientVersionStr != nil)
+        && serverVersionStr != nil
+        && [clientVersionStr compare:serverVersionStr] != 0)
     {
         UIAlertView *alert =
         [[UIAlertView alloc] initWithTitle: @"Update Available"

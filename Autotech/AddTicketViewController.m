@@ -225,7 +225,7 @@ ticket = _ticket;
     }
     
     if (self.categories == nil) {
-        NSString *categoryAddress = [NSString stringWithFormat:@"http://%@/autotech/services/TicketCategory.ashx", ConnectionString];
+        NSString *categoryAddress = [NSString stringWithFormat:@"http://%@/TicketCategory.ashx", ConnectionString];
         NSURL *categoryUrl = [NSURL URLWithString:categoryAddress];
         NSArray *categoryResults = [NSArray arrayWithContentsOfURL:categoryUrl];
         [self setCategories:[NSMutableArray arrayWithCapacity:[categoryResults count]]];
@@ -258,7 +258,7 @@ ticket = _ticket;
 
         
     if (self.locations == nil) {
-        NSString *locationAddress = [NSString stringWithFormat:@"http://%@/autotech/services/Location.ashx", ConnectionString];
+        NSString *locationAddress = [NSString stringWithFormat:@"http://%@/Location.ashx", ConnectionString];
         NSURL *locationUrl = [NSURL URLWithString:locationAddress];
         NSArray *locationResults = [NSArray arrayWithContentsOfURL:locationUrl];
         [self setLocations:[NSMutableArray arrayWithCapacity:[locationResults count]]];
@@ -286,7 +286,7 @@ ticket = _ticket;
     /*
     NSString *techAreaID = [[(AutotechAppDelegate *) [[UIApplication sharedApplication] delegate] currentUser] getTechAreaID];
 
-    NSString *techAssociatesAddress = [NSString stringWithFormat:@"http://%@/autotech/services/TechAssociates.ashx?TechAreaID=%@", ConnectionString, techAreaID];
+    NSString *techAssociatesAddress = [NSString stringWithFormat:@"http://%@/TechAssociates.ashx?TechAreaID=%@", ConnectionString, techAreaID];
     NSURL *techAssociatesUrl = [NSURL URLWithString:techAssociatesAddress];
     NSArray *techAssociatesResults = [NSArray arrayWithContentsOfURL:techAssociatesUrl];
     [self setTechs:[NSMutableArray arrayWithCapacity:[techAssociatesResults count]]];
@@ -314,7 +314,7 @@ ticket = _ticket;
         self.machineForTicket = nil;
     }
     
-    NSString *address =[NSString stringWithFormat: @"http://%@/autotech/services/Machines.ashx?plantId=%@&isMold=0",ConnectionString,locationid];
+    NSString *address =[NSString stringWithFormat: @"http://%@/Machines.ashx?plantId=%@&isMold=0",ConnectionString,locationid];
     
     NSURL *url = [NSURL URLWithString:address];
     NSArray *results = [NSArray arrayWithContentsOfURL:url];
@@ -346,7 +346,7 @@ ticket = _ticket;
         self.techForTicket = nil;
     }
     
-    NSString *techAssociatesAddress = [NSString stringWithFormat:@"http://%@/autotech/services/Techs.ashx?plantId=%@", ConnectionString,locationId];
+    NSString *techAssociatesAddress = [NSString stringWithFormat:@"http://%@/Techs.ashx?plantId=%@", ConnectionString,locationId];
     NSURL *techAssociatesUrl = [NSURL URLWithString:techAssociatesAddress];
     NSArray *techAssociatesResults = [NSArray arrayWithContentsOfURL:techAssociatesUrl];
     [self setTechs:[NSMutableArray arrayWithCapacity:[techAssociatesResults count]]];
@@ -816,7 +816,7 @@ ticket = _ticket;
 - (void) saveTicket {
     User *u = [(AutotechAppDelegate *)[[UIApplication sharedApplication] delegate] currentUser];
 //    NSString *adminTechAssocId =[u getTechAdminID];
-    NSString *address = [NSString stringWithFormat: @"http://%@/autotech/services/AddTicket.ashx?opId=%@&categoryId=%@&machineId=%@&techAssocId=%@&orderNumber=%@&lineNumber=%@&plantId=%@&issueDesc=%@&partDesc=%@&adminTechAssocId=%@&techAssocName=%@&userMasterId=%@&likePart=%@",ConnectionString,self.userForTicket.userMasterID, [self.categoryForTicket categoryId],[self.machineForTicket machineId], [[self techForTicket] techID], self.orderNumberTextField.text, self.lineNumberTextField.text, [self.locationForTicket locationId],[self.issueDescriptionTextView.text escapedURLString], self.partDescTextField.text, self.techForTicket.techID, u.name, u.userMasterId, self.likePartTextField.text];
+    NSString *address = [NSString stringWithFormat: @"http://%@/AddTicket.ashx?opId=%@&categoryId=%@&machineId=%@&techAssocId=%@&orderNumber=%@&lineNumber=%@&plantId=%@&issueDesc=%@&partDesc=%@&adminTechAssocId=%@&techAssocName=%@&userMasterId=%@&likePart=%@",ConnectionString,self.userForTicket.userMasterID, [self.categoryForTicket categoryId],[self.machineForTicket machineId], [[self techForTicket] techID], self.orderNumberTextField.text, self.lineNumberTextField.text, [self.locationForTicket locationId],[self.issueDescriptionTextView.text escapedURLString], self.partDescTextField.text, self.techForTicket.techID, u.name, u.userMasterId, self.likePartTextField.text];
     
     address = [address stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSURL *url = [NSURL URLWithString:address];
@@ -837,7 +837,7 @@ ticket = _ticket;
 
 - (void) updateSubTicketID: (NSString *) ID : (NSString *) subTicketId
 {
-    NSString *address = [NSString stringWithFormat:@"http://%@/autotech/services/UpdateSubTicketID.ashx?ID=%@&subTicketID=%@", ConnectionString, ID, subTicketId];
+    NSString *address = [NSString stringWithFormat:@"http://%@/UpdateSubTicketID.ashx?ID=%@&subTicketID=%@", ConnectionString, ID, subTicketId];
     address = [address stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSURL *url = [NSURL URLWithString:address];
     NSError *error;
@@ -884,7 +884,7 @@ ticket = _ticket;
 - (Part *) getPartInfo:(NSString *) orderNumber And: (NSString *) lineNumber
 {
     Part *p = nil;
-    NSString *address = [NSString stringWithFormat:@"http://%@/autotech/services/PartNumber.ashx?orderNumber=%@&lineNumber=%@", ConnectionString, orderNumber, lineNumber];
+    NSString *address = [NSString stringWithFormat:@"http://%@/PartNumber.ashx?orderNumber=%@&lineNumber=%@", ConnectionString, orderNumber, lineNumber];
     NSURL *url = [NSURL URLWithString:address];
     NSDictionary *result = [NSDictionary dictionaryWithContentsOfURL:url];
     if (result != nil) {

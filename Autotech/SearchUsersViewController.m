@@ -153,7 +153,7 @@
     
     [self.users removeAllObjects];
     
-    NSString *usersAddress = [NSString stringWithFormat:@"http://%@/autotech/services/SearchUsers.ashx?option=%@", ConnectionString, searchTextField.text];
+    NSString *usersAddress = [NSString stringWithFormat:@"http://%@/SearchUsers.ashx?option=%@", ConnectionString, searchTextField.text];
     NSArray *usersResult = [NSArray arrayWithContentsOfURL:[NSURL URLWithString:usersAddress]];
     [self setUsers:[NSMutableArray arrayWithCapacity:[usersResult count]]];
     for (NSDictionary *u in usersResult) {

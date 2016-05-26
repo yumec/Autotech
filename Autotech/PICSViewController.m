@@ -63,7 +63,7 @@
 - (IBAction)confirmPics:(id)sender
 {
     User *u = [(AutotechAppDelegate *)[[UIApplication sharedApplication] delegate] currentUser];
-    NSString *address = [NSString stringWithFormat:@"http://%@/autotech/services/PicsConfirm.ashx?ticketId=%@&ticketConfirmationStepTypeId=1&enteredById=%@&type=ConfirmedPics",ConnectionString, self.ticketId, u.userMasterId];
+    NSString *address = [NSString stringWithFormat:@"http://%@/PicsConfirm.ashx?ticketId=%@&ticketConfirmationStepTypeId=1&enteredById=%@&type=ConfirmedPics",ConnectionString, self.ticketId, u.userMasterId];
     NSURL *url = [NSURL URLWithString:address];
     NSError *error;
     NSString *result = [NSString stringWithContentsOfURL:url encoding: NSASCIIStringEncoding error:&error];
@@ -88,12 +88,8 @@
     NSString *address = nil;
     _partDesc = [partDesc stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     
-    if ([ConnectionString isEqualToString:@"hz-yumec.samtec.ad"]) {
-        address = [NSString stringWithFormat:@"http://devapp2/Samtec.Pics.WebPreview/ViewPics.aspx?languageId=%@&partNumber=%@&isPrintout=false&isOperator=false", _languageId, _partDesc];
-    } else
-    {
-        address = [NSString stringWithFormat:@"http://%@/Samtec.Pics.WebPreview/ViewPics.aspx?languageId=%@&partNumber=%@&isPrintout=false&isOperator=false", ConnectionString, _languageId, _partDesc];
-    }
+    address = [NSString stringWithFormat:@"http://%@/Samtec.Pics.WebPreview/ViewPics.aspx?languageId=%@&partNumber=%@&isPrintout=false&isOperator=false", SGNConnectionString, _languageId, _partDesc];
+    
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:address]];
     [self.view addSubview:webView];
     [webView loadRequest:request];

@@ -162,7 +162,7 @@ ticketDetailViewController = _ticketDetailViewController;
         techAreaID = @"3";
     }
     
-    NSString *defaultTechNotesAddress = [NSString stringWithFormat:@"http://%@/autotech/services/DefaultTechNotes.ashx?TechAreaID=%@", ConnectionString , techAreaID];
+    NSString *defaultTechNotesAddress = [NSString stringWithFormat:@"http://%@/DefaultTechNotes.ashx?TechAreaID=%@", ConnectionString , techAreaID];
     NSURL *defaultTechNotesUrl = [NSURL URLWithString:defaultTechNotesAddress];
     NSArray *defaultTechNotesResults = [NSArray arrayWithContentsOfURL:defaultTechNotesUrl];
     [self setDefualtNotes:[NSMutableArray arrayWithCapacity:[defaultTechNotesResults count]]];

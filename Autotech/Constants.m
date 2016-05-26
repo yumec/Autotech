@@ -11,13 +11,17 @@
 @implementation Constants
 
 #ifdef IS_LIVE
-    NSString * const ConnectionString = @"sgnapp";
+    NSString * const ConnectionString = @"autotechservice.samtec.com";
+    NSString * const SGNConnectionString = @"sgnapp";
 #elif IS_STAG
-    NSString * const ConnectionString = @"sgnstage";
+    NSString * const ConnectionString = @"autotechservicestage.samtec.com";
+    NSString * const SGNConnectionString = @"sgnstage";
 #elif IS_TEST
-    NSString * const ConnectionString = @"sgntest";
+    NSString * const ConnectionString = @"autotechservicetest.samtec.com";
+    NSString * const SGNConnectionString = @"sgntest";
 #elif IS_DEV
-    NSString * const ConnectionString = @"sgndev";
+    NSString * const ConnectionString = @"autotechservicedev.samtec.com";
+    NSString * const SGNConnectionString = @"sgndev";
 #endif
 
 NSString * const TicketDeatilViewController_Iphone = @"TicketDetailViewController_iPhone";
