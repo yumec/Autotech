@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 extern NSString * const ConnectionString;
-extern NSString * const SGNConnectionString;
+extern NSString * const PicsPreviewConnectionString;
 extern NSString * const TicketDeatilViewController_Iphone;
 extern NSString * const TicketDeatilViewController_Ipad;
 extern NSString * const AddTicketViewController_iPad; 

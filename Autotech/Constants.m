@@ -12,16 +12,16 @@
 
 #ifdef IS_LIVE
     NSString * const ConnectionString = @"autotechservice.samtec.com";
-    NSString * const SGNConnectionString = @"sgnapp";
+    NSString * const PicsPreviewConnectionString = @"picspreview.samtec.com";
 #elif IS_STAG
     NSString * const ConnectionString = @"autotechservicestage.samtec.com";
-    NSString * const SGNConnectionString = @"sgnstage";
+    NSString * const PicsPreviewConnectionString = @"picspreviewstage.samtec.com";
 #elif IS_TEST
     NSString * const ConnectionString = @"autotechservicetest.samtec.com";
-    NSString * const SGNConnectionString = @"sgntest";
+    NSString * const PicsPreviewConnectionString = @"picspreviewtest.samtec.com";
 #elif IS_DEV
     NSString * const ConnectionString = @"autotechservicedev.samtec.com";
-    NSString * const SGNConnectionString = @"sgndev";
+    NSString * const PicsPreviewConnectionString = @"picspreviewdev.samtec.com";
 #endif
 
 NSString * const TicketDeatilViewController_Iphone = @"TicketDetailViewController_iPhone";
